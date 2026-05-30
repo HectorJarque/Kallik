@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: portfolio
+  data:
+    mongodb:
+      uri: ${SPRING_DATA_MONGODB_URI:mongodb://localhost:27017/portfolio}
+
+server:
+  port: 8080

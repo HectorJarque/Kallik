@@ -1,0 +1,56 @@
+# IntelliJ IDEA
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+.idea_modules/
+
+# Gradle / Kotlin
+backend/.gradle/
+backend/build/
+backend/gradle/wrapper/gradle-wrapper.jar
+!gradle/wrapper/gradle-wrapper.properties
+backend/local.properties
+*.class
+*.jar
+!**/build/libs/*.jar
+
+# Angular / Node
+frontend/node_modules/
+frontend/dist/
+frontend/.angular/
+frontend/.sass-cache/
+frontend/connect.lock
+frontend/coverage/
+frontend/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+frontend/.env
+frontend/.env.local
+
+# Docker
+mongo-data/
+
+# ENV
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+logs/
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Mac
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/
