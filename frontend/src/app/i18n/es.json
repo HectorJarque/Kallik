@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "queHago": "Qué hago",
+    "sobreMi": "Sobre mí",
+    "proyectos": "Proyectos",
+    "contacto": "Contacto"
+  },
+  "intro": {
+    "h1": "Hago webs rápidas, claras y fáciles de usar",
+    "p1": "Sin cosas innecesarias, sin webs lentas y sin complicarte la vida.",
+    "p2": "Dependiendo de lo que necesites, puedo hacer desde una web sencilla hasta una más interactiva con formularios, buscadores o funciones más avanzadas.",
+    "p3": "No gestiono dominios ni hosting de serie, pero si no quieres líos puedo encargarme yo y sumarlo al presupuesto.",
+    "avisoTitulo": "Esta web está en desarrollo",
+    "avisoTexto": "Estoy migrando mi portfolio a Angular + Spring Boot para mostrar más funcionalidades."
+  },
+  "servicios": {
+    "titulo": "Tipos de web que hago",
+    "estatica": {
+      "titulo": "Web estática",
+      "desc": "Página web sencilla y rápida, hecha a medida y sin complicaciones.",
+      "carga": "Carga instantánea.",
+      "aloja": "Se aloja en cualquier sitio. No hay nada que romper."
+    },
+    "dinamica": {
+      "titulo": "Web dinámica",
+      "desc": "Filtros, buscadores, contenido que cambia al instante, formularios inteligentes y conexiones con APIs."
+    },
+    "hibrida": {
+      "titulo": "Web híbrida",
+      "desc": "Parte pública para clientes y parte privada para gestionar contenido sin tocar código."
+    },
+    "precio": {
+      "titulo": "Sobre precios:",
+      "texto": "Cada proyecto es distinto, así que los precios se hablan sin compromiso."
+    }
+  },
+  "sobreMi": {
+    "titulo": "Quién está detrás de esto",
+    "p1": "Me llamo Héctor Jarque. No vengo de agencia ni de bootcamp milagroso. Aprendí haciendo cosas, rompiéndolas y arreglándolas.",
+    "p2": "Empecé sin entender nada y poco a poco me fui formando hasta poder crear las webs y proyectos que hago hoy en día.",
+    "p3": "No te voy a soltar jerga para impresionar. Si algo no se puede hacer, te lo digo.",
+    "p4": "Vivo en Valencia. Trabajo en remoto sin problema, y si estás cerca podemos tomar un café."
+  },
+  "proyectos": {
+    "titulo": "Algunas cosas que he hecho",
+    "tagEstatica": "Web estática",
+    "tagDinamica": "Web dinámica",
+    "portfolio": {
+      "titulo": "Web de portfolio personal",
+      "desc": "La web que estás viendo. Dark/light mode, multilenguaje, Angular + Spring Boot."
+    },
+    "isaac": {
+      "titulo": "Rastreador de logros de Steam",
+      "desc": "Conecta tu cuenta de Steam y analiza tus logros en tiempo real."
+    },
+    "experiencia": {
+      "tag": "Experiencia laboral",
+      "titulo": "3 meses en equipo de desarrollo fintech",
+      "desc": "Frontend y backend, mejora de funcionalidades y trabajo en entorno tecnológico real."
+    }
+  },
+  "contacto": {
+    "titulo": "Hablamos",
+    "p1": "Lo mejor es que me escribas un correo contándome qué tienes en mente.",
+    "p2": "Si ya tienes una web, pásamela y le echo un vistazo.",
+    "p3": "No hace falta saber de tecnología ni tenerlo todo claro. Le damos forma juntos.",
+    "github": "Más proyectos en GitHub",
+    "linkedin": "LinkedIn"
+  }
+}

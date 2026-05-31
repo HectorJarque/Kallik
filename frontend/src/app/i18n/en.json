@@ -1,0 +1,70 @@
+{
+  "nav": {
+    "queHago": "What I do",
+    "sobreMi": "About me",
+    "proyectos": "Projects",
+    "contacto": "Contact"
+  },
+  "intro": {
+    "h1": "I build fast, clear and easy-to-use websites",
+    "p1": "No unnecessary stuff, no slow websites, no headaches.",
+    "p2": "Depending on your needs, I can do a simple site or something more interactive with forms, search features or advanced functions.",
+    "p3": "I don't usually manage domains or hosting, but if you don't want any hassle I can take care of it.",
+    "avisoTitulo": "This website is under development",
+    "avisoTexto": "I'm migrating my portfolio to Angular + Spring Boot to showcase more features."
+  },
+  "servicios": {
+    "titulo": "Types of websites I build",
+    "estatica": {
+      "titulo": "Static website",
+      "desc": "A simple and fast custom-made page. No difficult systems, no constant maintenance.",
+      "carga": "Instant loading.",
+      "aloja": "Host it anywhere. Nothing to break."
+    },
+    "dinamica": {
+      "titulo": "Dynamic website",
+      "desc": "Filters, search, content that updates instantly, smart forms and API connections."
+    },
+    "hibrida": {
+      "titulo": "Hybrid website",
+      "desc": "A public-facing part and a private one to manage content without touching code."
+    },
+    "precio": {
+      "titulo": "About pricing:",
+      "texto": "Every project is different, so prices are discussed without obligation."
+    }
+  },
+  "sobreMi": {
+    "titulo": "Who's behind this",
+    "p1": "My name is Héctor Jarque. I don't come from an agency or a miracle bootcamp. I learned by doing, breaking and fixing things.",
+    "p2": "I started knowing nothing and gradually trained myself until I could build the websites and projects I create today.",
+    "p3": "I won't throw jargon at you to impress. If something can't be done, I'll tell you.",
+    "p4": "I live in Valencia, Spain. I work remotely, and if you're nearby we can grab a coffee."
+  },
+  "proyectos": {
+    "titulo": "Some things I've built",
+    "tagEstatica": "Static website",
+    "tagDinamica": "Dynamic website",
+    "portfolio": {
+      "titulo": "Personal portfolio website",
+      "desc": "The website you're looking at. Dark/light mode, multi-language, Angular + Spring Boot."
+    },
+    "isaac": {
+      "titulo": "Steam Achievement Tracker",
+      "desc": "Connect your Steam account and analyze your achievements in real time."
+    },
+    "experiencia": {
+      "tag": "Work Experience",
+      "titulo": "3 months in a fintech development team",
+      "desc": "Frontend and backend, feature improvements and work in a real tech environment."
+    }
+  },
+  "contacto": {
+    "titulo": "Let's talk",
+    "p1": "The best thing is to send me an email telling me what you have in mind.",
+    "p2": "If you already have a website, send me the link and I'll take a look.",
+    "p3": "You don't need to know about tech or have everything figured out. We'll shape it together.",
+    "github": "More projects on GitHub",
+    "linkedin": "LinkedIn"
+  }
+}

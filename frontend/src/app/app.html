@@ -1,156 +1,101 @@
-<!-- HEADER -->
 <header class="header">
   <a href="/" class="logo">Héctor Jarque</a>
-
   <div class="header-actions">
-    <button (click)="toggleLang()">{{ lang() === 'es' ? '🇪🇸' : '🇬🇧' }}</button>
     <button (click)="toggleTheme()">{{ dark() ? '🌙' : '☀️' }}</button>
     <button (click)="toggleMenu()">☰</button>
   </div>
-
   <nav [class.open]="menu()">
-    <a href="#que-hago" (click)="closeMenu()">{{ t().nav1 }}</a>
-    <a href="#sobre-mi" (click)="closeMenu()">{{ t().nav2 }}</a>
-    <a href="#proyectos" (click)="closeMenu()">{{ t().nav3 }}</a>
-    <a href="#contacto" (click)="closeMenu()">{{ t().nav4 }}</a>
+    <a href="#que-hago" (click)="closeMenu()">Qué hago</a>
+    <a href="#sobre-mi" (click)="closeMenu()">Sobre mí</a>
+    <a href="#proyectos" (click)="closeMenu()">Proyectos</a>
+    <a href="#contacto" (click)="closeMenu()">Contacto</a>
   </nav>
 </header>
 
-<!-- INTRO -->
 <section class="intro">
   <div class="intro-contenido">
     <div class="intro-texto">
-      <h1>{{ t().introH1 }}</h1>
-      <p>{{ t().introP1 }}</p>
-      <p>{{ t().introP2 }}</p>
-      <p [innerHTML]="t().introP3"></p>
+      <h1>Hago webs rápidas, claras y fáciles de usar</h1>
+      <p>Sin cosas innecesarias, sin webs lentas y sin complicarte la vida.</p>
+      <p>Dependiendo de lo que necesites, puedo hacer desde una web sencilla hasta una más interactiva con formularios, buscadores o funciones más avanzadas.</p>
+      <p><strong>No gestiono dominios ni hosting de serie</strong>, pero si no quieres líos puedo encargarme yo y sumarlo al presupuesto.</p>
     </div>
     <div class="intro-aviso">
       <p>
-        <strong>{{ t().avisoTitulo }}</strong><br><br>
-        {{ t().avisoTexto }}
+        <strong>Esta web está en desarrollo</strong><br><br>
+        Estoy migrando mi portfolio a Angular + Spring Boot para mostrar más funcionalidades.
       </p>
     </div>
   </div>
 </section>
 
-<!-- TEST BACKEND -->
-<section class="seccion seccion-test">
-  <h2>🔌 Backend</h2>
-  <button (click)="testBackend()" [disabled]="backendCargando()">
-    {{ backendCargando() ? t().testCargando : t().testBoton }}
-  </button>
-  @if (backendRespuesta()) {
-    <p>✅ {{ backendRespuesta() }}</p>
-  }
-  @if (backendError()) {
-    <p>{{ backendError() }}</p>
-  }
-</section>
-
-<!-- QUÉ HAGO -->
 <section id="que-hago" class="seccion">
-  <h2>{{ t().serviciosTitulo }}</h2>
+  <h2>Tipos de web que hago</h2>
   <div class="servicios-grid">
-
     <div class="servicio">
-      <h3>{{ t().serv1Titulo }}</h3>
-      <p>{{ t().serv1Desc }}</p>
-      <p><strong>{{ t().serv1Carga }}</strong> {{ t().serv1Aloja }}</p>
+      <h3>Web estática</h3>
+      <p>Página web sencilla y rápida, hecha a medida y sin complicaciones.</p>
+      <p><strong>Carga instantánea.</strong> Se aloja en cualquier sitio.</p>
     </div>
-
     <div class="servicio">
-      <h3>{{ t().serv2Titulo }}</h3>
-      <p>{{ t().serv2Desc }}</p>
-      <p [innerHTML]="t().serv2Hace"></p>
+      <h3>Web dinámica</h3>
+      <p>Filtros, buscadores, contenido que cambia al instante y conexiones con APIs.</p>
     </div>
-
     <div class="servicio">
-      <h3>{{ t().serv3Titulo }}</h3>
-      <p>{{ t().serv3Desc }}</p>
-      <p>{{ t().serv3Crecimiento }}</p>
+      <h3>Web híbrida</h3>
+      <p>Parte pública para clientes y parte privada para gestionar contenido.</p>
     </div>
-
   </div>
   <div class="precio-nota">
-    <strong>{{ t().precioTitulo }}</strong> {{ t().precioTexto }}
+    <strong>Sobre precios:</strong> Cada proyecto es distinto, así que los precios se hablan sin compromiso.
   </div>
 </section>
 
-<!-- SOBRE MÍ -->
 <section id="sobre-mi" class="seccion">
-  <h2>{{ t().sobreMiTitulo }}</h2>
-  <div class="sobre-mi-top">
-    <div class="sobre-mi-datos">
-      <p [innerHTML]="t().sobreMiP1"></p>
-      <p [innerHTML]="t().sobreMiP4"></p>
-    </div>
-  </div>
-  <div class="sobre-mi-texto">
-    <p>{{ t().sobreMiP2 }}</p>
-    <p>{{ t().sobreMiP3 }}</p>
-  </div>
+  <h2>Quién está detrás de esto</h2>
+  <p>Me llamo <strong>Héctor Jarque</strong>. No vengo de agencia ni de bootcamp milagroso.</p>
+  <p>Empecé sin entender nada y poco a poco me fui formando hasta poder crear las webs y proyectos que hago hoy en día.</p>
+  <p>No te voy a soltar jerga para impresionar. Si algo no se puede hacer, te lo digo.</p>
+  <p>Vivo en <strong>Valencia</strong>. Trabajo en remoto sin problema.</p>
 </section>
 
-<!-- PROYECTOS -->
 <section id="proyectos" class="seccion">
-  <h2>{{ t().proyectosTitulo }}</h2>
+  <h2>Algunas cosas que he hecho</h2>
   <div class="proyectos-grid">
-
     <div class="proyecto-card">
-      <div class="proyecto-body">
-        <span class="tags">{{ t().tagEstatica }}</span>
-        <h3>{{ t().proy1Titulo }}</h3>
-        <p>{{ t().proy1Desc }}</p>
-      </div>
+      <span class="tags">Web estática</span>
+      <h3>Web de portfolio personal</h3>
+      <p>La web que estás viendo. Dark/light mode, multilenguaje, Angular + Spring Boot.</p>
     </div>
-
-    <a href="https://hectorjarque.github.io/Isaac-Achievement-Tracker/"
-       class="proyecto-card"
-       target="_blank"
-       rel="noopener">
-      <div class="proyecto-body">
-        <span class="tags">{{ t().tagDinamica }}</span>
-        <h3>{{ t().proy2Titulo }}</h3>
-        <p>{{ t().proy2Desc }}</p>
-      </div>
+    <a href="https://hectorjarque.github.io/Isaac-Achievement-Tracker/" class="proyecto-card" target="_blank" rel="noopener">
+      <span class="tags">Web dinámica</span>
+      <h3>Rastreador de logros de Steam</h3>
+      <p>Conecta tu cuenta de Steam y analiza tus logros en tiempo real.</p>
     </a>
-
   </div>
-
   <div class="experiencia-card">
-    <div class="experiencia-body">
-      <span class="tags">{{ t().expTag }}</span>
-      <h3>{{ t().expTitulo }}</h3>
-      <p>{{ t().expDesc }}</p>
-    </div>
+    <span class="tags">Experiencia laboral</span>
+    <h3>3 meses en equipo de desarrollo fintech</h3>
+    <p>Frontend y backend, mejora de funcionalidades y trabajo en entorno tecnológico real.</p>
   </div>
 </section>
 
-<!-- CONTACTO -->
 <section id="contacto" class="seccion">
-  <h2>{{ t().contactoTitulo }}</h2>
+  <h2>Hablamos</h2>
   <div class="contacto-grid">
     <div class="contacto-texto">
-      <p>{{ t().contactoP1 }}</p>
-      <p>{{ t().contactoP2 }}</p>
-      <p>{{ t().contactoP3 }}</p>
+      <p>Lo mejor es que me escribas un correo contándome qué tienes en mente.</p>
+      <p>Si ya tienes una web, pásamela y le echo un vistazo.</p>
+      <p>No hace falta saber de tecnología ni tenerlo todo claro.</p>
     </div>
     <div class="contacto-links-col">
-      <div class="contacto-item">
-        📧 jarquebusiness&#64;gmail.com
-      </div>
-      <a href="https://github.com/HectorJarque" target="_blank" rel="noopener" class="contacto-item">
-        GitHub — {{ t().contactoGitHub }}
-      </a>
-      <a href="https://www.linkedin.com/in/hector-jarque-developer/" target="_blank" rel="noopener" class="contacto-item">
-        LinkedIn — {{ t().contactoLinkedIn }}
-      </a>
+      <div class="contacto-item">📧 jarquebusiness&#64;gmail.com</div>
+      <a href="https://github.com/HectorJarque" target="_blank" rel="noopener" class="contacto-item">GitHub</a>
+      <a href="https://www.linkedin.com/in/hector-jarque-developer/" target="_blank" rel="noopener" class="contacto-item">LinkedIn</a>
     </div>
   </div>
 </section>
 
-<!-- FOOTER -->
 <footer class="footer">
   <p>Héctor Jarque — {{ year }}</p>
   <p>A Kallik Project</p>
