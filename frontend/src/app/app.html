@@ -1,85 +1,117 @@
 <header class="header">
   <a href="/" class="logo">Héctor Jarque</a>
+
   <div class="header-actions">
-    <button (click)="toggleTheme()">{{ dark() ? '🌙' : '☀️' }}</button>
+    <button (click)="toggleTheme()" [title]="dark() ? 'Modo claro' : 'Modo oscuro'">
+      {{ dark() ? '🌙' : '☀️' }}
+    </button>
     <button (click)="toggleMenu()">☰</button>
   </div>
+
   <nav [class.open]="menu()">
-    <a href="#que-hago" (click)="closeMenu()">Qué hago</a>
-    <a href="#sobre-mi" (click)="closeMenu()">Sobre mí</a>
+    <a href="#que-hago"  (click)="closeMenu()">Qué hago</a>
+    <a href="#sobre-mi"  (click)="closeMenu()">Sobre mí</a>
     <a href="#proyectos" (click)="closeMenu()">Proyectos</a>
-    <a href="#contacto" (click)="closeMenu()">Contacto</a>
+    <a href="#contacto"  (click)="closeMenu()">Contacto</a>
   </nav>
 </header>
 
+<!-- ── INTRO ─────────────────────────────────────── -->
 <section class="intro">
   <div class="intro-contenido">
     <div class="intro-texto">
       <h1>Hago webs rápidas, claras y fáciles de usar</h1>
       <p>Sin cosas innecesarias, sin webs lentas y sin complicarte la vida.</p>
-      <p>Dependiendo de lo que necesites, puedo hacer desde una web sencilla hasta una más interactiva con formularios, buscadores o funciones más avanzadas.</p>
-      <p><strong>No gestiono dominios ni hosting de serie</strong>, pero si no quieres líos puedo encargarme yo y sumarlo al presupuesto.</p>
+      <p>
+        Dependiendo de lo que necesites, puedo hacer desde una web sencilla
+        hasta una más interactiva con formularios, buscadores o funciones más avanzadas.
+      </p>
+      <p>
+        <strong>No gestiono dominios ni hosting de serie</strong>,
+        pero si no quieres líos puedo encargarme yo y sumarlo al presupuesto.
+      </p>
     </div>
     <div class="intro-aviso">
       <p>
-        <strong>Esta web está en desarrollo</strong><br><br>
+        <strong>Esta web está en desarrollo</strong>
         Estoy migrando mi portfolio a Angular + Spring Boot para mostrar más funcionalidades.
       </p>
     </div>
   </div>
 </section>
 
+<!-- ── QUÉ HAGO ───────────────────────────────────── -->
 <section id="que-hago" class="seccion">
   <h2>Tipos de web que hago</h2>
+
   <div class="servicios-grid">
     <div class="servicio">
+      <p-badge value="Estática" severity="secondary" />
       <h3>Web estática</h3>
       <p>Página web sencilla y rápida, hecha a medida y sin complicaciones.</p>
       <p><strong>Carga instantánea.</strong> Se aloja en cualquier sitio.</p>
     </div>
     <div class="servicio">
+      <p-badge value="Dinámica" severity="info" />
       <h3>Web dinámica</h3>
       <p>Filtros, buscadores, contenido que cambia al instante y conexiones con APIs.</p>
     </div>
     <div class="servicio">
+      <p-badge value="Híbrida" severity="warn" />
       <h3>Web híbrida</h3>
       <p>Parte pública para clientes y parte privada para gestionar contenido.</p>
     </div>
   </div>
+
   <div class="precio-nota">
-    <strong>Sobre precios:</strong> Cada proyecto es distinto, así que los precios se hablan sin compromiso.
+    <strong>Sobre precios:</strong>
+    Cada proyecto es distinto, así que los precios se hablan sin compromiso.
   </div>
 </section>
 
+<!-- ── SOBRE MÍ ───────────────────────────────────── -->
 <section id="sobre-mi" class="seccion">
   <h2>Quién está detrás de esto</h2>
-  <p>Me llamo <strong>Héctor Jarque</strong>. No vengo de agencia ni de bootcamp milagroso.</p>
-  <p>Empecé sin entender nada y poco a poco me fui formando hasta poder crear las webs y proyectos que hago hoy en día.</p>
-  <p>No te voy a soltar jerga para impresionar. Si algo no se puede hacer, te lo digo.</p>
-  <p>Vivo en <strong>Valencia</strong>. Trabajo en remoto sin problema.</p>
+  <div class="sobre-mi-top">
+    <div class="sobre-mi-datos">
+      <p>Me llamo <strong>Héctor Jarque</strong>. No vengo de agencia ni de bootcamp milagroso.</p>
+      <p>Vivo en <strong>Valencia</strong>. Trabajo en remoto sin problema.</p>
+    </div>
+  </div>
+  <p-divider />
+  <div class="sobre-mi-texto">
+    <p>Empecé sin entender nada y poco a poco me fui formando hasta poder crear las webs y proyectos que hago hoy en día.</p>
+    <p>No te voy a soltar jerga para impresionar. Si algo no se puede hacer, te lo digo.</p>
+  </div>
 </section>
 
+<!-- ── PROYECTOS ──────────────────────────────────── -->
 <section id="proyectos" class="seccion">
   <h2>Algunas cosas que he hecho</h2>
+
   <div class="proyectos-grid">
     <div class="proyecto-card">
-      <span class="tags">Web estática</span>
+      <p-tag value="Web estática" severity="secondary" />
       <h3>Web de portfolio personal</h3>
       <p>La web que estás viendo. Dark/light mode, multilenguaje, Angular + Spring Boot.</p>
     </div>
-    <a href="https://hectorjarque.github.io/Isaac-Achievement-Tracker/" class="proyecto-card" target="_blank" rel="noopener">
-      <span class="tags">Web dinámica</span>
+    <a href="https://hectorjarque.github.io/Isaac-Achievement-Tracker/"
+       class="proyecto-card"
+       target="_blank" rel="noopener">
+      <p-tag value="Web dinámica" severity="info" />
       <h3>Rastreador de logros de Steam</h3>
       <p>Conecta tu cuenta de Steam y analiza tus logros en tiempo real.</p>
     </a>
   </div>
+
   <div class="experiencia-card">
-    <span class="tags">Experiencia laboral</span>
+    <p-tag value="Experiencia laboral" severity="warn" />
     <h3>3 meses en equipo de desarrollo fintech</h3>
     <p>Frontend y backend, mejora de funcionalidades y trabajo en entorno tecnológico real.</p>
   </div>
 </section>
 
+<!-- ── CONTACTO ───────────────────────────────────── -->
 <section id="contacto" class="seccion">
   <h2>Hablamos</h2>
   <div class="contacto-grid">
@@ -89,13 +121,24 @@
       <p>No hace falta saber de tecnología ni tenerlo todo claro.</p>
     </div>
     <div class="contacto-links-col">
-      <div class="contacto-item">📧 jarquebusiness&#64;gmail.com</div>
-      <a href="https://github.com/HectorJarque" target="_blank" rel="noopener" class="contacto-item">GitHub</a>
-      <a href="https://www.linkedin.com/in/hector-jarque-developer/" target="_blank" rel="noopener" class="contacto-item">LinkedIn</a>
+      <div class="contacto-item">
+        📧 jarquebusiness&#64;gmail.com
+      </div>
+      <a href="https://github.com/HectorJarque"
+         target="_blank" rel="noopener"
+         class="contacto-item">
+        <i class="pi pi-github"></i> GitHub
+      </a>
+      <a href="https://www.linkedin.com/in/hector-jarque-developer/"
+         target="_blank" rel="noopener"
+         class="contacto-item">
+        <i class="pi pi-linkedin"></i> LinkedIn
+      </a>
     </div>
   </div>
 </section>
 
+<!-- ── FOOTER ─────────────────────────────────────── -->
 <footer class="footer">
   <p>Héctor Jarque — {{ year }}</p>
   <p>A Kallik Project</p>
