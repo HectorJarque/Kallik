@@ -1,119 +1,166 @@
-<header>
-  <a href="/">
-    <img ngSrc="img/JarqueBusiness.png" alt="Héctor Jarque" width="40" height="40" />
-    Héctor Jarque
+<!-- HEADER -->
+<header class="site-header">
+  <a href="/" class="brand">
+    <img ngSrc="img/JarqueBusiness.png" alt="Héctor Jarque" width="40" height="40"/>
+    <span>Héctor Jarque</span>
   </a>
 
-  <div>
-    <button (click)="toggleLang()">
-      <i class="pi pi-globe"></i>
-      {{ lang() === 'es' ? 'ES' : 'EN' }}
+  <nav class="main-nav" [class.open]="menu()">
+    <a href="#que-hago" (click)="closeMenu()">{{ 'nav.whatIDo'  | translate }}</a>
+    <a href="#sobre-mi" (click)="closeMenu()">{{ 'nav.aboutMe'  | translate }}</a>
+    <a href="#proyectos" (click)="closeMenu()">{{ 'nav.projects' | translate }}</a>
+    <a href="#contacto" (click)="closeMenu()">{{ 'nav.contact'  | translate }}</a>
+  </nav>
+
+  <div class="header-actions">
+    <button (click)="toggleLang()" title="Cambiar idioma">
+      {{ lang() === 'es' ? '🇪🇸' : '🇬🇧' }}
     </button>
     <button (click)="toggleTheme()">
       <i [class]="dark() ? 'pi pi-moon' : 'pi pi-sun'"></i>
     </button>
-    <button (click)="toggleMenu()">
+    <button class="menu-toggle" (click)="toggleMenu()">
       <i [class]="menu() ? 'pi pi-times' : 'pi pi-bars'"></i>
     </button>
   </div>
-
-  <nav [class.open]="menu()">
-    <a href="#que-hago"  (click)="closeMenu()">{{ 'nav.whatIDo'  | translate }}</a>
-    <a href="#sobre-mi"  (click)="closeMenu()">{{ 'nav.aboutMe'  | translate }}</a>
-    <a href="#proyectos" (click)="closeMenu()">{{ 'nav.projects' | translate }}</a>
-    <a href="#contacto"  (click)="closeMenu()">{{ 'nav.contact'  | translate }}</a>
-  </nav>
 </header>
 
-<section>
+<!-- INTRO -->
+<section class="section-alt">
   <h1>{{ 'intro.heading' | translate }}</h1>
   <p>{{ 'intro.tagline' | translate }}</p>
   <p>{{ 'intro.servicesOverview' | translate }}</p>
   <p>{{ 'intro.hostingNote' | translate }}</p>
-  <div>
+  <div class="notice">
     <strong>{{ 'intro.noticeTitle' | translate }}</strong>
     <p>{{ 'intro.noticeText' | translate }}</p>
   </div>
 </section>
 
+<!-- QUÉ HAGO -->
 <section id="que-hago">
   <h2>{{ 'services.title' | translate }}</h2>
-  <div>
-    <div>
-      <p-badge [value]="'projects.staticTag' | translate" />
+  <div class="cards-grid">
+    <div class="card">
+      <span class="tag tag--static">{{ 'projects.staticTag' | translate }}</span>
       <h3>{{ 'services.static.title' | translate }}</h3>
       <p>{{ 'services.static.description' | translate }}</p>
     </div>
-    <div>
-      <p-badge [value]="'projects.dynamicTag' | translate"/>
+    <div class="card">
+      <span class="tag tag--dynamic">{{ 'projects.dynamicTag' | translate }}</span>
       <h3>{{ 'services.dynamic.title' | translate }}</h3>
       <p>{{ 'services.dynamic.description' | translate }}</p>
     </div>
-    <div>
-      <p-badge [value]="'projects.hybridTag' | translate"/>
+    <div class="card">
+      <span class="tag tag--hybrid">{{ 'projects.hybridTag' | translate }}</span>
       <h3>{{ 'services.hybrid.title' | translate }}</h3>
       <p>{{ 'services.hybrid.description' | translate }}</p>
     </div>
   </div>
-  <p>
+  <p class="pricing-note">
     <strong>{{ 'services.pricing.title' | translate }}</strong>
     {{ 'services.pricing.description' | translate }}
   </p>
 </section>
 
-<section id="sobre-mi">
+<!-- SOBRE MÍ -->
+<section id="sobre-mi" class="section-alt">
   <h2>{{ 'about.title' | translate }}</h2>
   <p>{{ 'about.intro' | translate }}</p>
   <p>{{ 'about.location' | translate }}</p>
-  <p-divider />
+  <p-divider/>
   <p>{{ 'about.learning' | translate }}</p>
   <p>{{ 'about.honesty' | translate }}</p>
+
+  <!-- Stack tecnológico — real, extraído del propio proyecto -->
+  <div class="tech-stack">
+    <span class="tech-pill"><i class="pi pi-code"></i> Angular</span>
+    <span class="tech-pill"><i class="pi pi-palette"></i> Tailwind CSS</span>
+    <span class="tech-pill"><i class="pi pi-box"></i> PrimeNG</span>
+    <span class="tech-pill"><i class="pi pi-github"></i> GitHub Pages</span>
+    <span class="tech-pill"><i class="pi pi-globe"></i> i18n</span>
+  </div>
 </section>
 
+<!-- PROYECTOS -->
 <section id="proyectos">
   <h2>{{ 'projects.title' | translate }}</h2>
-  <div>
-    <div>
-      <p-tag [value]="'projects.staticTag' | translate"/>
+  <div class="cards-grid">
+    <div class="card">
+      <span class="tag tag--static">{{ 'projects.staticTag' | translate }}</span>
       <h3>{{ 'projects.portfolio.title' | translate }}</h3>
       <p>{{ 'projects.portfolio.description' | translate }}</p>
     </div>
-    <a href="https://hectorjarque.github.io/Isaac-Achievement-Tracker/"
+    <a class="card card--link"
+       href="https://hectorjarque.github.io/Isaac-Achievement-Tracker/"
        target="_blank" rel="noopener">
-      <p-tag [value]="'projects.dynamicTag' | translate"/>
+      <span class="tag tag--dynamic">{{ 'projects.dynamicTag' | translate }}</span>
       <h3>{{ 'projects.isaac.title' | translate }}</h3>
       <p>{{ 'projects.isaac.description' | translate }}</p>
+      <span class="card-link-hint">
+        <i class="pi pi-external-link"></i> {{ 'contact.github' | translate }}
+      </span>
     </a>
   </div>
-  <div>
-    <p-tag [value]="'projects.experience.tag' | translate"/>
+  <div class="card card--experience">
+    <span class="tag tag--hybrid">{{ 'projects.experience.tag' | translate }}</span>
     <h3>{{ 'projects.experience.title' | translate }}</h3>
     <p>{{ 'projects.experience.description' | translate }}</p>
   </div>
 </section>
 
-<section id="contacto">
+<!-- CONTACTO -->
+<section id="contacto" class="section-alt">
   <h2>{{ 'contact.title' | translate }}</h2>
   <p>{{ 'contact.emailPrompt' | translate }}</p>
   <p>{{ 'contact.existingSite' | translate }}</p>
   <p>{{ 'contact.noWorries' | translate }}</p>
-  <div>
-    <div>
+  <div class="contact-links">
+    <a href="mailto:jarquebusiness@gmail.com">
       <i class="pi pi-envelope"></i>
       jarquebusiness&#64;gmail.com
-    </div>
+    </a>
     <a href="https://github.com/HectorJarque" target="_blank" rel="noopener">
       <i class="pi pi-github"></i>
-      {{ 'contact.github' | translate }}
+      GitHub
     </a>
     <a href="https://www.linkedin.com/in/hector-jarque-developer/" target="_blank" rel="noopener">
       <i class="pi pi-linkedin"></i>
-      {{ 'contact.linkedin' | translate }}
+      LinkedIn
     </a>
   </div>
 </section>
 
-<footer>
-  <span>Héctor Jarque — {{ year }}</span>
-  <span>A Kallik Project</span>
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <strong>Héctor Jarque</strong>
+      <span>Desarrollo web · Valencia, España</span>
+    </div>
+    <nav class="footer-nav">
+      <a href="#que-hago">{{ 'nav.whatIDo' | translate }}</a>
+      <a href="#sobre-mi">{{ 'nav.aboutMe' | translate }}</a>
+      <a href="#proyectos">{{ 'nav.projects' | translate }}</a>
+      <a href="#contacto">{{ 'nav.contact' | translate }}</a>
+    </nav>
+    <div class="footer-social">
+      <a href="https://github.com/HectorJarque" target="_blank" rel="noopener" aria-label="GitHub">
+        <i class="pi pi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/hector-jarque-developer/"
+         target="_blank"
+         rel="noopener"
+         aria-label="LinkedIn">
+        <i class="pi pi-linkedin"></i>
+      </a>
+      <a href="mailto:jarquebusiness@gmail.com" aria-label="Email">
+        <i class="pi pi-envelope"></i>
+      </a>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© {{ year }} Héctor Jarque</span>
+    <span>A Kallik Project</span>
+  </div>
 </footer>
