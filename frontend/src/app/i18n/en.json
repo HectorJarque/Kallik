@@ -80,6 +80,7 @@
     "name": "Your name",
     "email": "Your email",
     "subject": "Subject",
-    "message": "Message"
+    "message": "Message",
+    "send": "Send"
   }
 }
