@@ -1,22 +1,17 @@
 <!-- HEADER -->
 <header class="site-header">
   <a href="/" class="brand">
-    <!--suppress HtmlUnknownTarget -->
-    <img ngSrc="img/JarqueBusiness.png" alt="Héctor Jarque" width="40" height="40"/>
+    <img ngSrc="img/JarqueBusiness.png" alt="Héctor Jarque" width="36" height="36" />
     <span>Héctor Jarque</span>
   </a>
-
   <nav class="main-nav" [class.open]="menu()">
-    <a href="#que-hago" (click)="closeMenu()">{{ 'nav.whatIDo'  | translate }}</a>
-    <a href="#sobre-mi" (click)="closeMenu()">{{ 'nav.aboutMe'  | translate }}</a>
+    <a href="#que-hago"  (click)="closeMenu()">{{ 'nav.whatIDo'  | translate }}</a>
+    <a href="#sobre-mi"  (click)="closeMenu()">{{ 'nav.aboutMe'  | translate }}</a>
     <a href="#proyectos" (click)="closeMenu()">{{ 'nav.projects' | translate }}</a>
-    <a href="#contacto" (click)="closeMenu()">{{ 'nav.contact'  | translate }}</a>
+    <a href="#contacto"  (click)="closeMenu()">{{ 'nav.contact'  | translate }}</a>
   </nav>
-
   <div class="header-actions">
-    <button (click)="toggleLang()" title="Cambiar idioma">
-      {{ lang() === 'es' ? 'ES' : 'EN' }}
-    </button>
+    <button (click)="toggleLang()">{{ lang() === 'es' ? 'ES' : 'EN' }}</button>
     <button (click)="toggleTheme()">
       <i [class]="dark() ? 'pi pi-moon' : 'pi pi-sun'"></i>
     </button>
@@ -27,141 +22,259 @@
 </header>
 
 <!-- INTRO -->
-<section class="section-alt">
-  <h1>{{ 'intro.heading' | translate }}</h1>
-  <p>{{ 'intro.tagline' | translate }}</p>
-  <p>{{ 'intro.servicesOverview' | translate }}</p>
-  <p>{{ 'intro.hostingNote' | translate }}</p>
-  <div class="notice">
-    <strong>{{ 'intro.noticeTitle' | translate }}</strong>
-    <p>{{ 'intro.noticeText' | translate }}</p>
+<section class="section-hero section-alt">
+  <div class="container">
+    <div class="hero-grid">
+      <div>
+        <h1>{{ 'intro.heading' | translate }}</h1>
+        <p class="hero-tagline">{{ 'intro.tagline' | translate }}</p>
+        <p>{{ 'intro.servicesOverview' | translate }}</p>
+        <p>{{ 'intro.hostingNote' | translate }}</p>
+        <div class="notice">
+          <i class="pi pi-info-circle"></i>
+          <div>
+            <strong>{{ 'intro.noticeTitle' | translate }}</strong>
+            <p>{{ 'intro.noticeText' | translate }}</p>
+          </div>
+        </div>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-card">
+          <span class="stat-num">+5</span>
+          <span class="stat-label">{{ 'stats.projects' | translate }}</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">3</span>
+          <span class="stat-label">{{ 'stats.types' | translate }}</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">100%</span>
+          <span class="stat-label">{{ 'stats.remote' | translate }}</span>
+        </div>
+        <div class="stat-card">
+          <span class="stat-num">ES · EN</span>
+          <span class="stat-label">{{ 'stats.langs' | translate }}</span>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
 <!-- QUÉ HAGO -->
 <section id="que-hago">
-  <h2>{{ 'services.title' | translate }}</h2>
-  <div class="cards-grid">
-    <div class="card">
-      <span class="tag tag--static">{{ 'projects.staticTag' | translate }}</span>
-      <h3>{{ 'services.static.title' | translate }}</h3>
-      <p>{{ 'services.static.description' | translate }}</p>
+  <div class="container">
+    <h2>{{ 'services.title' | translate }}</h2>
+    <p class="section-intro">{{ 'services.intro' | translate }}</p>
+    <div class="services-grid">
+
+      <div class="card">
+        <span class="tag">{{ 'projects.staticTag' | translate }}</span>
+        <h3>{{ 'services.static.title' | translate }}</h3>
+        <p>{{ 'services.static.description' | translate }}</p>
+        <p class="service-ideal">{{ 'services.static.ideal' | translate }}</p>
+        <div class="site-examples">
+          <span class="site-pill">
+            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=stripe.com" alt="Stripe" width="16" height="16">
+            Stripe
+          </span>
+          <span class="site-pill">
+            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=linear.app" alt="Linear" width="16" height="16">
+            Linear
+          </span>
+          <span class="site-pill">
+            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=apple.com" alt="Apple" width="16" height="16">
+            Apple
+          </span>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="tag">{{ 'projects.dynamicTag' | translate }}</span>
+        <h3>{{ 'services.dynamic.title' | translate }}</h3>
+        <p>{{ 'services.dynamic.description' | translate }}</p>
+        <p class="service-ideal">{{ 'services.dynamic.ideal' | translate }}</p>
+        <div class="site-examples">
+          <span class="site-pill">
+            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=airbnb.com" alt="Airbnb" width="16" height="16">
+            Airbnb
+          </span>
+          <span class="site-pill">
+            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=figma.com" alt="Figma" width="16" height="16">
+            Figma
+          </span>
+          <span class="site-pill">
+            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=notion.so" alt="Notion" width="16" height="16">
+            Notion
+          </span>
+        </div>
+      </div>
+
+      <div class="card">
+        <span class="tag">{{ 'projects.hybridTag' | translate }}</span>
+        <h3>{{ 'services.hybrid.title' | translate }}</h3>
+        <p>{{ 'services.hybrid.description' | translate }}</p>
+        <p class="service-ideal">{{ 'services.hybrid.ideal' | translate }}</p>
+        <div class="site-examples">
+          <span class="site-pill">
+            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=github.com" alt="GitHub" width="16" height="16">
+            GitHub
+          </span>
+          <span class="site-pill">
+            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=shopify.com" alt="Shopify" width="16" height="16">
+            Shopify
+          </span>
+          <span class="site-pill">
+            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=vercel.com" alt="Vercel" width="16" height="16">
+            Vercel
+          </span>
+        </div>
+      </div>
+
     </div>
-    <div class="card">
-      <span class="tag tag--dynamic">{{ 'projects.dynamicTag' | translate }}</span>
-      <h3>{{ 'services.dynamic.title' | translate }}</h3>
-      <p>{{ 'services.dynamic.description' | translate }}</p>
-    </div>
-    <div class="card">
-      <span class="tag tag--hybrid">{{ 'projects.hybridTag' | translate }}</span>
-      <h3>{{ 'services.hybrid.title' | translate }}</h3>
-      <p>{{ 'services.hybrid.description' | translate }}</p>
-    </div>
+    <p class="pricing-note">
+      <strong>{{ 'services.pricing.title' | translate }}</strong>
+      {{ 'services.pricing.description' | translate }}
+    </p>
   </div>
-  <p class="pricing-note">
-    <strong>{{ 'services.pricing.title' | translate }}</strong>
-    {{ 'services.pricing.description' | translate }}
-  </p>
 </section>
 
 <!-- SOBRE MÍ -->
 <section id="sobre-mi" class="section-alt">
-  <h2>{{ 'about.title' | translate }}</h2>
-  <p>{{ 'about.intro' | translate }}</p>
-  <p>{{ 'about.location' | translate }}</p>
-  <p-divider/>
-  <p>{{ 'about.learning' | translate }}</p>
-  <p>{{ 'about.honesty' | translate }}</p>
-
-  <!-- Stack tecnológico — real, extraído del propio proyecto -->
-  <div class="tech-stack">
-    <span class="tech-pill"><i class="pi pi-code"></i> Angular</span>
-    <span class="tech-pill"><i class="pi pi-palette"></i> Tailwind CSS</span>
-    <span class="tech-pill"><i class="pi pi-box"></i> PrimeNG</span>
-    <span class="tech-pill"><i class="pi pi-github"></i> GitHub Pages</span>
-    <span class="tech-pill"><i class="pi pi-globe"></i> i18n</span>
+  <div class="container">
+    <div class="about-grid">
+      <div>
+        <h2>{{ 'about.title' | translate }}</h2>
+        <p>{{ 'about.intro' | translate }}</p>
+        <p>{{ 'about.location' | translate }}</p>
+        <p>{{ 'about.learning' | translate }}</p>
+        <p>{{ 'about.honesty' | translate }}</p>
+      </div>
+      <div>
+        <h3>{{ 'about.techTitle' | translate }}</h3>
+        <div class="tech-grid">
+          <div class="tech-item">
+            <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=angular.io" width="20" height="20" alt="Angular">
+            <span>Angular</span>
+          </div>
+          <div class="tech-item">
+            <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=typescriptlang.org" width="20" height="20" alt="TypeScript">
+            <span>TypeScript</span>
+          </div>
+          <div class="tech-item">
+            <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=tailwindcss.com" width="20" height="20" alt="Tailwind">
+            <span>Tailwind CSS</span>
+          </div>
+          <div class="tech-item">
+            <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=primeng.org" width="20" height="20" alt="PrimeNG">
+            <span>PrimeNG</span>
+          </div>
+          <div class="tech-item">
+            <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=github.com" width="20" height="20" alt="GitHub">
+            <span>GitHub</span>
+          </div>
+          <div class="tech-item">
+            <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=git-scm.com" width="20" height="20" alt="Git">
+            <span>Git</span>
+          </div>
+          <div class="tech-item">
+            <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=developer.mozilla.org" width="20" height="20" alt="HTML/CSS">
+            <span>HTML · CSS</span>
+          </div>
+          <div class="tech-item">
+            <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=rxjs.dev" width="20" height="20" alt="RxJS">
+            <span>RxJS</span>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
 <!-- PROYECTOS -->
 <section id="proyectos">
-  <h2>{{ 'projects.title' | translate }}</h2>
-  <div class="cards-grid">
-    <div class="card">
-      <span class="tag tag--static">{{ 'projects.staticTag' | translate }}</span>
-      <h3>{{ 'projects.portfolio.title' | translate }}</h3>
-      <p>{{ 'projects.portfolio.description' | translate }}</p>
+  <div class="container">
+    <h2>{{ 'projects.title' | translate }}</h2>
+    <p class="section-intro">{{ 'projects.intro' | translate }}</p>
+    <div class="cards-grid">
+      <div class="card">
+        <span class="tag">{{ 'projects.staticTag' | translate }}</span>
+        <h3>{{ 'projects.portfolio.title' | translate }}</h3>
+        <p>{{ 'projects.portfolio.description' | translate }}</p>
+      </div>
+      <a class="card card--link"
+         href="https://hectorjarque.github.io/Isaac-Achievement-Tracker/"
+         target="_blank" rel="noopener">
+        <span class="tag">{{ 'projects.dynamicTag' | translate }}</span>
+        <h3>{{ 'projects.isaac.title' | translate }}</h3>
+        <p>{{ 'projects.isaac.description' | translate }}</p>
+        <span class="card-link-hint">
+          <i class="pi pi-external-link"></i> Ver proyecto
+        </span>
+      </a>
     </div>
-    <a class="card card--link"
-       href="https://hectorjarque.github.io/Isaac-Achievement-Tracker/"
-       target="_blank" rel="noopener">
-      <span class="tag tag--dynamic">{{ 'projects.dynamicTag' | translate }}</span>
-      <h3>{{ 'projects.isaac.title' | translate }}</h3>
-      <p>{{ 'projects.isaac.description' | translate }}</p>
-      <span class="card-link-hint">
-        <i class="pi pi-external-link"></i> {{ 'contact.github' | translate }}
-      </span>
-    </a>
-  </div>
-  <div class="card card--experience">
-    <span class="tag tag--hybrid">{{ 'projects.experience.tag' | translate }}</span>
-    <h3>{{ 'projects.experience.title' | translate }}</h3>
-    <p>{{ 'projects.experience.description' | translate }}</p>
+    <div class="card card--experience">
+      <span class="tag">{{ 'projects.experience.tag' | translate }}</span>
+      <h3>{{ 'projects.experience.title' | translate }}</h3>
+      <p>{{ 'projects.experience.description' | translate }}</p>
+    </div>
   </div>
 </section>
 
 <!-- CONTACTO -->
 <section id="contacto" class="section-alt">
-  <h2>{{ 'contact.title' | translate }}</h2>
-  <p>{{ 'contact.emailPrompt' | translate }}</p>
-  <p>{{ 'contact.existingSite' | translate }}</p>
-  <p>{{ 'contact.noWorries' | translate }}</p>
-  <div class="contact-links">
-    <a href="mailto:jarquebusiness@gmail.com">
-      <i class="pi pi-envelope"></i>
-      jarquebusiness&#64;gmail.com
-    </a>
-    <a href="https://github.com/HectorJarque" target="_blank" rel="noopener">
-      <i class="pi pi-github"></i>
-      GitHub
-    </a>
-    <a href="https://www.linkedin.com/in/hector-jarque-developer/" target="_blank" rel="noopener">
-      <i class="pi pi-linkedin"></i>
-      LinkedIn
-    </a>
+  <div class="container">
+    <div class="contact-grid">
+      <div>
+        <h2>{{ 'contact.title' | translate }}</h2>
+        <p>{{ 'contact.emailPrompt' | translate }}</p>
+        <p>{{ 'contact.existingSite' | translate }}</p>
+        <p>{{ 'contact.noWorries' | translate }}</p>
+        <div class="contact-links">
+          <a href="mailto:jarquebusiness@gmail.com">
+            <i class="pi pi-envelope"></i> jarquebusiness&#64;gmail.com
+          </a>
+          <a href="https://github.com/HectorJarque" target="_blank" rel="noopener">
+            <i class="pi pi-github"></i> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/hector-jarque-developer/" target="_blank" rel="noopener">
+            <i class="pi pi-linkedin"></i> LinkedIn
+          </a>
+        </div>
+      </div>
+      <div class="contact-form-wrap">
+        <h3>{{ 'contact.formTitle' | translate }}</h3>
+        <div class="contact-form">
+          <div class="form-row">
+            <input type="text"  [placeholder]="'contact.name'    | translate" />
+            <input type="email" [placeholder]="'contact.email'   | translate" />
+          </div>
+          <input type="text" [placeholder]="'contact.subject' | translate" />
+          <textarea rows="4"  [placeholder]="'contact.message' | translate"></textarea>
+          <button class="btn-send" type="button">
+            <i class="pi pi-send"></i>
+            {{ 'contact.send' | translate }}
+          </button>
+        </div>
+      </div>
+    </div>
   </div>
 </section>
 
 <!-- FOOTER -->
 <footer class="site-footer">
-  <div class="footer-inner">
-    <div class="footer-brand">
-      <strong>Héctor Jarque</strong>
-      <span>Desarrollo web · Valencia, España</span>
-    </div>
+  <div class="container footer-inner">
+    <span class="footer-brand">Héctor Jarque — Valencia, España</span>
     <nav class="footer-nav">
-      <a href="#que-hago">{{ 'nav.whatIDo' | translate }}</a>
-      <a href="#sobre-mi">{{ 'nav.aboutMe' | translate }}</a>
+      <a href="#que-hago">{{ 'nav.whatIDo'  | translate }}</a>
+      <a href="#sobre-mi">{{ 'nav.aboutMe'  | translate }}</a>
       <a href="#proyectos">{{ 'nav.projects' | translate }}</a>
-      <a href="#contacto">{{ 'nav.contact' | translate }}</a>
+      <a href="#contacto">{{ 'nav.contact'  | translate }}</a>
     </nav>
     <div class="footer-social">
-      <a href="https://github.com/HectorJarque" target="_blank" rel="noopener" aria-label="GitHub">
-        <i class="pi pi-github"></i>
-      </a>
-      <a href="https://www.linkedin.com/in/hector-jarque-developer/"
-         target="_blank"
-         rel="noopener"
-         aria-label="LinkedIn">
-        <i class="pi pi-linkedin"></i>
-      </a>
-      <a href="mailto:jarquebusiness@gmail.com" aria-label="Email">
-        <i class="pi pi-envelope"></i>
-      </a>
+      <a href="https://github.com/HectorJarque"                        target="_blank" rel="noopener" aria-label="GitHub">   <i class="pi pi-github"></i></a>
+      <a href="https://www.linkedin.com/in/hector-jarque-developer/"   target="_blank" rel="noopener" aria-label="LinkedIn"> <i class="pi pi-linkedin"></i></a>
+      <a href="mailto:jarquebusiness@gmail.com"                        aria-label="Email"> <i class="pi pi-envelope"></i></a>
+      <span class="footer-copy">© {{ year }} · A Kallik Project</span>
     </div>
-  </div>
-  <div class="footer-bottom">
-    <span>© {{ year }} Héctor Jarque</span>
-    <span>A Kallik Project</span>
   </div>
 </footer>
