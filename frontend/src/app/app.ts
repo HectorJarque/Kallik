@@ -1,18 +1,21 @@
-import { Component, effect, signal } from '@angular/core';
-import { ButtonModule } from 'primeng/button';
-import { TagModule } from 'primeng/tag';
-import { CardModule } from 'primeng/card';
-import { DividerModule } from 'primeng/divider';
+import { Component, effect, inject, signal } from '@angular/core';
 import { BadgeModule } from 'primeng/badge';
+import { TagModule } from 'primeng/tag';
+import { DividerModule } from 'primeng/divider';
+import { TranslatePipe } from './shared/pipes/translate.pipe';
+import { TranslationService } from './core/services/translation.service';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.css',
   standalone: true,
-  imports: [ButtonModule, TagModule, CardModule, DividerModule, BadgeModule]
+  imports: [BadgeModule, TagModule, DividerModule, TranslatePipe]
 })
 export class App {
+  private i18n = inject(TranslationService);
+
+  lang = this.i18n.lang;
   dark = signal(true);
   menu = signal(false);
   year = new Date().getFullYear();
@@ -23,6 +26,7 @@ export class App {
     });
   }
 
+  toggleLang()  { this.i18n.setLang(this.lang() === 'es' ? 'en' : 'es'); }
   toggleTheme() { this.dark.set(!this.dark()); }
   toggleMenu()  { this.menu.set(!this.menu()); }
   closeMenu()   { this.menu.set(false); }

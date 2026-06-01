@@ -1,145 +1,116 @@
-<header class="header">
-  <a href="/" class="logo">Héctor Jarque</a>
+<header>
+  <a href="/">Héctor Jarque</a>
 
-  <div class="header-actions">
-    <button (click)="toggleTheme()" [title]="dark() ? 'Modo claro' : 'Modo oscuro'">
-      {{ dark() ? '🌙' : '☀️' }}
+  <div>
+    <button (click)="toggleLang()">
+      <i class="pi pi-globe"></i>
+      {{ lang() === 'es' ? 'ES' : 'EN' }}
     </button>
-    <button (click)="toggleMenu()">☰</button>
+    <button (click)="toggleTheme()">
+      <i [class]="dark() ? 'pi pi-moon' : 'pi pi-sun'"></i>
+    </button>
+    <button (click)="toggleMenu()">
+      <i [class]="menu() ? 'pi pi-times' : 'pi pi-bars'"></i>
+    </button>
   </div>
 
   <nav [class.open]="menu()">
-    <a href="#que-hago"  (click)="closeMenu()">Qué hago</a>
-    <a href="#sobre-mi"  (click)="closeMenu()">Sobre mí</a>
-    <a href="#proyectos" (click)="closeMenu()">Proyectos</a>
-    <a href="#contacto"  (click)="closeMenu()">Contacto</a>
+    <a href="#que-hago"  (click)="closeMenu()">{{ 'nav.queHago'  | translate }}</a>
+    <a href="#sobre-mi"  (click)="closeMenu()">{{ 'nav.sobreMi'  | translate }}</a>
+    <a href="#proyectos" (click)="closeMenu()">{{ 'nav.proyectos' | translate }}</a>
+    <a href="#contacto"  (click)="closeMenu()">{{ 'nav.contacto'  | translate }}</a>
   </nav>
 </header>
 
-<!-- ── INTRO ─────────────────────────────────────── -->
-<section class="intro">
-  <div class="intro-contenido">
-    <div class="intro-texto">
-      <h1>Hago webs rápidas, claras y fáciles de usar</h1>
-      <p>Sin cosas innecesarias, sin webs lentas y sin complicarte la vida.</p>
-      <p>
-        Dependiendo de lo que necesites, puedo hacer desde una web sencilla
-        hasta una más interactiva con formularios, buscadores o funciones más avanzadas.
-      </p>
-      <p>
-        <strong>No gestiono dominios ni hosting de serie</strong>,
-        pero si no quieres líos puedo encargarme yo y sumarlo al presupuesto.
-      </p>
-    </div>
-    <div class="intro-aviso">
-      <p>
-        <strong>Esta web está en desarrollo</strong>
-        Estoy migrando mi portfolio a Angular + Spring Boot para mostrar más funcionalidades.
-      </p>
-    </div>
+<section>
+  <h1>{{ 'intro.h1' | translate }}</h1>
+  <p>{{ 'intro.p1' | translate }}</p>
+  <p>{{ 'intro.p2' | translate }}</p>
+  <p>{{ 'intro.p3' | translate }}</p>
+  <div>
+    <strong>{{ 'intro.avisoTitulo' | translate }}</strong>
+    <p>{{ 'intro.avisoTexto' | translate }}</p>
   </div>
 </section>
 
-<!-- ── QUÉ HAGO ───────────────────────────────────── -->
-<section id="que-hago" class="seccion">
-  <h2>Tipos de web que hago</h2>
-
-  <div class="servicios-grid">
-    <div class="servicio">
-      <p-badge value="Estática" severity="secondary" />
-      <h3>Web estática</h3>
-      <p>Página web sencilla y rápida, hecha a medida y sin complicaciones.</p>
-      <p><strong>Carga instantánea.</strong> Se aloja en cualquier sitio.</p>
+<section id="que-hago">
+  <h2>{{ 'servicios.titulo' | translate }}</h2>
+  <div>
+    <div>
+      <p-badge [value]="'proyectos.tagEstatica' | translate" severity="secondary" />
+      <h3>{{ 'servicios.estatica.titulo' | translate }}</h3>
+      <p>{{ 'servicios.estatica.desc' | translate }}</p>
     </div>
-    <div class="servicio">
-      <p-badge value="Dinámica" severity="info" />
-      <h3>Web dinámica</h3>
-      <p>Filtros, buscadores, contenido que cambia al instante y conexiones con APIs.</p>
+    <div>
+      <p-badge [value]="'proyectos.tagDinamica' | translate" severity="info" />
+      <h3>{{ 'servicios.dinamica.titulo' | translate }}</h3>
+      <p>{{ 'servicios.dinamica.desc' | translate }}</p>
     </div>
-    <div class="servicio">
+    <div>
       <p-badge value="Híbrida" severity="warn" />
-      <h3>Web híbrida</h3>
-      <p>Parte pública para clientes y parte privada para gestionar contenido.</p>
+      <h3>{{ 'servicios.hibrida.titulo' | translate }}</h3>
+      <p>{{ 'servicios.hibrida.desc' | translate }}</p>
     </div>
   </div>
-
-  <div class="precio-nota">
-    <strong>Sobre precios:</strong>
-    Cada proyecto es distinto, así que los precios se hablan sin compromiso.
-  </div>
+  <p>
+    <strong>{{ 'servicios.precio.titulo' | translate }}</strong>
+    {{ 'servicios.precio.texto' | translate }}
+  </p>
 </section>
 
-<!-- ── SOBRE MÍ ───────────────────────────────────── -->
-<section id="sobre-mi" class="seccion">
-  <h2>Quién está detrás de esto</h2>
-  <div class="sobre-mi-top">
-    <div class="sobre-mi-datos">
-      <p>Me llamo <strong>Héctor Jarque</strong>. No vengo de agencia ni de bootcamp milagroso.</p>
-      <p>Vivo en <strong>Valencia</strong>. Trabajo en remoto sin problema.</p>
-    </div>
-  </div>
+<section id="sobre-mi">
+  <h2>{{ 'sobreMi.titulo' | translate }}</h2>
+  <p>{{ 'sobreMi.p1' | translate }}</p>
+  <p>{{ 'sobreMi.p4' | translate }}</p>
   <p-divider />
-  <div class="sobre-mi-texto">
-    <p>Empecé sin entender nada y poco a poco me fui formando hasta poder crear las webs y proyectos que hago hoy en día.</p>
-    <p>No te voy a soltar jerga para impresionar. Si algo no se puede hacer, te lo digo.</p>
-  </div>
+  <p>{{ 'sobreMi.p2' | translate }}</p>
+  <p>{{ 'sobreMi.p3' | translate }}</p>
 </section>
 
-<!-- ── PROYECTOS ──────────────────────────────────── -->
-<section id="proyectos" class="seccion">
-  <h2>Algunas cosas que he hecho</h2>
-
-  <div class="proyectos-grid">
-    <div class="proyecto-card">
-      <p-tag value="Web estática" severity="secondary" />
-      <h3>Web de portfolio personal</h3>
-      <p>La web que estás viendo. Dark/light mode, multilenguaje, Angular + Spring Boot.</p>
+<section id="proyectos">
+  <h2>{{ 'proyectos.titulo' | translate }}</h2>
+  <div>
+    <div>
+      <p-tag [value]="'proyectos.tagEstatica' | translate" severity="secondary" />
+      <h3>{{ 'proyectos.portfolio.titulo' | translate }}</h3>
+      <p>{{ 'proyectos.portfolio.desc' | translate }}</p>
     </div>
     <a href="https://hectorjarque.github.io/Isaac-Achievement-Tracker/"
-       class="proyecto-card"
        target="_blank" rel="noopener">
-      <p-tag value="Web dinámica" severity="info" />
-      <h3>Rastreador de logros de Steam</h3>
-      <p>Conecta tu cuenta de Steam y analiza tus logros en tiempo real.</p>
+      <p-tag [value]="'proyectos.tagDinamica' | translate" severity="info" />
+      <h3>{{ 'proyectos.isaac.titulo' | translate }}</h3>
+      <p>{{ 'proyectos.isaac.desc' | translate }}</p>
     </a>
   </div>
-
-  <div class="experiencia-card">
-    <p-tag value="Experiencia laboral" severity="warn" />
-    <h3>3 meses en equipo de desarrollo fintech</h3>
-    <p>Frontend y backend, mejora de funcionalidades y trabajo en entorno tecnológico real.</p>
+  <div>
+    <p-tag [value]="'proyectos.experiencia.tag' | translate" severity="warn" />
+    <h3>{{ 'proyectos.experiencia.titulo' | translate }}</h3>
+    <p>{{ 'proyectos.experiencia.desc' | translate }}</p>
   </div>
 </section>
 
-<!-- ── CONTACTO ───────────────────────────────────── -->
-<section id="contacto" class="seccion">
-  <h2>Hablamos</h2>
-  <div class="contacto-grid">
-    <div class="contacto-texto">
-      <p>Lo mejor es que me escribas un correo contándome qué tienes en mente.</p>
-      <p>Si ya tienes una web, pásamela y le echo un vistazo.</p>
-      <p>No hace falta saber de tecnología ni tenerlo todo claro.</p>
+<section id="contacto">
+  <h2>{{ 'contacto.titulo' | translate }}</h2>
+  <p>{{ 'contacto.p1' | translate }}</p>
+  <p>{{ 'contacto.p2' | translate }}</p>
+  <p>{{ 'contacto.p3' | translate }}</p>
+  <div>
+    <div>
+      <i class="pi pi-envelope"></i>
+      jarquebusiness&#64;gmail.com
     </div>
-    <div class="contacto-links-col">
-      <div class="contacto-item">
-        📧 jarquebusiness&#64;gmail.com
-      </div>
-      <a href="https://github.com/HectorJarque"
-         target="_blank" rel="noopener"
-         class="contacto-item">
-        <i class="pi pi-github"></i> GitHub
-      </a>
-      <a href="https://www.linkedin.com/in/hector-jarque-developer/"
-         target="_blank" rel="noopener"
-         class="contacto-item">
-        <i class="pi pi-linkedin"></i> LinkedIn
-      </a>
-    </div>
+    <a href="https://github.com/HectorJarque" target="_blank" rel="noopener">
+      <i class="pi pi-github"></i>
+      {{ 'contacto.github' | translate }}
+    </a>
+    <a href="https://www.linkedin.com/in/hector-jarque-developer/" target="_blank" rel="noopener">
+      <i class="pi pi-linkedin"></i>
+      {{ 'contacto.linkedin' | translate }}
+    </a>
   </div>
 </section>
 
-<!-- ── FOOTER ─────────────────────────────────────── -->
-<footer class="footer">
-  <p>Héctor Jarque — {{ year }}</p>
-  <p>A Kallik Project</p>
+<footer>
+  <span>Héctor Jarque — {{ year }}</span>
+  <span>A Kallik Project</span>
 </footer>
