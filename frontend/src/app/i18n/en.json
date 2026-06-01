@@ -13,7 +13,14 @@
     "noticeTitle": "This website is under development",
     "noticeText": "I'm migrating my portfolio to Angular + Spring Boot to showcase more features."
   },
+  "stats": {
+    "projects": "Proyectos",
+    "types": "Types",
+    "remote": "Remote",
+    "langs": "Languages"
+  },
   "services": {
+    "intro": "I can make different websites, depending of what you prefer",
     "title": "Types of websites I build",
     "static": {
       "title": "Static website",
@@ -39,9 +46,11 @@
     "intro": "My name is Héctor Jarque. I don't come from an agency or a miracle bootcamp. I learned by doing, breaking and fixing things.",
     "learning": "I started knowing nothing and gradually trained myself until I could build the websites and projects I create today.",
     "honesty": "I won't throw jargon at you to impress. If something can't be done, I'll tell you.",
-    "location": "I live in Valencia, Spain. I work remotely, and if you're nearby we can grab a coffee."
+    "location": "I live in Valencia, Spain. I work remotely, and if you're nearby we can grab a coffee.",
+    "techTitle": "Technology im familiar with"
   },
   "projects": {
+    "intro": "To still learning, I have created different websites",
     "title": "Some things I've built",
     "staticTag": "Static website",
     "dynamicTag": "Dynamic website",
@@ -66,6 +75,11 @@
     "existingSite": "If you already have a website, send me the link and I'll take a look.",
     "noWorries": "You don't need to know about tech or have everything figured out. We'll shape it together.",
     "github": "More projects on GitHub",
-    "linkedin": "LinkedIn"
+    "linkedin": "LinkedIn",
+    "formTitle": "Send me a message",
+    "name": "Your name",
+    "email": "Your email",
+    "subject": "Subject",
+    "message": "Message"
   }
 }

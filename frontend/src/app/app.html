@@ -1,14 +1,14 @@
 <!-- HEADER -->
 <header class="site-header">
   <a href="/" class="brand">
-    <img ngSrc="img/JarqueBusiness.png" alt="Héctor Jarque" width="36" height="36" />
+    <img ngSrc="img/JarqueBusiness.png" alt="Héctor Jarque" width="36" height="36"/>
     <span>Héctor Jarque</span>
   </a>
   <nav class="main-nav" [class.open]="menu()">
-    <a href="#que-hago"  (click)="closeMenu()">{{ 'nav.whatIDo'  | translate }}</a>
-    <a href="#sobre-mi"  (click)="closeMenu()">{{ 'nav.aboutMe'  | translate }}</a>
+    <a href="#que-hago" (click)="closeMenu()">{{ 'nav.whatIDo'  | translate }}</a>
+    <a href="#sobre-mi" (click)="closeMenu()">{{ 'nav.aboutMe'  | translate }}</a>
     <a href="#proyectos" (click)="closeMenu()">{{ 'nav.projects' | translate }}</a>
-    <a href="#contacto"  (click)="closeMenu()">{{ 'nav.contact'  | translate }}</a>
+    <a href="#contacto" (click)="closeMenu()">{{ 'nav.contact'  | translate }}</a>
   </nav>
   <div class="header-actions">
     <button (click)="toggleLang()">{{ lang() === 'es' ? 'ES' : 'EN' }}</button>
@@ -120,7 +120,10 @@
             GitHub
           </span>
           <span class="site-pill">
-            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=shopify.com" alt="Shopify" width="16" height="16">
+            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=shopify.com"
+                 alt="Shopify"
+                 width="16"
+                 height="16">
             Shopify
           </span>
           <span class="site-pill">
@@ -153,36 +156,57 @@
         <h3>{{ 'about.techTitle' | translate }}</h3>
         <div class="tech-grid">
           <div class="tech-item">
-            <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=angular.io" width="20" height="20" alt="Angular">
+            <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=angular.io"
+                 width="20"
+                 height="20"
+                 alt="Angular">
             <span>Angular</span>
           </div>
           <div class="tech-item">
-            <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=typescriptlang.org" width="20" height="20" alt="TypeScript">
+            <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=typescriptlang.org"
+                 width="20"
+                 height="20"
+                 alt="TypeScript">
             <span>TypeScript</span>
           </div>
           <div class="tech-item">
-            <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=tailwindcss.com" width="20" height="20" alt="Tailwind">
-            <span>Tailwind CSS</span>
+            <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=kotlinlang.org"
+                 width="20"
+                 height="20"
+                 alt="Kotlin">
+            <span>Kotlin</span>
           </div>
           <div class="tech-item">
-            <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=primeng.org" width="20" height="20" alt="PrimeNG">
-            <span>PrimeNG</span>
+            <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=spring.io"
+                 width="20"
+                 height="20"
+                 alt="Spring Boot">
+            <span>Spring Boot</span>
           </div>
           <div class="tech-item">
-            <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=github.com" width="20" height="20" alt="GitHub">
-            <span>GitHub</span>
+            <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=mongodb.com"
+                 width="20"
+                 height="20"
+                 alt="MongoDB">
+            <span>MongoDB</span>
           </div>
           <div class="tech-item">
             <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=git-scm.com" width="20" height="20" alt="Git">
             <span>Git</span>
           </div>
           <div class="tech-item">
-            <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=developer.mozilla.org" width="20" height="20" alt="HTML/CSS">
+            <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=developer.mozilla.org"
+                 width="20"
+                 height="20"
+                 alt="HTML/CSS">
             <span>HTML · CSS</span>
           </div>
           <div class="tech-item">
-            <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=rxjs.dev" width="20" height="20" alt="RxJS">
-            <span>RxJS</span>
+            <img ngSrc="https://www.google.com/s2/favicons?sz=24&domain=javascript.com"
+                 width="20"
+                 height="20"
+                 alt="JavaScript">
+            <span>JavaScript</span>
           </div>
         </div>
       </div>
@@ -245,11 +269,11 @@
         <h3>{{ 'contact.formTitle' | translate }}</h3>
         <div class="contact-form">
           <div class="form-row">
-            <input type="text"  [placeholder]="'contact.name'    | translate" />
-            <input type="email" [placeholder]="'contact.email'   | translate" />
+            <input type="text" [placeholder]="'contact.name'    | translate"/>
+            <input type="email" [placeholder]="'contact.email'   | translate"/>
           </div>
-          <input type="text" [placeholder]="'contact.subject' | translate" />
-          <textarea rows="4"  [placeholder]="'contact.message' | translate"></textarea>
+          <input type="text" [placeholder]="'contact.subject' | translate"/>
+          <textarea rows="4" [placeholder]="'contact.message' | translate"></textarea>
           <button class="btn-send" type="button">
             <i class="pi pi-send"></i>
             {{ 'contact.send' | translate }}
@@ -271,9 +295,13 @@
       <a href="#contacto">{{ 'nav.contact'  | translate }}</a>
     </nav>
     <div class="footer-social">
-      <a href="https://github.com/HectorJarque"                        target="_blank" rel="noopener" aria-label="GitHub">   <i class="pi pi-github"></i></a>
-      <a href="https://www.linkedin.com/in/hector-jarque-developer/"   target="_blank" rel="noopener" aria-label="LinkedIn"> <i class="pi pi-linkedin"></i></a>
-      <a href="mailto:jarquebusiness@gmail.com"                        aria-label="Email"> <i class="pi pi-envelope"></i></a>
+      <a href="https://github.com/HectorJarque" target="_blank" rel="noopener" aria-label="GitHub">
+        <i class="pi pi-github"></i></a>
+      <a href="https://www.linkedin.com/in/hector-jarque-developer/"
+         target="_blank"
+         rel="noopener"
+         aria-label="LinkedIn"> <i class="pi pi-linkedin"></i></a>
+      <a href="mailto:jarquebusiness@gmail.com" aria-label="Email"> <i class="pi pi-envelope"></i></a>
       <span class="footer-copy">© {{ year }} · A Kallik Project</span>
     </div>
   </div>

@@ -13,7 +13,14 @@
     "noticeTitle": "Esta web está en desarrollo",
     "noticeText": "Estoy migrando mi portfolio a Angular + Spring Boot para mostrar más funcionalidades."
   },
+  "stats": {
+    "projects": "Proyectos",
+    "types": "Tipos",
+    "remote": "Remoto",
+    "langs": "Lenguajes"
+  },
   "services": {
+    "intro": "Puedo hacer diferentes tipos de web, dependiendo de lo que prefieras",
     "title": "Tipos de web que hago",
     "static": {
       "title": "Web estática",
@@ -39,9 +46,11 @@
     "intro": "Me llamo Héctor Jarque. No vengo de agencia ni de bootcamp milagroso. Aprendí haciendo cosas, rompiéndolas y arreglándolas.",
     "learning": "Empecé sin entender nada y poco a poco me fui formando hasta poder crear las webs y proyectos que hago hoy en día.",
     "honesty": "No te voy a soltar jerga para impresionar. Si algo no se puede hacer, te lo digo.",
-    "location": "Vivo en Valencia. Trabajo en remoto sin problema, y si estás cerca podemos tomar un café."
+    "location": "Vivo en Valencia. Trabajo en remoto sin problema, y si estás cerca podemos tomar un café.",
+    "techTitle": "Tecnología que suelo utilizar"
   },
   "projects": {
+    "intro": "Para seguir aprendiendo, he ido creando diferentes páginas webs",
     "title": "Algunas cosas que he hecho",
     "staticTag": "Web estática",
     "dynamicTag": "Web dinámica",
@@ -66,6 +75,11 @@
     "existingSite": "Si ya tienes una web, pásamela y le echo un vistazo.",
     "noWorries": "No hace falta saber de tecnología ni tenerlo todo claro. Le damos forma juntos.",
     "github": "Más proyectos en GitHub",
-    "linkedin": "LinkedIn"
+    "linkedin": "LinkedIn",
+    "formTitle": "Mándame un mensaje",
+    "name": "Tu nombre",
+    "email": "Tu email",
+    "subject": "Asunto",
+    "message": "Mensaje"
   }
 }
