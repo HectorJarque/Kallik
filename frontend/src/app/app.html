@@ -1,6 +1,7 @@
 <!-- HEADER -->
 <header class="site-header">
   <a href="/" class="brand">
+    <!--suppress HtmlUnknownTarget -->
     <img ngSrc="img/JarqueBusiness.png" alt="Héctor Jarque" width="40" height="40"/>
     <span>Héctor Jarque</span>
   </a>
@@ -14,7 +15,7 @@
 
   <div class="header-actions">
     <button (click)="toggleLang()" title="Cambiar idioma">
-      {{ lang() === 'es' ? '🇪🇸' : '🇬🇧' }}
+      {{ lang() === 'es' ? 'ES' : 'EN' }}
     </button>
     <button (click)="toggleTheme()">
       <i [class]="dark() ? 'pi pi-moon' : 'pi pi-sun'"></i>
