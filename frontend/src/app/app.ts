@@ -4,13 +4,14 @@ import { TagModule } from 'primeng/tag';
 import { DividerModule } from 'primeng/divider';
 import { TranslatePipe } from './shared/pipes/translate.pipe';
 import { TranslationService } from './core/services/translation.service';
+import { NgOptimizedImage } from '@angular/common';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.css',
   standalone: true,
-  imports: [BadgeModule, TagModule, DividerModule, TranslatePipe]
+  imports: [BadgeModule, TagModule, DividerModule, TranslatePipe, NgOptimizedImage]
 })
 export class App {
   private i18n = inject(TranslationService);

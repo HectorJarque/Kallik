@@ -1,5 +1,8 @@
 <header>
-  <a href="/">Héctor Jarque</a>
+  <a href="/">
+    <img ngSrc="img/JarqueBusiness.png" alt="Héctor Jarque" width="40" height="40" />
+    Héctor Jarque
+  </a>
 
   <div>
     <button (click)="toggleLang()">
@@ -15,85 +18,85 @@
   </div>
 
   <nav [class.open]="menu()">
-    <a href="#que-hago"  (click)="closeMenu()">{{ 'nav.queHago'  | translate }}</a>
-    <a href="#sobre-mi"  (click)="closeMenu()">{{ 'nav.sobreMi'  | translate }}</a>
-    <a href="#proyectos" (click)="closeMenu()">{{ 'nav.proyectos' | translate }}</a>
-    <a href="#contacto"  (click)="closeMenu()">{{ 'nav.contacto'  | translate }}</a>
+    <a href="#que-hago"  (click)="closeMenu()">{{ 'nav.whatIDo'  | translate }}</a>
+    <a href="#sobre-mi"  (click)="closeMenu()">{{ 'nav.aboutMe'  | translate }}</a>
+    <a href="#proyectos" (click)="closeMenu()">{{ 'nav.projects' | translate }}</a>
+    <a href="#contacto"  (click)="closeMenu()">{{ 'nav.contact'  | translate }}</a>
   </nav>
 </header>
 
 <section>
-  <h1>{{ 'intro.h1' | translate }}</h1>
-  <p>{{ 'intro.p1' | translate }}</p>
-  <p>{{ 'intro.p2' | translate }}</p>
-  <p>{{ 'intro.p3' | translate }}</p>
+  <h1>{{ 'intro.heading' | translate }}</h1>
+  <p>{{ 'intro.tagline' | translate }}</p>
+  <p>{{ 'intro.servicesOverview' | translate }}</p>
+  <p>{{ 'intro.hostingNote' | translate }}</p>
   <div>
-    <strong>{{ 'intro.avisoTitulo' | translate }}</strong>
-    <p>{{ 'intro.avisoTexto' | translate }}</p>
+    <strong>{{ 'intro.noticeTitle' | translate }}</strong>
+    <p>{{ 'intro.noticeText' | translate }}</p>
   </div>
 </section>
 
 <section id="que-hago">
-  <h2>{{ 'servicios.titulo' | translate }}</h2>
+  <h2>{{ 'services.title' | translate }}</h2>
   <div>
     <div>
-      <p-badge [value]="'proyectos.tagEstatica' | translate" />
-      <h3>{{ 'servicios.estatica.titulo' | translate }}</h3>
-      <p>{{ 'servicios.estatica.desc' | translate }}</p>
+      <p-badge [value]="'projects.staticTag' | translate" />
+      <h3>{{ 'services.static.title' | translate }}</h3>
+      <p>{{ 'services.static.description' | translate }}</p>
     </div>
     <div>
-      <p-badge [value]="'proyectos.tagDinamica' | translate"/>
-      <h3>{{ 'servicios.dinamica.titulo' | translate }}</h3>
-      <p>{{ 'servicios.dinamica.desc' | translate }}</p>
+      <p-badge [value]="'projects.dynamicTag' | translate"/>
+      <h3>{{ 'services.dynamic.title' | translate }}</h3>
+      <p>{{ 'services.dynamic.description' | translate }}</p>
     </div>
     <div>
-      <p-badge [value]="'proyectos.tagHibrida' | translate"/>
-      <h3>{{ 'servicios.hibrida.titulo' | translate }}</h3>
-      <p>{{ 'servicios.hibrida.desc' | translate }}</p>
+      <p-badge [value]="'projects.hybridTag' | translate"/>
+      <h3>{{ 'services.hybrid.title' | translate }}</h3>
+      <p>{{ 'services.hybrid.description' | translate }}</p>
     </div>
   </div>
   <p>
-    <strong>{{ 'servicios.precio.titulo' | translate }}</strong>
-    {{ 'servicios.precio.texto' | translate }}
+    <strong>{{ 'services.pricing.title' | translate }}</strong>
+    {{ 'services.pricing.description' | translate }}
   </p>
 </section>
 
 <section id="sobre-mi">
-  <h2>{{ 'sobreMi.titulo' | translate }}</h2>
-  <p>{{ 'sobreMi.p1' | translate }}</p>
-  <p>{{ 'sobreMi.p4' | translate }}</p>
+  <h2>{{ 'about.title' | translate }}</h2>
+  <p>{{ 'about.intro' | translate }}</p>
+  <p>{{ 'about.location' | translate }}</p>
   <p-divider />
-  <p>{{ 'sobreMi.p2' | translate }}</p>
-  <p>{{ 'sobreMi.p3' | translate }}</p>
+  <p>{{ 'about.learning' | translate }}</p>
+  <p>{{ 'about.honesty' | translate }}</p>
 </section>
 
 <section id="proyectos">
-  <h2>{{ 'proyectos.titulo' | translate }}</h2>
+  <h2>{{ 'projects.title' | translate }}</h2>
   <div>
     <div>
-      <p-tag [value]="'proyectos.tagEstatica' | translate"/>
-      <h3>{{ 'proyectos.portfolio.titulo' | translate }}</h3>
-      <p>{{ 'proyectos.portfolio.desc' | translate }}</p>
+      <p-tag [value]="'projects.staticTag' | translate"/>
+      <h3>{{ 'projects.portfolio.title' | translate }}</h3>
+      <p>{{ 'projects.portfolio.description' | translate }}</p>
     </div>
     <a href="https://hectorjarque.github.io/Isaac-Achievement-Tracker/"
        target="_blank" rel="noopener">
-      <p-tag [value]="'proyectos.tagDinamica' | translate"/>
-      <h3>{{ 'proyectos.isaac.titulo' | translate }}</h3>
-      <p>{{ 'proyectos.isaac.desc' | translate }}</p>
+      <p-tag [value]="'projects.dynamicTag' | translate"/>
+      <h3>{{ 'projects.isaac.title' | translate }}</h3>
+      <p>{{ 'projects.isaac.description' | translate }}</p>
     </a>
   </div>
   <div>
-    <p-tag [value]="'proyectos.experiencia.tag' | translate"/>
-    <h3>{{ 'proyectos.experiencia.titulo' | translate }}</h3>
-    <p>{{ 'proyectos.experiencia.desc' | translate }}</p>
+    <p-tag [value]="'projects.experience.tag' | translate"/>
+    <h3>{{ 'projects.experience.title' | translate }}</h3>
+    <p>{{ 'projects.experience.description' | translate }}</p>
   </div>
 </section>
 
 <section id="contacto">
-  <h2>{{ 'contacto.titulo' | translate }}</h2>
-  <p>{{ 'contacto.p1' | translate }}</p>
-  <p>{{ 'contacto.p2' | translate }}</p>
-  <p>{{ 'contacto.p3' | translate }}</p>
+  <h2>{{ 'contact.title' | translate }}</h2>
+  <p>{{ 'contact.emailPrompt' | translate }}</p>
+  <p>{{ 'contact.existingSite' | translate }}</p>
+  <p>{{ 'contact.noWorries' | translate }}</p>
   <div>
     <div>
       <i class="pi pi-envelope"></i>
@@ -101,11 +104,11 @@
     </div>
     <a href="https://github.com/HectorJarque" target="_blank" rel="noopener">
       <i class="pi pi-github"></i>
-      {{ 'contacto.github' | translate }}
+      {{ 'contact.github' | translate }}
     </a>
     <a href="https://www.linkedin.com/in/hector-jarque-developer/" target="_blank" rel="noopener">
       <i class="pi pi-linkedin"></i>
-      {{ 'contacto.linkedin' | translate }}
+      {{ 'contact.linkedin' | translate }}
     </a>
   </div>
 </section>
