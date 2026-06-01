@@ -45,6 +45,7 @@
     "titulo": "Algunas cosas que he hecho",
     "tagEstatica": "Web estática",
     "tagDinamica": "Web dinámica",
+    "tagHibrida": "Web hibrida",
     "portfolio": {
       "titulo": "Web de portfolio personal",
       "desc": "La web que estás viendo. Dark/light mode, multilenguaje, Angular + Spring Boot."

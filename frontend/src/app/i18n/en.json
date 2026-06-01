@@ -45,6 +45,7 @@
     "titulo": "Some things I've built",
     "tagEstatica": "Static website",
     "tagDinamica": "Dynamic website",
+    "tagHibrida": "Hybrid website",
     "portfolio": {
       "titulo": "Personal portfolio website",
       "desc": "The website you're looking at. Dark/light mode, multi-language, Angular + Spring Boot."
