@@ -17,7 +17,11 @@
     "projects": "Proyectos",
     "types": "Types",
     "remote": "Remote",
-    "langs": "Languages"
+    "langs": "Languages",
+    "responseTime": "Response time",
+    "budget": "Closed budget",
+    "location": "Location",
+    "type": "Fixed"
   },
   "services": {
     "intro": "I can make different websites, depending of what you prefer",

@@ -17,7 +17,11 @@
     "projects": "Proyectos",
     "types": "Tipos",
     "remote": "Remoto",
-    "langs": "Lenguajes"
+    "langs": "Idiomas",
+    "responseTime": "Tiempo de respuesta",
+    "budget": "Presupuesto cerrado",
+    "location": "Ubicación",
+    "type": "Fijo"
   },
   "services": {
     "intro": "Puedo hacer diferentes tipos de web, dependiendo de lo que prefieras",
