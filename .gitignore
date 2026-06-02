@@ -54,3 +54,8 @@ $RECYCLE.BIN/
 
 # VS Code
 .vscode/
+
+#Secrets
+backend/.env
+backend/.env.*
+!backend/.env.example
