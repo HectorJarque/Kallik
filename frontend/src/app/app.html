@@ -4,12 +4,14 @@
     <img ngSrc="img/JarqueBusiness.png" alt="Héctor Jarque" width="36" height="36"/>
     <span>Héctor Jarque</span>
   </a>
+
   <nav class="main-nav" [class.open]="menu()">
-    <a href="#que-hago" (click)="closeMenu()">{{ 'nav.whatIDo'  | translate }}</a>
-    <a href="#sobre-mi" (click)="closeMenu()">{{ 'nav.aboutMe'  | translate }}</a>
+    <a href="#que-hago" (click)="closeMenu()">{{ 'nav.whatIDo' | translate }}</a>
+    <a href="#sobre-mi" (click)="closeMenu()">{{ 'nav.aboutMe' | translate }}</a>
     <a href="#proyectos" (click)="closeMenu()">{{ 'nav.projects' | translate }}</a>
-    <a href="#contacto" (click)="closeMenu()">{{ 'nav.contact'  | translate }}</a>
+    <a href="#contacto" (click)="closeMenu()">{{ 'nav.contact' | translate }}</a>
   </nav>
+
   <div class="header-actions">
     <button (click)="toggleLang()">{{ lang() === 'es' ? 'ES' : 'EN' }}</button>
     <button (click)="toggleTheme()">
@@ -31,18 +33,19 @@
         <p>{{ 'intro.servicesOverview' | translate }}</p>
         <p>{{ 'intro.hostingNote' | translate }}</p>
       </div>
+
       <div class="hero-stats">
         <div class="stat-card">
-          <span class="stat-num"> < 24h </span>
-          <span class="stat-label"> {{ 'stats.responseTime' | translate }}</span>
+          <span class="stat-num">&lt; 24h</span>
+          <span class="stat-label">{{ 'stats.responseTime' | translate }}</span>
         </div>
         <div class="stat-card">
-          <span class="stat-num"> {{ 'stats.type' | translate }}</span>
+          <span class="stat-num">{{ 'stats.type' | translate }}</span>
           <span class="stat-label">{{ 'stats.budget' | translate }}</span>
         </div>
         <div class="stat-card">
-          <span class="stat-num"> Valencia </span>
-          <span class="stat-label"> {{ 'stats.remote' | translate }}</span>
+          <span class="stat-num">Valencia</span>
+          <span class="stat-label">{{ 'stats.remote' | translate }}</span>
         </div>
         <div class="stat-card">
           <span class="stat-num">ES · EN</span>
@@ -53,13 +56,16 @@
   </div>
 </section>
 
+
 <!-- QUÉ HAGO -->
 <section id="que-hago">
   <div class="container">
     <h2>{{ 'services.title' | translate }}</h2>
     <p class="section-intro">{{ 'services.intro' | translate }}</p>
+
     <div class="services-grid">
 
+      <!-- Estático -->
       <div class="card">
         <span class="tag">{{ 'projects.staticTag' | translate }}</span>
         <h3>{{ 'services.static.title' | translate }}</h3>
@@ -81,6 +87,7 @@
         </div>
       </div>
 
+      <!-- Dinámico -->
       <div class="card">
         <span class="tag">{{ 'projects.dynamicTag' | translate }}</span>
         <h3>{{ 'services.dynamic.title' | translate }}</h3>
@@ -102,6 +109,7 @@
         </div>
       </div>
 
+      <!-- Híbrido -->
       <div class="card">
         <span class="tag">{{ 'projects.hybridTag' | translate }}</span>
         <h3>{{ 'services.hybrid.title' | translate }}</h3>
@@ -127,6 +135,7 @@
       </div>
 
     </div>
+
     <p class="pricing-note">
       <strong>{{ 'services.pricing.title' | translate }}</strong>
       {{ 'services.pricing.description' | translate }}
@@ -134,10 +143,12 @@
   </div>
 </section>
 
+
 <!-- SOBRE MÍ -->
 <section id="sobre-mi" class="section-alt">
   <div class="container">
     <div class="about-grid">
+
       <div>
         <h2>{{ 'about.title' | translate }}</h2>
         <p>{{ 'about.intro' | translate }}</p>
@@ -145,90 +156,71 @@
         <p>{{ 'about.learning' | translate }}</p>
         <p>{{ 'about.honesty' | translate }}</p>
       </div>
+
       <div>
         <h3>{{ 'about.techTitle' | translate }}</h3>
         <div class="tech-grid">
           <div class="tech-item">
-            <img
-              ngSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
-              width="20"
-              height="20"
-              alt="Angular">
+            <img ngSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
+                 width="20" height="20" alt="Angular">
             <span>Angular</span>
           </div>
           <div class="tech-item">
-            <img
-              ngSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
-              width="20"
-              height="20"
-              alt="TypeScript">
+            <img ngSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+                 width="20" height="20" alt="TypeScript">
             <span>TypeScript</span>
           </div>
           <div class="tech-item">
-            <img
-              ngSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg"
-              width="20"
-              height="20"
-              alt="Kotlin">
+            <img ngSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kotlin/kotlin-original.svg"
+                 width="20" height="20" alt="Kotlin">
             <span>Kotlin</span>
           </div>
           <div class="tech-item">
-            <img
-              ngSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
-              width="20"
-              height="20"
-              alt="Spring Boot">
+            <img ngSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+                 width="20" height="20" alt="Spring Boot">
             <span>Spring Boot</span>
           </div>
           <div class="tech-item">
-            <img
-              ngSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-              width="20"
-              height="20"
-              alt="MongoDB">
+            <img ngSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
+                 width="20" height="20" alt="MongoDB">
             <span>MongoDB</span>
           </div>
           <div class="tech-item">
-            <img
-              ngSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-              width="20"
-              height="20"
-              alt="Git">
+            <img ngSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
+                 width="20" height="20" alt="Git">
             <span>Git</span>
           </div>
           <div class="tech-item">
-            <img
-              ngSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
-              width="20"
-              height="20"
-              alt="HTML">
+            <img ngSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+                 width="20" height="20" alt="HTML">
             <span>HTML · CSS</span>
           </div>
           <div class="tech-item">
-            <img
-              ngSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
-              width="20"
-              height="20"
-              alt="JavaScript">
+            <img ngSrc="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                 width="20" height="20" alt="JavaScript">
             <span>JavaScript</span>
           </div>
         </div>
       </div>
+
     </div>
   </div>
 </section>
+
 
 <!-- PROYECTOS -->
 <section id="proyectos">
   <div class="container">
     <h2>{{ 'projects.title' | translate }}</h2>
     <p class="section-intro">{{ 'projects.intro' | translate }}</p>
+
     <div class="cards-grid">
       <div class="card">
         <span class="tag">{{ 'projects.staticTag' | translate }}</span>
         <h3>{{ 'projects.portfolio.title' | translate }}</h3>
         <p>{{ 'projects.portfolio.description' | translate }}</p>
       </div>
+
       <a class="card card--link"
          href="https://hectorjarque.github.io/Isaac-Achievement-Tracker/"
          target="_blank" rel="noopener">
@@ -240,6 +232,7 @@
         </span>
       </a>
     </div>
+
     <div class="card card--experience">
       <span class="tag">{{ 'projects.experience.tag' | translate }}</span>
       <h3>{{ 'projects.experience.title' | translate }}</h3>
@@ -248,15 +241,19 @@
   </div>
 </section>
 
+
 <!-- CONTACTO -->
 <section id="contacto" class="section-alt">
   <div class="container">
     <div class="contact-grid">
+
+      <!-- Info -->
       <div>
         <h2>{{ 'contact.title' | translate }}</h2>
         <p>{{ 'contact.emailPrompt' | translate }}</p>
         <p>{{ 'contact.existingSite' | translate }}</p>
         <p>{{ 'contact.noWorries' | translate }}</p>
+
         <div class="contact-links">
           <a href="mailto:jarquebusiness@gmail.com">
             <i class="pi pi-envelope"></i> jarquebusiness&#64;gmail.com
@@ -269,20 +266,97 @@
           </a>
         </div>
       </div>
+
+      <!-- Formulario -->
       <div class="contact-form-wrap">
         <h3>{{ 'contact.formTitle' | translate }}</h3>
-        <div class="contact-form">
-          <div class="form-row">
-            <input type="text" [placeholder]="'contact.name'    | translate"/>
-            <input type="email" [placeholder]="'contact.email'   | translate"/>
+
+        @if (contactSent) {
+
+          <div class="form-feedback form-feedback--ok">
+            <i class="pi pi-check-circle"></i>
+            {{ 'contact.successMessage' | translate }}
           </div>
-          <input type="text" [placeholder]="'contact.subject' | translate"/>
-          <textarea rows="4" [placeholder]="'contact.message' | translate"></textarea>
-          <button class="btn-send" type="button">
-            <i class="pi pi-send"></i>
-            {{ 'contact.send' | translate }}
-          </button>
-        </div>
+
+        } @else {
+
+          <div class="contact-form">
+
+            <!-- Honeypot: invisible para humanos, los bots lo rellenan -->
+            <input type="text"
+                   name="website"
+                   [(ngModel)]="contactForm.honeypot"
+                   autocomplete="off"
+                   tabindex="-1"
+                   aria-hidden="true"
+                   style="position:absolute; left:-9999px; opacity:0; height:0; width:0;"
+            />
+            <div class="form-row">
+              <div class="field-wrap">
+                <input type="text"
+                       [(ngModel)]="contactForm.name"
+                       [placeholder]="'contact.name' | translate"
+                       [class.input-error]="formErrors['name']"
+                       maxlength="100"
+                />
+                @if (formErrors['name']) {
+                  <span class="field-error">{{ formErrors['name'] }}</span>
+                }
+              </div>
+              <div class="field-wrap">
+                <input type="email"
+                       [(ngModel)]="contactForm.email"
+                       [placeholder]="'contact.email' | translate"
+                       [class.input-error]="formErrors['email']"
+                       maxlength="254"
+                />
+                @if (formErrors['email']) {
+                  <span class="field-error">{{ formErrors['email'] }}</span>
+                }
+              </div>
+            </div>
+
+            <div class="field-wrap">
+              <input type="text"
+                     [(ngModel)]="contactForm.subject"
+                     [placeholder]="'contact.subject' | translate"
+                     [class.input-error]="formErrors['subject']"
+                     maxlength="150"
+              />
+              @if (formErrors['subject']) {
+                <span class="field-error">{{ formErrors['subject'] }}</span>
+              }
+            </div>
+
+            <div class="field-wrap">
+              <textarea rows="4"
+                        [(ngModel)]="contactForm.message"
+                        [placeholder]="'contact.message' | translate"
+                        [class.input-error]="formErrors['message']"
+                        maxlength="2000"
+              ></textarea>
+              @if (formErrors['message']) {
+                <span class="field-error">{{ formErrors['message'] }}</span>
+              }
+            </div>
+
+            @if (contactError) {
+              <div class="form-feedback form-feedback--error">
+                <i class="pi pi-times-circle"></i>
+                {{ 'contact.errorMessage' | translate }}
+              </div>
+            }
+
+            <button class="btn-send"
+                    type="button"
+                    (click)="sendContactMessage()"
+                    [disabled]="contactSending"
+            >
+              <i [class]="contactSending ? 'pi pi-spin pi-spinner' : 'pi pi-send'"></i>
+              {{ (contactSending ? 'contact.sending' : 'contact.send') | translate }}
+            </button>
+          </div>
+        }
       </div>
     </div>
   </div>
@@ -292,20 +366,27 @@
 <footer class="site-footer">
   <div class="container footer-inner">
     <span class="footer-brand">Héctor Jarque — Valencia, España</span>
+
     <nav class="footer-nav">
-      <a href="#que-hago">{{ 'nav.whatIDo'  | translate }}</a>
-      <a href="#sobre-mi">{{ 'nav.aboutMe'  | translate }}</a>
+      <a href="#que-hago">{{ 'nav.whatIDo' | translate }}</a>
+      <a href="#sobre-mi">{{ 'nav.aboutMe' | translate }}</a>
       <a href="#proyectos">{{ 'nav.projects' | translate }}</a>
-      <a href="#contacto">{{ 'nav.contact'  | translate }}</a>
+      <a href="#contacto">{{ 'nav.contact' | translate }}</a>
     </nav>
+
     <div class="footer-social">
       <a href="https://github.com/HectorJarque" target="_blank" rel="noopener" aria-label="GitHub">
-        <i class="pi pi-github"></i></a>
+        <i class="pi pi-github"></i>
+      </a>
       <a href="https://www.linkedin.com/in/hector-jarque-developer/"
          target="_blank"
          rel="noopener"
-         aria-label="LinkedIn"> <i class="pi pi-linkedin"></i></a>
-      <a href="mailto:jarquebusiness@gmail.com" aria-label="Email"> <i class="pi pi-envelope"></i></a>
+         aria-label="LinkedIn">
+        <i class="pi pi-linkedin"></i>
+      </a>
+      <a href="mailto:jarquebusiness@gmail.com" aria-label="Email">
+        <i class="pi pi-envelope"></i>
+      </a>
       <span class="footer-copy">© {{ year }} · A Kallik Project</span>
     </div>
   </div>

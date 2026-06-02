@@ -357,6 +357,41 @@ h2 {
   gap: .6rem;
 }
 
+.form-feedback {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+  padding: .75rem 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  font-size: .9rem;
+}
+
+.form-feedback--ok {
+  background: #d1fae5;
+  color: #065f46;
+}
+
+.form-feedback--error {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.field-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: .25rem;
+}
+
+.field-error {
+  font-size: .78rem;
+  color: #dc2626;
+}
+
+.input-error {
+  border-color: #dc2626 !important;
+}
+
 .contact-form input,
 .contact-form textarea {
   width: 100%;
