@@ -85,6 +85,9 @@
     "email": "Tu email",
     "subject": "Asunto",
     "message": "Mensaje",
-    "send": "Enviar"
+    "send": "Enviar",
+    "successMessage": "¡Mensaje enviado! Te responderé en menos de 24h.",
+    "errorMessage": "Error al enviar. Escríbeme directamente si el problema persiste.",
+    "sending": "Enviando..."
   }
 }

@@ -85,6 +85,9 @@
     "email": "Your email",
     "subject": "Subject",
     "message": "Message",
-    "send": "Send"
+    "send": "Send",
+    "successMessage": "Message sent! I'll get back to you within 24h.",
+    "errorMessage": "Failed to send. Feel free to email me directly if this keeps happening.",
+    "sending": "Sending..."
   }
 }
