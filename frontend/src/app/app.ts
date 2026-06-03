@@ -60,15 +60,22 @@ export class App {
     this.menu.set(false);
   }
 
+  private readonly emailRegex = /^[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$/;
+  private readonly nameRegex  = /^[\p{L}\s'\-]+$/u;
+
   sendContactMessage(): void {
     this.formErrors = {};
     this.contactError = false;
 
     if (!this.contactForm.name || this.contactForm.name.trim().length < 2)
       this.formErrors['name'] = '2 characters minimum';
+    else if (!this.nameRegex.test(this.contactForm.name.trim()))
+      this.formErrors['name'] = 'Only letters, spaces and hyphens ';
 
-    if (!this.contactForm.email || !this.contactForm.email.includes('@'))
-      this.formErrors['email'] = 'Email not valid';
+    if (!this.contactForm.email)
+      this.formErrors['email'] = 'Email required';
+    else if (!this.emailRegex.test(this.contactForm.email.trim()))
+      this.formErrors['email'] = 'A valid email is required)';
 
     if (!this.contactForm.subject || this.contactForm.subject.trim().length < 3)
       this.formErrors['subject'] = '3 characters minimum';
@@ -92,10 +99,15 @@ export class App {
           honeypot: ''
         };
       },
-      error: () => {
+      error: (err) => {
         this.contactSending = false;
-        this.contactError = true;
+        if (err.status === 400 && err.error?.errors) {
+          this.formErrors = err.error.errors;
+        } else {
+          this.contactError = true;
+        }
       }
     });
   }
 }
+
