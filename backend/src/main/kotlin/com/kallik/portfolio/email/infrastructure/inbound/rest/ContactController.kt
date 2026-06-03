@@ -21,26 +21,25 @@ class ContactController(
 
     @PostMapping
     fun sendMessage(
-        @Valid @RequestBody dto: ContactRequestDto,
-        request: HttpServletRequest
+        @Valid
+        @RequestBody dto: ContactRequestDto, request: HttpServletRequest
     ): ResponseEntity<Map<String, String>> {
 
-        if (!dto.website.isNullOrBlank()) {
-            log.warn("Honeypot activado — posible bot descartado")
+        if (! dto.website.isNullOrBlank()) {
+            log.warn("Honeypot activated — may be a bot")
             return ResponseEntity.ok(mapOf("status" to "ok"))
         }
 
         val clientIp = resolveClientIp(request)
-        if (!rateLimiter.isAllowed(clientIp)) {
-            log.warn("Rate limit alcanzado para una IP")
+        if (! rateLimiter.isAllowed(clientIp)) {
+            log.warn("Rate limit reached for an IP")
             return ResponseEntity
                 .status(429)
-                .body(mapOf("error" to "Demasiadas solicitudes. Inténtalo más tarde."))
+                .body(mapOf("error" to "To many requests. Try again later."))
         }
-
         val message = ContactMessage(
-            name    = sanitize(dto.name),
-            email   = sanitize(dto.email),
+            name = sanitize(dto.name),
+            email = sanitize(dto.email),
             subject = sanitize(dto.subject),
             message = dto.message.trim()
         )

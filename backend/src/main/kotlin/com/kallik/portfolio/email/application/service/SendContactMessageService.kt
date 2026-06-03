@@ -14,9 +14,8 @@ class SendContactMessageService(
     private val log = LoggerFactory.getLogger(javaClass)
 
     override fun send(message: ContactMessage) {
-        // No logueamos el contenido del mensaje ni el email del remitente
-        log.info("Procesando nuevo mensaje de contacto")
+        log.info("Processing new contact message")
         emailSenderPort.sendContactEmail(message)
-        log.info("Mensaje de contacto enviado correctamente")
+        log.info("Contact message sent")
     }
 }
