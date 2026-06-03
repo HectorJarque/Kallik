@@ -30,15 +30,18 @@
       "title": "Web estática",
       "description": "Página web sencilla y rápida, hecha a medida y sin complicaciones.",
       "loadTime": "Carga instantánea.",
-      "hostingNote": "Se aloja en cualquier sitio. No hay nada que romper."
+      "hostingNote": "Se aloja en cualquier sitio. No hay nada que romper.",
+      "ideal": "Ejemplos del mundo real que usa una web estática"
     },
     "dynamic": {
       "title": "Web dinámica",
-      "description": "Filtros, buscadores, contenido que cambia al instante, formularios inteligentes y conexiones con APIs."
+      "description": "Filtros, buscadores, contenido que cambia al instante, formularios inteligentes y conexiones con APIs.",
+      "ideal": "Ejemplos del mundo real que usa una web dinámica"
     },
     "hybrid": {
       "title": "Web híbrida",
-      "description": "Parte pública para clientes y parte privada para gestionar contenido sin tocar código."
+      "description": "Parte pública para clientes y parte privada para gestionar contenido sin tocar código.",
+      "ideal": "Ejemplos del mundo real que usa una web híbrida"
     },
     "pricing": {
       "title": "Sobre precios:",

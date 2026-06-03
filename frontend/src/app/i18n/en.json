@@ -30,15 +30,18 @@
       "title": "Static website",
       "description": "A simple and fast custom-made page. No difficult systems, no constant maintenance.",
       "loadTime": "Instant loading.",
-      "hostingNote": "Host it anywhere. Nothing to break."
+      "hostingNote": "Host it anywhere. Nothing to break.",
+      "ideal": "Real-world examples that use static web pages"
     },
     "dynamic": {
       "title": "Dynamic website",
-      "description": "Filters, search, content that updates instantly, smart forms and API connections."
+      "description": "Filters, search, content that updates instantly, smart forms and API connections.",
+      "ideal": "Real-world examples that use dynamic web pages"
     },
     "hybrid": {
       "title": "Hybrid website",
-      "description": "A public-facing part and a private one to manage content without touching code."
+      "description": "A public-facing part and a private one to manage content without touching code.",
+      "ideal": "Real-world examples that use hybrid web pages"
     },
     "pricing": {
       "title": "About pricing:",
