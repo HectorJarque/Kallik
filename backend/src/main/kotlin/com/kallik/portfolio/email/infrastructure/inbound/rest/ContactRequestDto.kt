@@ -7,25 +7,27 @@ import jakarta.validation.constraints.Size
 
 data class ContactRequestDto(
 
-    @field:NotBlank(message = "El nombre es obligatorio")
-    @field:Size(min = 2, max = 100, message = "Nombre entre 2 y 100 caracteres")
+    //TODO: Poner los errores en traducción en BD
+
+    @field:NotBlank(message = "Name is required")
+    @field:Size(min = 2, max = 100, message = "Name between 2 and 100 characters.")
     @field:Pattern(
         regexp = "^[\\p{L}\\s'\\-]+$",
-        message = "El nombre contiene caracteres no permitidos"
+        message = "Name has unauthorized words"
     )
     val name: String,
 
-    @field:NotBlank(message = "El email es obligatorio")
-    @field:Email(message = "El email no es válido")
+    @field:NotBlank(message = "Email is required")
+    @field:Email(message = "Email not valid")
     @field:Size(max = 254)
     val email: String,
 
-    @field:NotBlank(message = "El asunto es obligatorio")
-    @field:Size(min = 3, max = 150, message = "Asunto entre 3 y 150 caracteres")
+    @field:NotBlank(message = "Subject is required")
+    @field:Size(min = 3, max = 150, message = "Subject between 3 and 150 characters.")
     val subject: String,
 
-    @field:NotBlank(message = "El mensaje es obligatorio")
-    @field:Size(min = 10, max = 2000, message = "Mensaje entre 10 y 2000 caracteres")
+    @field:NotBlank(message = "Message is required")
+    @field:Size(min = 10, max = 2000, message = "Mensaje between 10 characters and 2000 characters.")
     val message: String,
 
     val website: String? = null

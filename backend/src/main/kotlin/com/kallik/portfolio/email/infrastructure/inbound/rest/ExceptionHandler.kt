@@ -16,16 +16,16 @@ class GlobalExceptionHandler {
     @ExceptionHandler(MethodArgumentNotValidException::class)
     fun handleValidation(ex: MethodArgumentNotValidException): ResponseEntity<Map<String, Any>> {
         val errors = ex.bindingResult.fieldErrors
-            .associate { it.field to (it.defaultMessage ?: "Inválido") }
+            .associate { it.field to (it.defaultMessage ?: "Invalid.") }
         return ResponseEntity.badRequest().body(mapOf("errors" to errors))
     }
 
     // Cualquier otro error → 500 genérico (no exponemos detalles internos)
     @ExceptionHandler(Exception::class)
     fun handleGeneral(ex: Exception): ResponseEntity<Map<String, String>> {
-        log.error("Error interno al procesar solicitud de contacto", ex)
+        log.error("Internal error while trying to process the contact.", ex)
         return ResponseEntity
             .status(HttpStatus.INTERNAL_SERVER_ERROR)
-            .body(mapOf("error" to "Error interno. Inténtalo más tarde."))
+            .body(mapOf("error" to "Internal error. Try again later."))
     }
 }
