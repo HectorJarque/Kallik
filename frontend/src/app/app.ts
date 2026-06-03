@@ -25,7 +25,6 @@ export class App {
   menu = signal(false);
   year = new Date().getFullYear();
 
-  // ── Contacto ───────────────────────────────────────────────────
   contactForm = {
     name: '',
     email: '',
@@ -38,8 +37,6 @@ export class App {
   contactSending = false;
   contactSent = false;
   contactError = false;
-
-  // ──────────────────────────────────────────────────────────────
 
   constructor() {
     effect(() => {
@@ -68,16 +65,16 @@ export class App {
     this.contactError = false;
 
     if (!this.contactForm.name || this.contactForm.name.trim().length < 2)
-      this.formErrors['name'] = 'Mínimo 2 caracteres';
+      this.formErrors['name'] = '2 characters minimum';
 
     if (!this.contactForm.email || !this.contactForm.email.includes('@'))
-      this.formErrors['email'] = 'Email no válido';
+      this.formErrors['email'] = 'Email not valid';
 
     if (!this.contactForm.subject || this.contactForm.subject.trim().length < 3)
-      this.formErrors['subject'] = 'Mínimo 3 caracteres';
+      this.formErrors['subject'] = '3 characters minimum';
 
     if (!this.contactForm.message || this.contactForm.message.trim().length < 10)
-      this.formErrors['message'] = 'Mínimo 10 caracteres';
+      this.formErrors['message'] = '10 characters minimum';
 
     if (Object.keys(this.formErrors).length > 0) return;
 
