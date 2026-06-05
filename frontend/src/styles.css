@@ -4,7 +4,7 @@
 
 :root {
   --color-bg: #111111;
-  --color-bg-surface: rgb(17 17 17 / 0.9);
+  --color-bg-surface: rgb(17 17 17 / 0.75);
   --color-bg-hover: #282828;
   --color-text: #e5e5e5;
   --color-text-muted: #6d6d6d;
