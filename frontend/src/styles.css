@@ -4,7 +4,7 @@
 
 :root {
   --color-bg: #111111;
-  --color-bg-surface: #1e1e1e;
+  --color-bg-surface: #1a1a1a;
   --color-bg-hover: #282828;
   --color-text: #e5e5e5;
   --color-text-muted: #6d6d6d;
@@ -15,7 +15,7 @@
 
 :root:not(.dark) {
   --color-bg: #f5f5f5;
-  --color-bg-surface: #eaeaea;
+  --color-bg-surface: #f6f6f6;
   --color-bg-hover: #dedede;
   --color-text: #111111;
   --color-text-muted: #8d8d8d;
