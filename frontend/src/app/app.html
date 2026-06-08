@@ -13,13 +13,35 @@
   </nav>
 
   <div class="header-actions">
-    <button class="lang-switch" (click)="cycleLanguage()">
-      <i class="pi pi-language"></i>
-      {{ lang().toUpperCase() }}
-    </button>
+    <p-select
+      [options]="languages"
+      optionLabel="label"
+      optionValue="code"
+      [ngModel]="lang()"
+      (ngModelChange)="changeLang($any($event))"
+      styleClass="lang-select"
+    >
+      <ng-template pTemplate="selectedItem" let-item>
+        @if (item) {
+          <div class="lang-option">
+            <img [src]="item.flag" [alt]="item.label" class="flag">
+            <span>{{ item.label }}</span>
+          </div>
+        }
+      </ng-template>
+
+      <ng-template pTemplate="item" let-item>
+        <div class="lang-option">
+          <img [src]="item.flag" [alt]="item.label" class="flag">
+          <span>{{ item.label }}</span>
+        </div>
+      </ng-template>
+    </p-select>
+
     <button (click)="toggleTheme()">
       <i [class]="dark() ? 'pi pi-moon' : 'pi pi-sun'"></i>
     </button>
+
     <button class="menu-toggle" (click)="toggleMenu()">
       <i [class]="menu() ? 'pi pi-times' : 'pi pi-bars'"></i>
     </button>

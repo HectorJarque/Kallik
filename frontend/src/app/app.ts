@@ -8,13 +8,22 @@ import { NgOptimizedImage } from '@angular/common';
 import { TranslatePipe } from './shared/pipes/translate.pipe';
 import { environment } from '../environments/environment';
 import { TranslationService, Lang } from './core/services/translation.service';
+import { SelectModule } from 'primeng/select';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.html',
   styleUrl: './app.css',
   standalone: true,
-  imports: [BadgeModule, TagModule, DividerModule, TranslatePipe, NgOptimizedImage, FormsModule]
+  imports: [
+    BadgeModule,
+    TagModule,
+    DividerModule,
+    TranslatePipe,
+    NgOptimizedImage,
+    FormsModule,
+    SelectModule
+  ]
 })
 export class App {
   private i18n = inject(TranslationService);
@@ -32,6 +41,16 @@ export class App {
     message: '',
     honeypot: ''
   };
+
+  readonly languages = [
+    { code: 'es', label: 'Español', flag: '/img/es.png' },
+    { code: 'en', label: 'English', flag: '/img/gb.png' },
+    { code: 'fr', label: 'Français', flag: '/img/fr.png' },
+    { code: 'it', label: 'Italiano', flag: '/img/it.png' },
+    { code: 'de', label: 'Deutsch', flag: '/img/de.png' },
+    { code: 'pt', label: 'Português', flag: '/img/pt.png' },
+    { code: 'zh', label: '中文', flag: '/img/cn.png' }
+  ];
 
   formErrors: Record<string, string> = {};
   contactSending = false;
@@ -108,22 +127,6 @@ export class App {
         }
       }
     });
-  }
-  readonly languages: Lang[] = [
-    'es',
-    'en',
-    'fr',
-    'it',
-    'de',
-    'pt',
-    'zh'
-  ];
-
-  cycleLanguage() {
-    const current = this.languages.indexOf(this.lang());
-    const next = (current + 1) % this.languages.length;
-
-    this.i18n.setLang(this.languages[next]);
   }
 }
 
