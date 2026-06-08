@@ -29,13 +29,17 @@ class JavaMailEmailSender(
     }
 
     private fun buildBody(msg: ContactMessage) = """
-        Nuevo mensaje desde el formulario de contacto de jarquebusiness.com del Portfolio
+        Nuevo mensaje desde el formulario de contacto de JarqueBusiness:
         ─────────────────────────────────────────
-        Nombre:  ${msg.name}
-        Email:   ${msg.email}
+        
+        Datos del remitente:        
+            Nombre:  ${msg.name}
+            Email:   ${msg.email}
+        
+        ─────────────────────────────────────────
         Asunto:  ${msg.subject}
         ─────────────────────────────────────────
-        ${msg.message}
+        Mensaje: ${msg.message}
         ─────────────────────────────────────────
     """.trimIndent()
 }
