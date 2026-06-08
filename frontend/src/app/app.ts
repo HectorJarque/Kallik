@@ -109,5 +109,21 @@ export class App {
       }
     });
   }
+  readonly languages: Lang[] = [
+    'es',
+    'en',
+    'fr',
+    'it',
+    'de',
+    'pt',
+    'zh'
+  ];
+
+  cycleLanguage() {
+    const current = this.languages.indexOf(this.lang());
+    const next = (current + 1) % this.languages.length;
+
+    this.i18n.setLang(this.languages[next]);
+  }
 }
 
