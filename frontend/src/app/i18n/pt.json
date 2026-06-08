@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "whatIDo": "O que faço",
+    "aboutMe": "Sobre mim",
+    "projects": "Projetos",
+    "contact": "Contacto"
+  },
+  "intro": {
+    "heading": "Crio websites rápidos, claros e fáceis de usar",
+    "tagline": "Sem coisas desnecessárias, sem websites lentos, sem dores de cabeça.",
+    "servicesOverview": "Dependendo das suas necessidades, posso criar um site simples ou algo mais interativo com formulários, funcionalidades de pesquisa ou funções avançadas.",
+    "hostingNote": "Normalmente não trato de domínios nem de alojamento, mas se não quiser preocupações posso tratar disso por si.",
+    "noticeTitle": "Este website está em desenvolvimento",
+    "noticeText": "Estou a migrar o meu portefólio para Angular + Spring Boot para apresentar mais funcionalidades."
+  },
+  "stats": {
+    "projects": "Projetos",
+    "types": "Tipos",
+    "remote": "Remoto",
+    "langs": "Idiomas",
+    "responseTime": "Tempo de resposta",
+    "budget": "Preço fixo",
+    "location": "Localização",
+    "type": "Fixo"
+  },
+  "services": {
+    "intro": "Posso criar diferentes tipos de websites, dependendo do que prefere",
+    "title": "Tipos de websites que crio",
+    "static": {
+      "title": "Website estático",
+      "description": "Uma página simples e rápida feita à medida. Sem sistemas complicados, sem manutenção constante.",
+      "loadTime": "Carregamento instantâneo.",
+      "hostingNote": "Pode alojá-lo em qualquer lugar. Nada para avariar.",
+      "ideal": "Exemplos reais que utilizam páginas web estáticas"
+    },
+    "dynamic": {
+      "title": "Website dinâmico",
+      "description": "Filtros, pesquisa, conteúdo atualizado instantaneamente, formulários inteligentes e ligações a APIs.",
+      "ideal": "Exemplos reais que utilizam páginas web dinâmicas"
+    },
+    "hybrid": {
+      "title": "Website híbrido",
+      "description": "Uma parte pública e outra privada para gerir conteúdos sem tocar no código.",
+      "ideal": "Exemplos reais que utilizam páginas web híbridas"
+    },
+    "pricing": {
+      "title": "Sobre os preços:",
+      "description": "Cada projeto é diferente, por isso os preços são discutidos sem compromisso."
+    }
+  },
+  "about": {
+    "title": "Quem está por trás disto",
+    "intro": "O meu nome é Héctor Jarque. Não venho de uma agência nem de um bootcamp milagroso. Aprendi fazendo, estragando e corrigindo coisas.",
+    "learning": "Comecei sem saber nada e fui aprendendo gradualmente até conseguir criar os websites e projetos que desenvolvo hoje.",
+    "honesty": "Não vou usar jargão técnico para impressionar. Se algo não puder ser feito, direi claramente.",
+    "location": "Vivo em Valência, Espanha. Trabalho remotamente e, se estiver por perto, podemos tomar um café.",
+    "techTitle": "Tecnologias com as quais estou familiarizado"
+  },
+  "projects": {
+    "intro": "Como continuo a aprender, criei diferentes websites",
+    "title": "Algumas coisas que construí",
+    "staticTag": "Website estático",
+    "dynamicTag": "Website dinâmico",
+    "hybridTag": "Website híbrido",
+    "portfolio": {
+      "title": "Website de portefólio pessoal",
+      "description": "O website que está a ver. Modo escuro/claro, multilingue, Angular + Spring Boot."
+    },
+    "isaac": {
+      "title": "Rastreador de Conquistas da Steam",
+      "description": "Ligue a sua conta Steam e analise as suas conquistas em tempo real."
+    },
+    "experience": {
+      "tag": "Experiência Profissional",
+      "title": "3 meses numa equipa de desenvolvimento fintech",
+      "description": "Frontend e backend, melhorias de funcionalidades e trabalho num ambiente tecnológico real."
+    }
+  },
+  "contact": {
+    "title": "Vamos conversar",
+    "emailPrompt": "O melhor é enviar-me um e-mail a explicar o que tem em mente.",
+    "existingSite": "Se já tiver um website, envie-me o link e eu darei uma vista de olhos.",
+    "noWorries": "Não precisa de perceber de tecnologia nem de ter tudo definido. Vamos moldar isso juntos.",
+    "github": "Mais projetos no GitHub",
+    "linkedin": "LinkedIn",
+    "formTitle": "Envie-me uma mensagem",
+    "name": "O seu nome",
+    "email": "O seu e-mail",
+    "subject": "Assunto",
+    "message": "Mensagem",
+    "send": "Enviar",
+    "successMessage": "Mensagem enviada! Responderei no prazo de 24 horas.",
+    "errorMessage": "Falha ao enviar. Sinta-se à vontade para me enviar um e-mail diretamente se isto continuar a acontecer.",
+    "sending": "A enviar..."
+  }
+}

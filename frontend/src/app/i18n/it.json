@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "whatIDo": "Cosa faccio",
+    "aboutMe": "Chi sono",
+    "projects": "Progetti",
+    "contact": "Contatti"
+  },
+  "intro": {
+    "heading": "Realizzo siti web veloci, chiari e facili da usare",
+    "tagline": "Niente cose inutili, niente siti lenti, niente grattacapi.",
+    "servicesOverview": "A seconda delle tue esigenze, posso creare un sito semplice oppure qualcosa di più interattivo con moduli, funzioni di ricerca o funzionalità avanzate.",
+    "hostingNote": "Di solito non mi occupo della gestione di domini o hosting, ma se non vuoi preoccuparti di nulla posso occuparmene io.",
+    "noticeTitle": "Questo sito web è in fase di sviluppo",
+    "noticeText": "Sto migrando il mio portfolio ad Angular + Spring Boot per mostrare più funzionalità."
+  },
+  "stats": {
+    "projects": "Progetti",
+    "types": "Tipi",
+    "remote": "Da remoto",
+    "langs": "Lingue",
+    "responseTime": "Tempo di risposta",
+    "budget": "Prezzo fisso",
+    "location": "Posizione",
+    "type": "Fisso"
+  },
+  "services": {
+    "intro": "Posso realizzare diversi tipi di siti web, a seconda di ciò che preferisci",
+    "title": "Tipi di siti web che realizzo",
+    "static": {
+      "title": "Sito web statico",
+      "description": "Una pagina semplice e veloce realizzata su misura. Nessun sistema complicato, nessuna manutenzione costante.",
+      "loadTime": "Caricamento immediato.",
+      "hostingNote": "Puoi ospitarlo ovunque. Nulla che possa rompersi.",
+      "ideal": "Esempi reali che utilizzano pagine web statiche"
+    },
+    "dynamic": {
+      "title": "Sito web dinamico",
+      "description": "Filtri, ricerca, contenuti che si aggiornano istantaneamente, moduli intelligenti e integrazioni API.",
+      "ideal": "Esempi reali che utilizzano pagine web dinamiche"
+    },
+    "hybrid": {
+      "title": "Sito web ibrido",
+      "description": "Una parte pubblica e una privata per gestire i contenuti senza toccare il codice.",
+      "ideal": "Esempi reali che utilizzano pagine web ibride"
+    },
+    "pricing": {
+      "title": "Informazioni sui prezzi:",
+      "description": "Ogni progetto è diverso, quindi i prezzi vengono discussi senza impegno."
+    }
+  },
+  "about": {
+    "title": "Chi c'è dietro tutto questo",
+    "intro": "Mi chiamo Héctor Jarque. Non provengo da un'agenzia né da un bootcamp miracoloso. Ho imparato facendo, rompendo e sistemando le cose.",
+    "learning": "Ho iniziato senza sapere nulla e mi sono formato gradualmente fino a poter creare i siti web e i progetti che realizzo oggi.",
+    "honesty": "Non userò termini tecnici per impressionarti. Se qualcosa non può essere fatto, te lo dirò.",
+    "location": "Vivo a Valencia, in Spagna. Lavoro da remoto e, se sei nei dintorni, possiamo prenderci un caffè.",
+    "techTitle": "Tecnologie che conosco"
+  },
+  "projects": {
+    "intro": "Poiché continuo a imparare, ho creato diversi siti web",
+    "title": "Alcune delle cose che ho realizzato",
+    "staticTag": "Sito web statico",
+    "dynamicTag": "Sito web dinamico",
+    "hybridTag": "Sito web ibrido",
+    "portfolio": {
+      "title": "Sito portfolio personale",
+      "description": "Il sito web che stai guardando. Modalità chiara/scura, multilingua, Angular + Spring Boot."
+    },
+    "isaac": {
+      "title": "Tracker degli obiettivi di Steam",
+      "description": "Collega il tuo account Steam e analizza i tuoi obiettivi in tempo reale."
+    },
+    "experience": {
+      "tag": "Esperienza lavorativa",
+      "title": "3 mesi in un team di sviluppo fintech",
+      "description": "Frontend e backend, miglioramento delle funzionalità e lavoro in un vero ambiente tecnologico."
+    }
+  },
+  "contact": {
+    "title": "Parliamone",
+    "emailPrompt": "La cosa migliore è inviarmi un'e-mail spiegandomi cosa hai in mente.",
+    "existingSite": "Se hai già un sito web, inviami il link e gli darò un'occhiata.",
+    "noWorries": "Non devi conoscere la tecnologia né avere tutto già pianificato. Lo costruiremo insieme.",
+    "github": "Altri progetti su GitHub",
+    "linkedin": "LinkedIn",
+    "formTitle": "Inviami un messaggio",
+    "name": "Il tuo nome",
+    "email": "La tua e-mail",
+    "subject": "Oggetto",
+    "message": "Messaggio",
+    "send": "Invia",
+    "successMessage": "Messaggio inviato! Ti risponderò entro 24 ore.",
+    "errorMessage": "Invio non riuscito. Sentiti libero di scrivermi direttamente via e-mail se il problema persiste.",
+    "sending": "Invio in corso..."
+  }
+}

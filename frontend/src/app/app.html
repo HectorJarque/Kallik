@@ -13,7 +13,17 @@
   </nav>
 
   <div class="header-actions">
-    <button (click)="toggleLang()">{{ lang() === 'es' ? 'ES' : 'EN' }}</button>
+    <select
+      [ngModel]="lang()"
+      (ngModelChange)="changeLang($any($event))">
+      <option value="es">ES</option>
+      <option value="en">EN</option>
+      <option value="fr">FR</option>
+      <option value="it">IT</option>
+      <option value="de">DE</option>
+      <option value="pt">PT</option>
+      <option value="zh">中文</option>
+    </select>
     <button (click)="toggleTheme()">
       <i [class]="dark() ? 'pi pi-moon' : 'pi pi-sun'"></i>
     </button>

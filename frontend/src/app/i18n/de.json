@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "whatIDo": "Was ich mache",
+    "aboutMe": "Über mich",
+    "projects": "Projekte",
+    "contact": "Kontakt"
+  },
+  "intro": {
+    "heading": "Ich erstelle schnelle, klare und benutzerfreundliche Websites",
+    "tagline": "Kein unnötiger Schnickschnack, keine langsamen Websites, keine Kopfschmerzen.",
+    "servicesOverview": "Je nach Ihren Anforderungen kann ich eine einfache Website erstellen oder etwas Interaktiveres mit Formularen, Suchfunktionen oder erweiterten Funktionen.",
+    "hostingNote": "Normalerweise kümmere ich mich nicht um Domains oder Hosting, aber wenn Sie sich um nichts kümmern möchten, kann ich das übernehmen.",
+    "noticeTitle": "Diese Website befindet sich in Entwicklung",
+    "noticeText": "Ich migriere mein Portfolio auf Angular + Spring Boot, um mehr Funktionen präsentieren zu können."
+  },
+  "stats": {
+    "projects": "Projekte",
+    "types": "Typen",
+    "remote": "Remote",
+    "langs": "Sprachen",
+    "responseTime": "Antwortzeit",
+    "budget": "Festpreis",
+    "location": "Standort",
+    "type": "Fest"
+  },
+  "services": {
+    "intro": "Ich kann verschiedene Arten von Websites erstellen, je nachdem, was Sie bevorzugen",
+    "title": "Arten von Websites, die ich erstelle",
+    "static": {
+      "title": "Statische Website",
+      "description": "Eine einfache und schnelle maßgeschneiderte Website. Keine komplizierten Systeme, keine ständige Wartung.",
+      "loadTime": "Sofortiges Laden.",
+      "hostingNote": "Überall hostbar. Nichts, was kaputtgehen kann.",
+      "ideal": "Praxisbeispiele für statische Webseiten"
+    },
+    "dynamic": {
+      "title": "Dynamische Website",
+      "description": "Filter, Suche, Inhalte, die sich sofort aktualisieren, intelligente Formulare und API-Anbindungen.",
+      "ideal": "Praxisbeispiele für dynamische Webseiten"
+    },
+    "hybrid": {
+      "title": "Hybride Website",
+      "description": "Ein öffentlicher Bereich und ein privater Bereich zur Verwaltung von Inhalten, ohne den Code anzufassen.",
+      "ideal": "Praxisbeispiele für hybride Webseiten"
+    },
+    "pricing": {
+      "title": "Zu den Preisen:",
+      "description": "Jedes Projekt ist unterschiedlich, daher werden die Preise unverbindlich besprochen."
+    }
+  },
+  "about": {
+    "title": "Wer dahinter steckt",
+    "intro": "Mein Name ist Héctor Jarque. Ich komme weder aus einer Agentur noch aus einem Wunder-Bootcamp. Ich habe gelernt, indem ich Dinge gemacht, kaputtgemacht und wieder repariert habe.",
+    "learning": "Ich habe bei null angefangen und mich Schritt für Schritt weitergebildet, bis ich die Websites und Projekte erstellen konnte, die ich heute entwickle.",
+    "honesty": "Ich werde Sie nicht mit Fachjargon beeindrucken wollen. Wenn etwas nicht machbar ist, sage ich es Ihnen.",
+    "location": "Ich lebe in Valencia, Spanien. Ich arbeite remote, und wenn Sie in der Nähe sind, können wir gerne einen Kaffee trinken gehen.",
+    "techTitle": "Technologien, mit denen ich vertraut bin"
+  },
+  "projects": {
+    "intro": "Da ich weiterhin dazulerne, habe ich verschiedene Websites erstellt",
+    "title": "Einige Dinge, die ich entwickelt habe",
+    "staticTag": "Statische Website",
+    "dynamicTag": "Dynamische Website",
+    "hybridTag": "Hybride Website",
+    "portfolio": {
+      "title": "Persönliche Portfolio-Website",
+      "description": "Die Website, die Sie gerade ansehen. Dunkel-/Hellmodus, mehrsprachig, Angular + Spring Boot."
+    },
+    "isaac": {
+      "title": "Steam-Erfolgs-Tracker",
+      "description": "Verbinden Sie Ihr Steam-Konto und analysieren Sie Ihre Erfolge in Echtzeit."
+    },
+    "experience": {
+      "tag": "Berufserfahrung",
+      "title": "3 Monate in einem Fintech-Entwicklungsteam",
+      "description": "Frontend und Backend, Funktionsverbesserungen und Arbeit in einem echten Technologieumfeld."
+    }
+  },
+  "contact": {
+    "title": "Lassen Sie uns sprechen",
+    "emailPrompt": "Am besten schicken Sie mir eine E-Mail und erzählen mir, was Sie vorhaben.",
+    "existingSite": "Falls Sie bereits eine Website haben, senden Sie mir den Link und ich schaue sie mir an.",
+    "noWorries": "Sie müssen sich weder mit Technik auskennen noch alles bereits geplant haben. Wir entwickeln es gemeinsam.",
+    "github": "Weitere Projekte auf GitHub",
+    "linkedin": "LinkedIn",
+    "formTitle": "Senden Sie mir eine Nachricht",
+    "name": "Ihr Name",
+    "email": "Ihre E-Mail-Adresse",
+    "subject": "Betreff",
+    "message": "Nachricht",
+    "send": "Senden",
+    "successMessage": "Nachricht gesendet! Ich melde mich innerhalb von 24 Stunden bei Ihnen.",
+    "errorMessage": "Senden fehlgeschlagen. Schreiben Sie mir gerne direkt eine E-Mail, falls das Problem weiterhin besteht.",
+    "sending": "Wird gesendet..."
+  }
+}

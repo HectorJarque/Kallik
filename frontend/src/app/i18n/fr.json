@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "whatIDo": "Ce que je fais",
+    "aboutMe": "À propos de moi",
+    "projects": "Projets",
+    "contact": "Contact"
+  },
+  "intro": {
+    "heading": "Je crée des sites web rapides, clairs et faciles à utiliser",
+    "tagline": "Pas de choses inutiles, pas de sites lents, pas de casse-tête.",
+    "servicesOverview": "Selon vos besoins, je peux réaliser un site simple ou quelque chose de plus interactif avec des formulaires, des fonctions de recherche ou des fonctionnalités avancées.",
+    "hostingNote": "Je ne gère généralement pas les domaines ni l’hébergement, mais si vous ne voulez aucun souci, je peux m’en occuper.",
+    "noticeTitle": "Ce site est en cours de développement",
+    "noticeText": "Je migre mon portfolio vers Angular + Spring Boot afin de présenter davantage de fonctionnalités."
+  },
+  "stats": {
+    "projects": "Projets",
+    "types": "Types",
+    "remote": "À distance",
+    "langs": "Langues",
+    "responseTime": "Temps de réponse",
+    "budget": "Budget fixe",
+    "location": "Localisation",
+    "type": "Fixe"
+  },
+  "services": {
+    "intro": "Je peux créer différents types de sites web, selon vos préférences",
+    "title": "Types de sites web que je crée",
+    "static": {
+      "title": "Site web statique",
+      "description": "Une page simple, rapide et réalisée sur mesure. Pas de systèmes compliqués, pas de maintenance constante.",
+      "loadTime": "Chargement instantané.",
+      "hostingNote": "Hébergez-le où vous voulez. Rien ne peut casser.",
+      "ideal": "Exemples concrets utilisant des pages web statiques"
+    },
+    "dynamic": {
+      "title": "Site web dynamique",
+      "description": "Filtres, recherche, contenu mis à jour instantanément, formulaires intelligents et connexions API.",
+      "ideal": "Exemples concrets utilisant des pages web dynamiques"
+    },
+    "hybrid": {
+      "title": "Site web hybride",
+      "description": "Une partie publique et une partie privée pour gérer le contenu sans toucher au code.",
+      "ideal": "Exemples concrets utilisant des pages web hybrides"
+    },
+    "pricing": {
+      "title": "À propos des tarifs :",
+      "description": "Chaque projet est différent, les prix sont donc discutés sans engagement."
+    }
+  },
+  "about": {
+    "title": "Qui se cache derrière tout ça",
+    "intro": "Je m’appelle Héctor Jarque. Je ne viens ni d’une agence ni d’un bootcamp miracle. J’ai appris en faisant, en cassant des choses et en les réparant.",
+    "learning": "J’ai commencé sans rien savoir et je me suis formé progressivement jusqu’à pouvoir créer les sites web et les projets que je réalise aujourd’hui.",
+    "honesty": "Je ne vais pas vous bombarder de jargon pour vous impressionner. Si quelque chose n’est pas réalisable, je vous le dirai.",
+    "location": "Je vis à Valence, en Espagne. Je travaille à distance et, si vous êtes dans les environs, nous pouvons aller prendre un café.",
+    "techTitle": "Technologies que je maîtrise"
+  },
+  "projects": {
+    "intro": "Comme je continue à apprendre, j’ai créé différents sites web",
+    "title": "Quelques réalisations",
+    "staticTag": "Site web statique",
+    "dynamicTag": "Site web dynamique",
+    "hybridTag": "Site web hybride",
+    "portfolio": {
+      "title": "Site web portfolio personnel",
+      "description": "Le site que vous êtes en train de consulter. Mode sombre/clair, multilingue, Angular + Spring Boot."
+    },
+    "isaac": {
+      "title": "Suivi des succès Steam",
+      "description": "Connectez votre compte Steam et analysez vos succès en temps réel."
+    },
+    "experience": {
+      "tag": "Expérience professionnelle",
+      "title": "3 mois dans une équipe de développement fintech",
+      "description": "Frontend et backend, amélioration de fonctionnalités et travail dans un véritable environnement technologique."
+    }
+  },
+  "contact": {
+    "title": "Parlons-en",
+    "emailPrompt": "Le mieux est de m’envoyer un e-mail en m’expliquant ce que vous avez en tête.",
+    "existingSite": "Si vous avez déjà un site web, envoyez-moi le lien et j’y jetterai un œil.",
+    "noWorries": "Vous n’avez pas besoin de vous y connaître en technologie ni d’avoir tout défini à l’avance. Nous construirons cela ensemble.",
+    "github": "Plus de projets sur GitHub",
+    "linkedin": "LinkedIn",
+    "formTitle": "Envoyez-moi un message",
+    "name": "Votre nom",
+    "email": "Votre e-mail",
+    "subject": "Objet",
+    "message": "Message",
+    "send": "Envoyer",
+    "successMessage": "Message envoyé ! Je vous répondrai dans les 24 heures.",
+    "errorMessage": "Échec de l’envoi. N’hésitez pas à m’envoyer directement un e-mail si le problème persiste.",
+    "sending": "Envoi en cours..."
+  }
+}

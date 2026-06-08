@@ -1,0 +1,96 @@
+{
+  "nav": {
+    "whatIDo": "我做什么",
+    "aboutMe": "关于我",
+    "projects": "项目",
+    "contact": "联系我"
+  },
+  "intro": {
+    "heading": "我打造快速、清晰且易于使用的网站",
+    "tagline": "没有多余的东西，没有缓慢的网站，也没有麻烦。",
+    "servicesOverview": "根据您的需求，我可以制作简单的网站，也可以开发带有表单、搜索功能或高级功能的互动型网站。",
+    "hostingNote": "我通常不负责域名或主机托管，但如果您不想操心这些事情，我也可以帮您处理。",
+    "noticeTitle": "本网站正在开发中",
+    "noticeText": "我正在将我的作品集迁移到 Angular + Spring Boot，以展示更多功能。"
+  },
+  "stats": {
+    "projects": "项目",
+    "types": "类型",
+    "remote": "远程",
+    "langs": "语言",
+    "responseTime": "响应时间",
+    "budget": "固定预算",
+    "location": "所在地",
+    "type": "固定"
+  },
+  "services": {
+    "intro": "我可以根据您的偏好制作不同类型的网站",
+    "title": "我制作的网站类型",
+    "static": {
+      "title": "静态网站",
+      "description": "简单快速的定制页面。没有复杂系统，也无需持续维护。",
+      "loadTime": "即时加载。",
+      "hostingNote": "可部署在任何地方。几乎没有出错的可能。",
+      "ideal": "使用静态网页的真实案例"
+    },
+    "dynamic": {
+      "title": "动态网站",
+      "description": "筛选、搜索、即时更新的内容、智能表单以及 API 集成。",
+      "ideal": "使用动态网页的真实案例"
+    },
+    "hybrid": {
+      "title": "混合型网站",
+      "description": "包含公开部分和私有管理部分，无需修改代码即可管理内容。",
+      "ideal": "使用混合型网页的真实案例"
+    },
+    "pricing": {
+      "title": "关于价格：",
+      "description": "每个项目都不同，因此价格会根据具体需求协商，无需承担任何义务。"
+    }
+  },
+  "about": {
+    "title": "幕后的人",
+    "intro": "我叫 Héctor Jarque。我既不来自代理公司，也不是出自所谓的速成训练营。我是在不断实践、出错和修复问题中成长起来的。",
+    "learning": "我从零开始学习，并逐步提升自己，直到能够构建如今这些网站和项目。",
+    "honesty": "我不会用专业术语来故作高深。如果某件事做不到，我会直接告诉您。",
+    "location": "我居住在西班牙瓦伦西亚。我远程工作，如果您也在附近，我们可以一起喝杯咖啡。",
+    "techTitle": "我熟悉的技术"
+  },
+  "projects": {
+    "intro": "由于我仍在不断学习，因此创建了各种不同的网站",
+    "title": "我构建的一些项目",
+    "staticTag": "静态网站",
+    "dynamicTag": "动态网站",
+    "hybridTag": "混合型网站",
+    "portfolio": {
+      "title": "个人作品集网站",
+      "description": "您正在浏览的网站。支持深色/浅色模式、多语言，使用 Angular + Spring Boot 构建。"
+    },
+    "isaac": {
+      "title": "Steam 成就追踪器",
+      "description": "连接您的 Steam 账户并实时分析您的游戏成就。"
+    },
+    "experience": {
+      "tag": "工作经验",
+      "title": "在一家金融科技开发团队工作 3 个月",
+      "description": "参与前端和后端开发、功能改进，并在真实的技术环境中工作。"
+    }
+  },
+  "contact": {
+    "title": "聊聊吧",
+    "emailPrompt": "最好的方式是给我发送一封电子邮件，告诉我您的想法。",
+    "existingSite": "如果您已经有网站，请把链接发给我，我会帮您看看。",
+    "noWorries": "您不需要懂技术，也不必事先把一切都规划好。我们可以一起完善它。",
+    "github": "GitHub 上的更多项目",
+    "linkedin": "LinkedIn",
+    "formTitle": "给我发送消息",
+    "name": "您的姓名",
+    "email": "您的电子邮箱",
+    "subject": "主题",
+    "message": "消息内容",
+    "send": "发送",
+    "successMessage": "消息已发送！我会在 24 小时内回复您。",
+    "errorMessage": "发送失败。如果问题持续出现，欢迎直接通过电子邮件联系我。",
+    "sending": "发送中..."
+  }
+}

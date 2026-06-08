@@ -6,8 +6,8 @@ import { DividerModule } from 'primeng/divider';
 import { FormsModule } from '@angular/forms';
 import { NgOptimizedImage } from '@angular/common';
 import { TranslatePipe } from './shared/pipes/translate.pipe';
-import { TranslationService } from './core/services/translation.service';
 import { environment } from '../environments/environment';
+import { TranslationService, Lang } from './core/services/translation.service';
 
 @Component({
   selector: 'app-root',
@@ -44,8 +44,8 @@ export class App {
     });
   }
 
-  toggleLang() {
-    this.i18n.setLang(this.lang() === 'es' ? 'en' : 'es');
+  changeLang(lang: Lang) {
+    this.i18n.setLang(lang);
   }
 
   toggleTheme() {
