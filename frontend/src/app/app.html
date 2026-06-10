@@ -6,10 +6,10 @@
   </a>
 
   <nav class="main-nav" [class.open]="menu()">
-    <a href="#que-hago" (click)="closeMenu()">{{ 'nav.whatIDo' | translate }}</a>
-    <a href="#sobre-mi" (click)="closeMenu()">{{ 'nav.aboutMe' | translate }}</a>
+    <a href="#que-hago" (click)="closeMenu()">{{ 'nav.whatIDo'  | translate }}</a>
+    <a href="#sobre-mi" (click)="closeMenu()">{{ 'nav.aboutMe'  | translate }}</a>
     <a href="#proyectos" (click)="closeMenu()">{{ 'nav.projects' | translate }}</a>
-    <a href="#contacto" (click)="closeMenu()">{{ 'nav.contact' | translate }}</a>
+    <a href="#contacto" (click)="closeMenu()">{{ 'nav.contact'  | translate }}</a>
   </nav>
 
   <div class="header-actions">
@@ -18,9 +18,8 @@
       optionLabel="label"
       optionValue="code"
       [ngModel]="lang()"
-      (ngModelChange)="changeLang($any($event))"
-      styleClass="lang-select"
-    >
+      (ngModelChange)="changeLang($event)"
+      styleClass="lang-select">
       <ng-template pTemplate="selectedItem" let-item>
         @if (item) {
           <div class="lang-option">
@@ -29,7 +28,6 @@
           </div>
         }
       </ng-template>
-
       <ng-template pTemplate="item" let-item>
         <div class="lang-option">
           <img [src]="item.flag" [alt]="item.label" class="flag">
@@ -38,15 +36,16 @@
       </ng-template>
     </p-select>
 
-    <button (click)="toggleTheme()">
+    <button (click)="toggleTheme()" [attr.aria-label]="'header.toggleTheme' | translate">
       <i [class]="dark() ? 'pi pi-moon' : 'pi pi-sun'"></i>
     </button>
 
-    <button class="menu-toggle" (click)="toggleMenu()">
+    <button class="menu-toggle" (click)="toggleMenu()" [attr.aria-label]="'header.toggleMenu' | translate">
       <i [class]="menu() ? 'pi pi-times' : 'pi pi-bars'"></i>
     </button>
   </div>
 </header>
+
 
 <!-- INTRO -->
 <section class="section-hero section-alt">
@@ -90,31 +89,40 @@
 
     <div class="services-grid">
 
-      <!-- Estático -->
-      <div class="card">
-        <span class="tag">{{ 'projects.staticTag' | translate }}</span>
+      <!-- Web estática -->
+      <div class="card card--service">
+        <div class="service-header">
+          <i class="pi pi-desktop"></i>
+          <span class="tag">{{ 'projects.staticTag' | translate }}</span>
+        </div>
         <h3>{{ 'services.static.title' | translate }}</h3>
         <p>{{ 'services.static.description' | translate }}</p>
         <p class="service-ideal">{{ 'services.static.ideal' | translate }}</p>
         <div class="site-examples">
           <span class="site-pill">
-            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=stripe.com" alt="Stripe" width="16" height="16">
-            Stripe
+            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=zara.com" alt="Zara" width="16" height="16">
+            Zara
           </span>
           <span class="site-pill">
-            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=linear.app" alt="Linear" width="16" height="16">
-            Linear
+            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=ikea.com" alt="IKEA" width="16" height="16">
+            IKEA
           </span>
           <span class="site-pill">
-            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=apple.com" alt="Apple" width="16" height="16">
-            Apple
+            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=cocacola.com"
+                 alt="Coca-Cola"
+                 width="16"
+                 height="16">
+            Coca-Cola
           </span>
         </div>
       </div>
 
-      <!-- Dinámico -->
-      <div class="card">
-        <span class="tag">{{ 'projects.dynamicTag' | translate }}</span>
+      <!-- Web dinámica -->
+      <div class="card card--service">
+        <div class="service-header">
+          <i class="pi pi-cog"></i>
+          <span class="tag">{{ 'projects.dynamicTag' | translate }}</span>
+        </div>
         <h3>{{ 'services.dynamic.title' | translate }}</h3>
         <p>{{ 'services.dynamic.description' | translate }}</p>
         <p class="service-ideal">{{ 'services.dynamic.ideal' | translate }}</p>
@@ -124,37 +132,49 @@
             Airbnb
           </span>
           <span class="site-pill">
-            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=figma.com" alt="Figma" width="16" height="16">
-            Figma
+            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=spotify.com"
+                 alt="Spotify"
+                 width="16"
+                 height="16">
+            Spotify
           </span>
           <span class="site-pill">
-            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=notion.so" alt="Notion" width="16" height="16">
-            Notion
+            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=instagram.com"
+                 alt="Instagram"
+                 width="16"
+                 height="16">
+            Instagram
           </span>
         </div>
       </div>
 
-      <!-- Híbrido -->
-      <div class="card">
-        <span class="tag">{{ 'projects.hybridTag' | translate }}</span>
+      <!-- Web híbrida -->
+      <div class="card card--service">
+        <div class="service-header">
+          <i class="pi pi-th-large"></i>
+          <span class="tag">{{ 'projects.hybridTag' | translate }}</span>
+        </div>
         <h3>{{ 'services.hybrid.title' | translate }}</h3>
         <p>{{ 'services.hybrid.description' | translate }}</p>
         <p class="service-ideal">{{ 'services.hybrid.ideal' | translate }}</p>
         <div class="site-examples">
           <span class="site-pill">
-            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=github.com" alt="GitHub" width="16" height="16">
-            GitHub
+            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=amazon.com" alt="Amazon" width="16" height="16">
+            Amazon
           </span>
           <span class="site-pill">
-            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=shopify.com"
-                 alt="Shopify"
+            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=booking.com"
+                 alt="Booking"
                  width="16"
                  height="16">
-            Shopify
+            Booking
           </span>
           <span class="site-pill">
-            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=vercel.com" alt="Vercel" width="16" height="16">
-            Vercel
+            <img ngSrc="https://www.google.com/s2/favicons?sz=20&domain=wikipedia.org"
+                 alt="Wikipedia"
+                 width="16"
+                 height="16">
+            Wikipedia
           </span>
         </div>
       </div>
@@ -179,7 +199,7 @@
         <p>{{ 'about.intro' | translate }}</p>
         <p>{{ 'about.location' | translate }}</p>
         <p>{{ 'about.learning' | translate }}</p>
-        <p>{{ 'about.honesty' | translate }}</p>
+        <p>{{ 'about.honesty'  | translate }}</p>
       </div>
 
       <div>
@@ -240,27 +260,52 @@
     <p class="section-intro">{{ 'projects.intro' | translate }}</p>
 
     <div class="cards-grid">
+
+      <!-- Portfolio con carrusel -->
       <div class="card">
-        <span class="tag">{{ 'projects.staticTag' | translate }}</span>
+        <div class="carousel">
+          @for (img of portfolioImages; track img; let i = $index) {
+            <img [src]="img"
+                 [alt]="('projects.portfolio.screenshotAlt' | translate) + ' ' + (i + 1)"
+                 [class.carousel-active]="carouselIndex() === i"
+            />
+          }
+          <div class="carousel-nav">
+            <button class="carousel-btn" (click)="prevCarousel()">
+              <i class="pi pi-chevron-left"></i>
+            </button>
+            <div class="carousel-dots">
+              @for (img of portfolioImages; track img; let i = $index) {
+                <button class="dot" [class.active]="carouselIndex() === i" (click)="setCarousel(i)"></button>
+              }
+            </div>
+            <button class="carousel-btn" (click)="nextCarousel()">
+              <i class="pi pi-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+        <span class="tag">{{ 'projects.hybridTag' | translate }}</span>
         <h3>{{ 'projects.portfolio.title' | translate }}</h3>
         <p>{{ 'projects.portfolio.description' | translate }}</p>
       </div>
 
+      <!-- UwU-Track -->
       <a class="card card--link"
-         href="https://hectorjarque.github.io/Isaac-Achievement-Tracker/"
+         href="https://github.com/HectorJarque/uwu-track"
          target="_blank" rel="noopener">
         <span class="tag">{{ 'projects.dynamicTag' | translate }}</span>
-        <h3>{{ 'projects.isaac.title' | translate }}</h3>
-        <p>{{ 'projects.isaac.description' | translate }}</p>
+        <h3>{{ 'projects.uwutrack.title' | translate }}</h3>
+        <p>{{ 'projects.uwutrack.description' | translate }}</p>
         <span class="card-link-hint">
-          <i class="pi pi-external-link"></i> Ver proyecto
+          <i class="pi pi-github"></i> {{ 'projects.viewOnGithub' | translate }}
         </span>
       </a>
+
     </div>
 
     <div class="card card--experience">
-      <span class="tag">{{ 'projects.experience.tag' | translate }}</span>
-      <h3>{{ 'projects.experience.title' | translate }}</h3>
+      <span class="tag">{{ 'projects.experience.tag'         | translate }}</span>
+      <h3>{{ 'projects.experience.title'       | translate }}</h3>
       <p>{{ 'projects.experience.description' | translate }}</p>
     </div>
   </div>
@@ -316,52 +361,58 @@
                    aria-hidden="true"
                    style="position:absolute; left:-9999px; opacity:0; height:0; width:0;"
             />
+
             <div class="form-row">
               <div class="field-wrap">
                 <input type="text"
+                       name="name"
                        [(ngModel)]="contactForm.name"
                        [placeholder]="'contact.name' | translate"
                        [class.input-error]="formErrors['name']"
                        maxlength="100"
                 />
                 @if (formErrors['name']) {
-                  <span class="field-error">{{ formErrors['name'] }}</span>
+                  <span class="field-error">{{ formErrors['name'] | translate }}</span>
                 }
               </div>
+
               <div class="field-wrap">
                 <input type="email"
+                       name="email"
                        [(ngModel)]="contactForm.email"
                        [placeholder]="'contact.email' | translate"
                        [class.input-error]="formErrors['email']"
                        maxlength="254"
                 />
                 @if (formErrors['email']) {
-                  <span class="field-error">{{ formErrors['email'] }}</span>
+                  <span class="field-error">{{ formErrors['email'] | translate }}</span>
                 }
               </div>
             </div>
 
             <div class="field-wrap">
               <input type="text"
+                     name="subject"
                      [(ngModel)]="contactForm.subject"
                      [placeholder]="'contact.subject' | translate"
                      [class.input-error]="formErrors['subject']"
                      maxlength="150"
               />
               @if (formErrors['subject']) {
-                <span class="field-error">{{ formErrors['subject'] }}</span>
+                <span class="field-error">{{ formErrors['subject'] | translate }}</span>
               }
             </div>
 
             <div class="field-wrap">
-              <textarea rows="4"
+              <textarea name="message"
+                        rows="4"
                         [(ngModel)]="contactForm.message"
                         [placeholder]="'contact.message' | translate"
                         [class.input-error]="formErrors['message']"
                         maxlength="2000"
               ></textarea>
               @if (formErrors['message']) {
-                <span class="field-error">{{ formErrors['message'] }}</span>
+                <span class="field-error">{{ formErrors['message'] | translate }}</span>
               }
             </div>
 
@@ -380,12 +431,16 @@
               <i [class]="contactSending ? 'pi pi-spin pi-spinner' : 'pi pi-send'"></i>
               {{ (contactSending ? 'contact.sending' : 'contact.send') | translate }}
             </button>
+
           </div>
+
         }
       </div>
+
     </div>
   </div>
 </section>
+
 
 <!-- FOOTER -->
 <footer class="site-footer">

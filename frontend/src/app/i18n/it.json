@@ -3,94 +3,111 @@
     "whatIDo": "Cosa faccio",
     "aboutMe": "Chi sono",
     "projects": "Progetti",
-    "contact": "Contatti"
+    "contact": "Contatto"
+  },
+  "header": {
+    "toggleTheme": "Cambia tema",
+    "toggleMenu": "Apri menu"
   },
   "intro": {
     "heading": "Realizzo siti web veloci, chiari e facili da usare",
-    "tagline": "Niente cose inutili, niente siti lenti, niente grattacapi.",
-    "servicesOverview": "A seconda delle tue esigenze, posso creare un sito semplice oppure qualcosa di più interattivo con moduli, funzioni di ricerca o funzionalità avanzate.",
-    "hostingNote": "Di solito non mi occupo della gestione di domini o hosting, ma se non vuoi preoccuparti di nulla posso occuparmene io.",
-    "noticeTitle": "Questo sito web è in fase di sviluppo",
-    "noticeText": "Sto migrando il mio portfolio ad Angular + Spring Boot per mostrare più funzionalità."
+    "tagline": "Niente elementi inutili, niente siti lenti e niente complicazioni.",
+    "servicesOverview": "A seconda delle tue esigenze, posso realizzare da un semplice sito web fino a uno più interattivo con moduli, motori di ricerca o funzionalità avanzate.",
+    "hostingNote": "Di norma non gestisco domini o hosting, ma se non vuoi complicazioni posso occuparmene io e includerlo nel preventivo."
   },
   "stats": {
-    "projects": "Progetti",
-    "types": "Tipi",
-    "remote": "Da remoto",
-    "langs": "Lingue",
     "responseTime": "Tempo di risposta",
+    "type": "Fisso",
     "budget": "Prezzo fisso",
-    "location": "Posizione",
-    "type": "Fisso"
+    "remote": "Remoto",
+    "langs": "Lingue"
   },
   "services": {
-    "intro": "Posso realizzare diversi tipi di siti web, a seconda di ciò che preferisci",
     "title": "Tipi di siti web che realizzo",
+    "intro": "A seconda delle tue esigenze, posso realizzare diversi tipi di siti web",
     "static": {
-      "title": "Sito web statico",
-      "description": "Una pagina semplice e veloce realizzata su misura. Nessun sistema complicato, nessuna manutenzione costante.",
-      "loadTime": "Caricamento immediato.",
-      "hostingNote": "Puoi ospitarlo ovunque. Nulla che possa rompersi.",
-      "ideal": "Esempi reali che utilizzano pagine web statiche"
+      "title": "Per mostrare ciò che offri",
+      "description": "Sito web semplice e veloce, realizzato su misura e senza complicazioni. Si carica all'istante e può essere ospitato ovunque.",
+      "ideal": "Marchi che utilizzano questo tipo di sito web"
     },
     "dynamic": {
-      "title": "Sito web dinamico",
-      "description": "Filtri, ricerca, contenuti che si aggiornano istantaneamente, moduli intelligenti e integrazioni API.",
-      "ideal": "Esempi reali che utilizzano pagine web dinamiche"
+      "title": "Per permettere ai tuoi utenti di interagire",
+      "description": "Filtri, motori di ricerca, contenuti che si aggiornano all'istante, moduli intelligenti e integrazioni con API esterne.",
+      "ideal": "Piattaforme che utilizzano questo tipo di sito web"
     },
     "hybrid": {
-      "title": "Sito web ibrido",
-      "description": "Una parte pubblica e una privata per gestire i contenuti senza toccare il codice.",
-      "ideal": "Esempi reali che utilizzano pagine web ibride"
+      "title": "Per gestire i tuoi contenuti",
+      "description": "Una parte pubblica per i clienti e una parte privata per gestire i contenuti senza toccare il codice.",
+      "ideal": "Servizi che utilizzano questo tipo di sito web"
     },
     "pricing": {
-      "title": "Informazioni sui prezzi:",
-      "description": "Ogni progetto è diverso, quindi i prezzi vengono discussi senza impegno."
+      "title": "Riguardo ai prezzi:",
+      "description": "Ogni progetto è diverso, quindi i prezzi vengono concordati senza impegno."
     }
   },
   "about": {
     "title": "Chi c'è dietro tutto questo",
-    "intro": "Mi chiamo Héctor Jarque. Non provengo da un'agenzia né da un bootcamp miracoloso. Ho imparato facendo, rompendo e sistemando le cose.",
-    "learning": "Ho iniziato senza sapere nulla e mi sono formato gradualmente fino a poter creare i siti web e i progetti che realizzo oggi.",
-    "honesty": "Non userò termini tecnici per impressionarti. Se qualcosa non può essere fatto, te lo dirò.",
-    "location": "Vivo a Valencia, in Spagna. Lavoro da remoto e, se sei nei dintorni, possiamo prenderci un caffè.",
-    "techTitle": "Tecnologie che conosco"
+    "intro": "Mi chiamo Héctor Jarque. Non provengo da un'agenzia né da un bootcamp miracoloso. Ho imparato costruendo cose, rompendo tutto e sistemandolo di nuovo.",
+    "location": "Vivo a Valencia. Lavoro da remoto senza problemi e, se sei nelle vicinanze, possiamo prenderci un caffè.",
+    "learning": "Ho iniziato senza capire nulla e, poco a poco, mi sono formato fino a riuscire a creare i siti web e i progetti che realizzo oggi.",
+    "honesty": "Non userò gergo tecnico per impressionarti. Se qualcosa non si può fare, te lo dirò.",
+    "techTitle": "Tecnologie che utilizzo abitualmente"
   },
   "projects": {
-    "intro": "Poiché continuo a imparare, ho creato diversi siti web",
-    "title": "Alcune delle cose che ho realizzato",
+    "title": "Alcune cose che ho realizzato",
+    "intro": "Per continuare a imparare, ho creato diversi progetti web",
     "staticTag": "Sito web statico",
     "dynamicTag": "Sito web dinamico",
     "hybridTag": "Sito web ibrido",
     "portfolio": {
-      "title": "Sito portfolio personale",
-      "description": "Il sito web che stai guardando. Modalità chiara/scura, multilingua, Angular + Spring Boot."
+      "title": "Questo portfolio",
+      "description": "Il sito che stai visualizzando. Realizzato con Angular, Spring Boot e MongoDB — include un modulo di contatto funzionante e supporto multilingua.",
+      "screenshotAlt": "Screenshot del portfolio"
     },
-    "isaac": {
-      "title": "Tracker degli obiettivi di Steam",
-      "description": "Collega il tuo account Steam e analizza i tuoi obiettivi in tempo reale."
+    "uwutrack": {
+      "title": "UwU-Track",
+      "description": "Piattaforma locale per lo scraping e la lettura di manga. Aggiungi l'URL del tuo manga preferito e UwU-Track lo scaricherà automaticamente, mantenendolo aggiornato capitolo dopo capitolo."
     },
     "experience": {
       "tag": "Esperienza lavorativa",
       "title": "3 mesi in un team di sviluppo fintech",
-      "description": "Frontend e backend, miglioramento delle funzionalità e lavoro in un vero ambiente tecnologico."
-    }
+      "description": "Sviluppo frontend e backend, miglioramento delle funzionalità e lavoro in un vero ambiente tecnologico."
+    },
+    "viewOnGithub": "Vedi su GitHub"
   },
   "contact": {
     "title": "Parliamone",
-    "emailPrompt": "La cosa migliore è inviarmi un'e-mail spiegandomi cosa hai in mente.",
-    "existingSite": "Se hai già un sito web, inviami il link e gli darò un'occhiata.",
-    "noWorries": "Non devi conoscere la tecnologia né avere tutto già pianificato. Lo costruiremo insieme.",
-    "github": "Altri progetti su GitHub",
-    "linkedin": "LinkedIn",
+    "emailPrompt": "La cosa migliore è scrivermi un'e-mail spiegandomi cosa hai in mente.",
+    "existingSite": "Se hai già un sito web, inviarmelo e gli darò un'occhiata.",
+    "noWorries": "Non serve conoscere la tecnologia né avere tutto già definito. Lo costruiremo insieme.",
     "formTitle": "Inviami un messaggio",
     "name": "Il tuo nome",
     "email": "La tua e-mail",
     "subject": "Oggetto",
     "message": "Messaggio",
     "send": "Invia",
+    "sending": "Invio in corso...",
     "successMessage": "Messaggio inviato! Ti risponderò entro 24 ore.",
-    "errorMessage": "Invio non riuscito. Sentiti libero di scrivermi direttamente via e-mail se il problema persiste.",
-    "sending": "Invio in corso..."
+    "errorMessage": "Errore durante l'invio. Scrivimi direttamente se il problema persiste."
+  },
+  "validation": {
+    "name": {
+      "minLength": "Minimo 2 caratteri",
+      "pattern": "Solo lettere, spazi e trattini"
+    },
+    "email": {
+      "required": "L'e-mail è obbligatoria",
+      "format": "Inserisci un indirizzo e-mail valido (es: nome@dominio.com)"
+    },
+    "subject": {
+      "minLength": "Minimo 3 caratteri"
+    },
+    "message": {
+      "minLength": "Minimo 10 caratteri"
+    }
+  },
+  "carousel": {
+    "prev": "Precedente",
+    "next": "Successivo"
   }
 }

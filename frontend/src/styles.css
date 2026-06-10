@@ -22,10 +22,22 @@
   --color-border: #c8c8c8;
 }
 
+/* ── Base ─────────────────────────────────────────────────────── */
 body {
   background-color: var(--color-bg);
   color: var(--color-text);
   font-family: system-ui, -apple-system, sans-serif;
+  line-height: 1.65;
+}
+
+p {
+  margin: 0 0 .5rem;
+  line-height: 1.65;
+  color: var(--color-text-muted);
+}
+
+p:last-child {
+  margin-bottom: 0;
 }
 
 .container {
@@ -35,7 +47,7 @@ body {
 }
 
 
-/* ── Header ── */
+/* ── Header ───────────────────────────────────────────────────── */
 .site-header {
   position: sticky;
   top: 0;
@@ -47,6 +59,7 @@ body {
   height: 56px;
   background: var(--color-bg-surface);
   border-bottom: 1px solid var(--color-border);
+  backdrop-filter: blur(8px);
 }
 
 .brand {
@@ -116,7 +129,8 @@ body {
   min-width: 170px;
 }
 
-/* ── Sections ── */
+
+/* ── Sections ─────────────────────────────────────────────────── */
 section {
   padding: 2.5rem 0;
 }
@@ -128,6 +142,11 @@ section {
 h2 {
   margin: 0 0 .5rem;
   font-size: 1.4rem;
+  color: var(--color-text);
+}
+
+h3 {
+  color: var(--color-text);
 }
 
 .section-intro {
@@ -136,7 +155,8 @@ h2 {
   font-size: .9rem;
 }
 
-/* ── Hero ── */
+
+/* ── Hero ─────────────────────────────────────────────────────── */
 .section-hero {
   padding: 3rem 0;
 }
@@ -148,10 +168,17 @@ h2 {
   align-items: center;
 }
 
+.hero-grid h1 {
+  color: var(--color-text);
+  margin: 0 0 .25rem;
+  font-size: 1.75rem;
+}
+
 .hero-tagline {
   font-size: 1.1rem;
   font-weight: 600;
   margin: .25rem 0 .75rem;
+  color: var(--color-text) !important;
 }
 
 .hero-stats {
@@ -172,6 +199,7 @@ h2 {
   display: block;
   font-size: 1.4rem;
   font-weight: 700;
+  color: var(--color-text);
 }
 
 .stat-label {
@@ -179,28 +207,29 @@ h2 {
   color: var(--color-text-muted);
 }
 
-.notice {
-  display: flex;
-  gap: .75rem;
-  align-items: flex-start;
-  background: var(--color-bg);
-  border: 1px solid var(--color-border);
-  border-radius: 8px;
-  padding: .75rem 1rem;
-  margin-top: 1rem;
-  font-size: .85rem;
-}
 
-.notice p {
-  margin: .15rem 0 0;
-  color: var(--color-text-muted);
-}
-
-/* ── Services ── */
+/* ── Services ─────────────────────────────────────────────────── */
 .services-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 1rem;
+}
+
+.card--service .service-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: .65rem;
+}
+
+.card--service .service-header .pi {
+  font-size: 1.4rem;
+  color: var(--color-primary);
+}
+
+.card--service h3 {
+  margin: 0 0 .5rem;
+  font-size: 1rem;
 }
 
 .site-examples {
@@ -232,7 +261,8 @@ h2 {
   font-style: italic;
 }
 
-/* ── Cards ── */
+
+/* ── Cards ────────────────────────────────────────────────────── */
 .cards-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
@@ -254,9 +284,7 @@ h2 {
 }
 
 .card p {
-  color: var(--color-text-muted);
   font-size: .875rem;
-  margin: 0;
 }
 
 .card--link {
@@ -283,10 +311,14 @@ h2 {
 .pricing-note {
   margin-top: 1.25rem;
   font-size: .875rem;
-  color: var(--color-text-muted);
 }
 
-/* ── Tags ── */
+.pricing-note strong {
+  color: var(--color-text);
+}
+
+
+/* ── Tags ─────────────────────────────────────────────────────── */
 .tag {
   display: inline-block;
   padding: 2px 10px;
@@ -299,7 +331,86 @@ h2 {
   color: var(--color-text-muted);
 }
 
-/* ── About ── */
+
+/* ── Carrusel ─────────────────────────────────────────────────── */
+.carousel {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+}
+
+.carousel img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity .6s ease;
+}
+
+.carousel img.carousel-active {
+  opacity: 1;
+}
+
+.carousel-nav {
+  position: absolute;
+  bottom: .5rem;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .5rem;
+}
+
+.carousel-btn {
+  background: rgb(0 0 0 / .45);
+  border: none;
+  color: #fff;
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .65rem;
+  transition: background .15s;
+  padding: 0;
+}
+
+.carousel-btn:hover {
+  background: rgb(0 0 0 / .7);
+}
+
+.carousel-dots {
+  display: flex;
+  gap: .35rem;
+}
+
+.dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  border: none;
+  background: rgb(255 255 255 / .45);
+  cursor: pointer;
+  padding: 0;
+  transition: background .15s;
+}
+
+.dot.active {
+  background: #fff;
+}
+
+
+/* ── About ────────────────────────────────────────────────────── */
 .about-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -329,7 +440,8 @@ h2 {
   color: var(--color-text-muted);
 }
 
-/* ── Contact ── */
+
+/* ── Contact ──────────────────────────────────────────────────── */
 .contact-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -382,6 +494,7 @@ h2 {
   border-radius: 8px;
   margin-bottom: 1rem;
   font-size: .9rem;
+  color: inherit;
 }
 
 .form-feedback--ok {
@@ -421,6 +534,7 @@ h2 {
   font-size: .875rem;
   font-family: inherit;
   resize: vertical;
+  transition: border-color .15s;
 }
 
 .contact-form input:focus,
@@ -441,15 +555,22 @@ h2 {
   border: none;
   cursor: pointer;
   font-size: .875rem;
-  transition: background .15s;
+  font-family: inherit;
+  transition: background .15s, opacity .15s;
   align-self: flex-start;
 }
 
-.btn-send:hover {
+.btn-send:hover:not(:disabled) {
   background: var(--color-primary-hover);
 }
 
-/* ── Footer ── */
+.btn-send:disabled {
+  opacity: .6;
+  cursor: not-allowed;
+}
+
+
+/* ── Footer ───────────────────────────────────────────────────── */
 .site-footer {
   border-top: 1px solid var(--color-border);
 }
@@ -494,6 +615,7 @@ h2 {
 
 .footer-social a {
   color: var(--color-text-muted);
+  transition: color .15s;
 }
 
 .footer-social a:hover {
@@ -506,7 +628,8 @@ h2 {
   margin-left: .5rem;
 }
 
-/* ── Mobile ── */
+
+/* ── Mobile ───────────────────────────────────────────────────── */
 @media (max-width: 768px) {
   .main-nav {
     display: none;

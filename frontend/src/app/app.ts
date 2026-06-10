@@ -1,4 +1,4 @@
-import { Component, effect, inject, signal } from '@angular/core';
+import { Component, DestroyRef, effect, inject, signal } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { BadgeModule } from 'primeng/badge';
 import { TagModule } from 'primeng/tag';
@@ -28,19 +28,12 @@ import { SelectModule } from 'primeng/select';
 export class App {
   private i18n = inject(TranslationService);
   private http = inject(HttpClient);
+  private destroyRef = inject(DestroyRef);
 
   lang = this.i18n.lang;
   dark = signal(true);
   menu = signal(false);
   year = new Date().getFullYear();
-
-  contactForm = {
-    name: '',
-    email: '',
-    subject: '',
-    message: '',
-    honeypot: ''
-  };
 
   readonly languages = [
     { code: 'es', label: 'Español', flag: '/img/es.png' },
@@ -52,19 +45,28 @@ export class App {
     { code: 'zh', label: '中文', flag: '/img/cn.png' }
   ];
 
+  readonly portfolioImages = ['/img/imagen1.png', '/img/imagen2.png', '/img/imagen3.png'];
+  carouselIndex = signal(0);
+
+  contactForm = { name: '', email: '', subject: '', message: '', honeypot: '' };
   formErrors: Record<string, string> = {};
   contactSending = false;
   contactSent = false;
   contactError = false;
 
+  private readonly emailRegex = /^[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$/;
+  private readonly nameRegex = /^[\p{L}\s'\-]+$/u;
+
   constructor() {
     effect(() => {
       document.documentElement.classList.toggle('dark', this.dark());
     });
-  }
 
-  changeLang(lang: Lang) {
-    this.i18n.setLang(lang);
+    const interval = setInterval(
+      () => this.carouselIndex.update(i => (i + 1) % this.portfolioImages.length),
+      4000
+    );
+    this.destroyRef.onDestroy(() => clearInterval(interval));
   }
 
   toggleTheme() {
@@ -79,28 +81,41 @@ export class App {
     this.menu.set(false);
   }
 
-  private readonly emailRegex = /^[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$/;
-  private readonly nameRegex  = /^[\p{L}\s'\-]+$/u;
+  changeLang(lang: string) {
+    this.i18n.setLang(lang as Lang);
+  }
+
+  prevCarousel() {
+    this.carouselIndex.update(i => (i - 1 + this.portfolioImages.length) % this.portfolioImages.length);
+  }
+
+  nextCarousel() {
+    this.carouselIndex.update(i => (i + 1) % this.portfolioImages.length);
+  }
+
+  setCarousel(i: number) {
+    this.carouselIndex.set(i);
+  }
 
   sendContactMessage(): void {
     this.formErrors = {};
     this.contactError = false;
 
     if (!this.contactForm.name || this.contactForm.name.trim().length < 2)
-      this.formErrors['name'] = '2 characters minimum';
+      this.formErrors['name'] = 'validation.name.minLength';
     else if (!this.nameRegex.test(this.contactForm.name.trim()))
-      this.formErrors['name'] = 'Only letters, spaces and hyphens ';
+      this.formErrors['name'] = 'validation.name.pattern';
 
     if (!this.contactForm.email)
-      this.formErrors['email'] = 'Email required';
+      this.formErrors['email'] = 'validation.email.required';
     else if (!this.emailRegex.test(this.contactForm.email.trim()))
-      this.formErrors['email'] = 'A valid email is required)';
+      this.formErrors['email'] = 'validation.email.format';
 
     if (!this.contactForm.subject || this.contactForm.subject.trim().length < 3)
-      this.formErrors['subject'] = '3 characters minimum';
+      this.formErrors['subject'] = 'validation.subject.minLength';
 
     if (!this.contactForm.message || this.contactForm.message.trim().length < 10)
-      this.formErrors['message'] = '10 characters minimum';
+      this.formErrors['message'] = 'validation.message.minLength';
 
     if (Object.keys(this.formErrors).length > 0) return;
 
@@ -129,4 +144,3 @@ export class App {
     });
   }
 }
-

@@ -3,94 +3,111 @@
     "whatIDo": "我做什么",
     "aboutMe": "关于我",
     "projects": "项目",
-    "contact": "联系我"
+    "contact": "联系"
+  },
+  "header": {
+    "toggleTheme": "切换主题",
+    "toggleMenu": "打开菜单"
   },
   "intro": {
     "heading": "我打造快速、清晰且易于使用的网站",
-    "tagline": "没有多余的东西，没有缓慢的网站，也没有麻烦。",
-    "servicesOverview": "根据您的需求，我可以制作简单的网站，也可以开发带有表单、搜索功能或高级功能的互动型网站。",
-    "hostingNote": "我通常不负责域名或主机托管，但如果您不想操心这些事情，我也可以帮您处理。",
-    "noticeTitle": "本网站正在开发中",
-    "noticeText": "我正在将我的作品集迁移到 Angular + Spring Boot，以展示更多功能。"
+    "tagline": "没有多余的东西，没有缓慢的网站，也不会让事情变得复杂。",
+    "servicesOverview": "根据你的需求，我可以制作从简单网站到带有表单、搜索功能或更高级功能的互动网站。",
+    "hostingNote": "我通常不负责域名和主机服务，但如果你不想操心这些事情，我可以代为处理，并将其计入报价。"
   },
   "stats": {
-    "projects": "项目",
-    "types": "类型",
-    "remote": "远程",
-    "langs": "语言",
     "responseTime": "响应时间",
-    "budget": "固定预算",
-    "location": "所在地",
-    "type": "固定"
+    "type": "固定",
+    "budget": "固定报价",
+    "remote": "远程",
+    "langs": "语言"
   },
   "services": {
-    "intro": "我可以根据您的偏好制作不同类型的网站",
-    "title": "我制作的网站类型",
+    "title": "我提供的网站类型",
+    "intro": "根据你的需求，我可以制作不同类型的网站",
     "static": {
-      "title": "静态网站",
-      "description": "简单快速的定制页面。没有复杂系统，也无需持续维护。",
-      "loadTime": "即时加载。",
-      "hostingNote": "可部署在任何地方。几乎没有出错的可能。",
-      "ideal": "使用静态网页的真实案例"
+      "title": "用于展示你的业务",
+      "description": "简单快速的定制网站，没有复杂流程。加载迅速，可部署在任何地方。",
+      "ideal": "使用此类网站的品牌"
     },
     "dynamic": {
-      "title": "动态网站",
-      "description": "筛选、搜索、即时更新的内容、智能表单以及 API 集成。",
-      "ideal": "使用动态网页的真实案例"
+      "title": "让用户参与互动",
+      "description": "筛选器、搜索功能、实时更新内容、智能表单以及与外部 API 的集成。",
+      "ideal": "使用此类网站的平台"
     },
     "hybrid": {
-      "title": "混合型网站",
-      "description": "包含公开部分和私有管理部分，无需修改代码即可管理内容。",
-      "ideal": "使用混合型网页的真实案例"
+      "title": "用于管理你的内容",
+      "description": "面向客户的公开部分，以及无需编写代码即可管理内容的私有部分。",
+      "ideal": "使用此类网站的服务"
     },
     "pricing": {
       "title": "关于价格：",
-      "description": "每个项目都不同，因此价格会根据具体需求协商，无需承担任何义务。"
+      "description": "每个项目都不同，因此价格会根据具体需求协商，没有任何义务。"
     }
   },
   "about": {
     "title": "幕后的人",
-    "intro": "我叫 Héctor Jarque。我既不来自代理公司，也不是出自所谓的速成训练营。我是在不断实践、出错和修复问题中成长起来的。",
-    "learning": "我从零开始学习，并逐步提升自己，直到能够构建如今这些网站和项目。",
-    "honesty": "我不会用专业术语来故作高深。如果某件事做不到，我会直接告诉您。",
-    "location": "我居住在西班牙瓦伦西亚。我远程工作，如果您也在附近，我们可以一起喝杯咖啡。",
-    "techTitle": "我熟悉的技术"
+    "intro": "我叫 Héctor Jarque。我既不是来自代理机构，也不是来自所谓的神奇训练营。我是在不断实践、出错和修复中学会这一切的。",
+    "location": "我住在瓦伦西亚。远程工作完全没问题，如果你也在附近，我们还可以一起喝杯咖啡。",
+    "learning": "我最初什么都不懂，后来一步一步学习，直到能够创建如今这些网站和项目。",
+    "honesty": "我不会用专业术语来故作高深。如果某件事做不到，我会直接告诉你。",
+    "techTitle": "我常用的技术"
   },
   "projects": {
-    "intro": "由于我仍在不断学习，因此创建了各种不同的网站",
-    "title": "我构建的一些项目",
+    "title": "我做过的一些项目",
+    "intro": "为了不断学习和提升，我创建了不同的 Web 项目",
     "staticTag": "静态网站",
     "dynamicTag": "动态网站",
     "hybridTag": "混合型网站",
     "portfolio": {
-      "title": "个人作品集网站",
-      "description": "您正在浏览的网站。支持深色/浅色模式、多语言，使用 Angular + Spring Boot 构建。"
+      "title": "这个作品集网站",
+      "description": "你现在看到的网站。使用 Angular、Spring Boot 和 MongoDB 构建——包含可用的联系表单和多语言支持。",
+      "screenshotAlt": "作品集截图"
     },
-    "isaac": {
-      "title": "Steam 成就追踪器",
-      "description": "连接您的 Steam 账户并实时分析您的游戏成就。"
+    "uwutrack": {
+      "title": "UwU-Track",
+      "description": "本地漫画抓取与阅读平台。添加你喜欢的漫画网址后，UwU-Track 会自动下载并逐话保持更新。"
     },
     "experience": {
       "tag": "工作经验",
-      "title": "在一家金融科技开发团队工作 3 个月",
-      "description": "参与前端和后端开发、功能改进，并在真实的技术环境中工作。"
-    }
+      "title": "在金融科技开发团队工作 3 个月",
+      "description": "负责前端与后端开发、功能改进，并在真实技术环境中工作。"
+    },
+    "viewOnGithub": "在 GitHub 上查看"
   },
   "contact": {
     "title": "聊聊吧",
-    "emailPrompt": "最好的方式是给我发送一封电子邮件，告诉我您的想法。",
-    "existingSite": "如果您已经有网站，请把链接发给我，我会帮您看看。",
-    "noWorries": "您不需要懂技术，也不必事先把一切都规划好。我们可以一起完善它。",
-    "github": "GitHub 上的更多项目",
-    "linkedin": "LinkedIn",
+    "emailPrompt": "最好的方式是给我发邮件，告诉我你的想法。",
+    "existingSite": "如果你已经有网站，发给我看看，我会帮你评估。",
+    "noWorries": "你不需要懂技术，也不需要把一切都想清楚。我们可以一起完善它。",
     "formTitle": "给我发送消息",
-    "name": "您的姓名",
-    "email": "您的电子邮箱",
+    "name": "你的名字",
+    "email": "你的邮箱",
     "subject": "主题",
-    "message": "消息内容",
+    "message": "消息",
     "send": "发送",
-    "successMessage": "消息已发送！我会在 24 小时内回复您。",
-    "errorMessage": "发送失败。如果问题持续出现，欢迎直接通过电子邮件联系我。",
-    "sending": "发送中..."
+    "sending": "发送中...",
+    "successMessage": "消息已发送！我会在 24 小时内回复你。",
+    "errorMessage": "发送失败。如果问题持续存在，请直接联系我。"
+  },
+  "validation": {
+    "name": {
+      "minLength": "至少 2 个字符",
+      "pattern": "仅允许字母、空格和连字符"
+    },
+    "email": {
+      "required": "邮箱为必填项",
+      "format": "请输入有效的邮箱地址（例如：name@domain.com）"
+    },
+    "subject": {
+      "minLength": "至少 3 个字符"
+    },
+    "message": {
+      "minLength": "至少 10 个字符"
+    }
+  },
+  "carousel": {
+    "prev": "上一项",
+    "next": "下一项"
   }
 }

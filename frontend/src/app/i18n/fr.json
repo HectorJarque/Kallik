@@ -5,92 +5,109 @@
     "projects": "Projets",
     "contact": "Contact"
   },
+  "header": {
+    "toggleTheme": "Changer de thème",
+    "toggleMenu": "Ouvrir le menu"
+  },
   "intro": {
     "heading": "Je crée des sites web rapides, clairs et faciles à utiliser",
-    "tagline": "Pas de choses inutiles, pas de sites lents, pas de casse-tête.",
-    "servicesOverview": "Selon vos besoins, je peux réaliser un site simple ou quelque chose de plus interactif avec des formulaires, des fonctions de recherche ou des fonctionnalités avancées.",
-    "hostingNote": "Je ne gère généralement pas les domaines ni l’hébergement, mais si vous ne voulez aucun souci, je peux m’en occuper.",
-    "noticeTitle": "Ce site est en cours de développement",
-    "noticeText": "Je migre mon portfolio vers Angular + Spring Boot afin de présenter davantage de fonctionnalités."
+    "tagline": "Sans éléments inutiles, sans sites lents et sans vous compliquer la vie.",
+    "servicesOverview": "Selon vos besoins, je peux créer aussi bien un site web simple qu’un site plus interactif avec des formulaires, des moteurs de recherche ou des fonctionnalités avancées.",
+    "hostingNote": "Je ne gère pas habituellement les domaines ni l’hébergement, mais si vous préférez éviter les complications, je peux m’en occuper et l’inclure dans le devis."
   },
   "stats": {
-    "projects": "Projets",
-    "types": "Types",
-    "remote": "À distance",
-    "langs": "Langues",
     "responseTime": "Temps de réponse",
+    "type": "Fixe",
     "budget": "Budget fixe",
-    "location": "Localisation",
-    "type": "Fixe"
+    "remote": "À distance",
+    "langs": "Langues"
   },
   "services": {
-    "intro": "Je peux créer différents types de sites web, selon vos préférences",
-    "title": "Types de sites web que je crée",
+    "title": "Types de sites web que je réalise",
+    "intro": "Selon vos besoins, je peux créer différents types de sites web",
     "static": {
-      "title": "Site web statique",
-      "description": "Une page simple, rapide et réalisée sur mesure. Pas de systèmes compliqués, pas de maintenance constante.",
-      "loadTime": "Chargement instantané.",
-      "hostingNote": "Hébergez-le où vous voulez. Rien ne peut casser.",
-      "ideal": "Exemples concrets utilisant des pages web statiques"
+      "title": "Pour présenter ce que vous proposez",
+      "description": "Site web simple et rapide, conçu sur mesure et sans complications. Chargement instantané et hébergement possible partout.",
+      "ideal": "Marques utilisant ce type de site web"
     },
     "dynamic": {
-      "title": "Site web dynamique",
-      "description": "Filtres, recherche, contenu mis à jour instantanément, formulaires intelligents et connexions API.",
-      "ideal": "Exemples concrets utilisant des pages web dynamiques"
+      "title": "Pour permettre à vos utilisateurs d’interagir",
+      "description": "Filtres, moteurs de recherche, contenu mis à jour instantanément, formulaires intelligents et connexions à des API externes.",
+      "ideal": "Plateformes utilisant ce type de site web"
     },
     "hybrid": {
-      "title": "Site web hybride",
-      "description": "Une partie publique et une partie privée pour gérer le contenu sans toucher au code.",
-      "ideal": "Exemples concrets utilisant des pages web hybrides"
+      "title": "Pour gérer votre contenu",
+      "description": "Une partie publique pour les clients et une partie privée pour gérer le contenu sans toucher au code.",
+      "ideal": "Services utilisant ce type de site web"
     },
     "pricing": {
       "title": "À propos des tarifs :",
-      "description": "Chaque projet est différent, les prix sont donc discutés sans engagement."
+      "description": "Chaque projet est différent, les tarifs sont donc discutés sans engagement."
     }
   },
   "about": {
-    "title": "Qui se cache derrière tout ça",
-    "intro": "Je m’appelle Héctor Jarque. Je ne viens ni d’une agence ni d’un bootcamp miracle. J’ai appris en faisant, en cassant des choses et en les réparant.",
-    "learning": "J’ai commencé sans rien savoir et je me suis formé progressivement jusqu’à pouvoir créer les sites web et les projets que je réalise aujourd’hui.",
-    "honesty": "Je ne vais pas vous bombarder de jargon pour vous impressionner. Si quelque chose n’est pas réalisable, je vous le dirai.",
-    "location": "Je vis à Valence, en Espagne. Je travaille à distance et, si vous êtes dans les environs, nous pouvons aller prendre un café.",
-    "techTitle": "Technologies que je maîtrise"
+    "title": "Qui se cache derrière tout cela",
+    "intro": "Je m'appelle Héctor Jarque. Je ne viens ni d’une agence ni d’un bootcamp miracle. J’ai appris en créant des choses, en les cassant puis en les réparant.",
+    "location": "Je vis à Valence. Je travaille à distance sans problème, et si vous êtes dans les environs, nous pouvons prendre un café.",
+    "learning": "J’ai commencé sans rien comprendre, puis je me suis formé progressivement jusqu’à pouvoir créer les sites web et les projets que je réalise aujourd’hui.",
+    "honesty": "Je ne vais pas vous noyer sous le jargon pour impressionner. Si quelque chose n’est pas réalisable, je vous le dirai.",
+    "techTitle": "Technologies que j’utilise habituellement"
   },
   "projects": {
-    "intro": "Comme je continue à apprendre, j’ai créé différents sites web",
     "title": "Quelques réalisations",
+    "intro": "Pour continuer à apprendre, j’ai créé différents projets web",
     "staticTag": "Site web statique",
     "dynamicTag": "Site web dynamique",
     "hybridTag": "Site web hybride",
     "portfolio": {
-      "title": "Site web portfolio personnel",
-      "description": "Le site que vous êtes en train de consulter. Mode sombre/clair, multilingue, Angular + Spring Boot."
+      "title": "Ce portfolio",
+      "description": "Le site que vous consultez actuellement. Construit avec Angular, Spring Boot et MongoDB — il inclut un formulaire de contact fonctionnel et la prise en charge de plusieurs langues.",
+      "screenshotAlt": "Capture d’écran du portfolio"
     },
-    "isaac": {
-      "title": "Suivi des succès Steam",
-      "description": "Connectez votre compte Steam et analysez vos succès en temps réel."
+    "uwutrack": {
+      "title": "UwU-Track",
+      "description": "Plateforme locale de scraping et de lecture de mangas. Ajoutez l’URL de votre manga préféré et UwU-Track le télécharge automatiquement tout en le maintenant à jour chapitre après chapitre."
     },
     "experience": {
       "tag": "Expérience professionnelle",
-      "title": "3 mois dans une équipe de développement fintech",
-      "description": "Frontend et backend, amélioration de fonctionnalités et travail dans un véritable environnement technologique."
-    }
+      "title": "3 mois au sein d’une équipe de développement fintech",
+      "description": "Développement frontend et backend, amélioration de fonctionnalités et travail dans un environnement technologique réel."
+    },
+    "viewOnGithub": "Voir sur GitHub"
   },
   "contact": {
-    "title": "Parlons-en",
+    "title": "Discutons-en",
     "emailPrompt": "Le mieux est de m’envoyer un e-mail en m’expliquant ce que vous avez en tête.",
-    "existingSite": "Si vous avez déjà un site web, envoyez-moi le lien et j’y jetterai un œil.",
-    "noWorries": "Vous n’avez pas besoin de vous y connaître en technologie ni d’avoir tout défini à l’avance. Nous construirons cela ensemble.",
-    "github": "Plus de projets sur GitHub",
-    "linkedin": "LinkedIn",
+    "existingSite": "Si vous avez déjà un site web, envoyez-le-moi et j’y jetterai un œil.",
+    "noWorries": "Pas besoin de connaître la technologie ni d’avoir tout planifié. Nous construirons cela ensemble.",
     "formTitle": "Envoyez-moi un message",
     "name": "Votre nom",
     "email": "Votre e-mail",
-    "subject": "Objet",
+    "subject": "Sujet",
     "message": "Message",
     "send": "Envoyer",
-    "successMessage": "Message envoyé ! Je vous répondrai dans les 24 heures.",
-    "errorMessage": "Échec de l’envoi. N’hésitez pas à m’envoyer directement un e-mail si le problème persiste.",
-    "sending": "Envoi en cours..."
+    "sending": "Envoi en cours...",
+    "successMessage": "Message envoyé ! Je vous répondrai en moins de 24 h.",
+    "errorMessage": "Erreur lors de l’envoi. Écrivez-moi directement si le problème persiste."
+  },
+  "validation": {
+    "name": {
+      "minLength": "Minimum 2 caractères",
+      "pattern": "Lettres, espaces et traits d’union uniquement"
+    },
+    "email": {
+      "required": "L’adresse e-mail est obligatoire",
+      "format": "Saisissez une adresse e-mail valide (ex. : nom@domaine.com)"
+    },
+    "subject": {
+      "minLength": "Minimum 3 caractères"
+    },
+    "message": {
+      "minLength": "Minimum 10 caractères"
+    }
+  },
+  "carousel": {
+    "prev": "Précédent",
+    "next": "Suivant"
   }
 }

@@ -5,43 +5,40 @@
     "projects": "Proyectos",
     "contact": "Contacto"
   },
+  "header": {
+    "toggleTheme": "Cambiar tema",
+    "toggleMenu": "Abrir menú"
+  },
   "intro": {
     "heading": "Hago webs rápidas, claras y fáciles de usar",
     "tagline": "Sin cosas innecesarias, sin webs lentas y sin complicarte la vida.",
     "servicesOverview": "Dependiendo de lo que necesites, puedo hacer desde una web sencilla hasta una más interactiva con formularios, buscadores o funciones más avanzadas.",
-    "hostingNote": "No gestiono dominios ni hosting de serie, pero si no quieres líos puedo encargarme yo y sumarlo al presupuesto.",
-    "noticeTitle": "Esta web está en desarrollo",
-    "noticeText": "Estoy migrando mi portfolio a Angular + Spring Boot para mostrar más funcionalidades."
+    "hostingNote": "No gestiono dominios ni hosting de serie, pero si no quieres líos puedo encargarme yo y sumarlo al presupuesto."
   },
   "stats": {
-    "projects": "Proyectos",
-    "types": "Tipos",
-    "remote": "Remoto",
-    "langs": "Idiomas",
     "responseTime": "Tiempo de respuesta",
+    "type": "Fijo",
     "budget": "Presupuesto cerrado",
-    "location": "Ubicación",
-    "type": "Fijo"
+    "remote": "Remoto",
+    "langs": "Idiomas"
   },
   "services": {
-    "intro": "Puedo hacer diferentes tipos de web, dependiendo de lo que prefieras",
     "title": "Tipos de web que hago",
+    "intro": "Dependiendo de lo que necesites, puedo hacer diferentes tipos de web",
     "static": {
-      "title": "Web estática",
-      "description": "Página web sencilla y rápida, hecha a medida y sin complicaciones.",
-      "loadTime": "Carga instantánea.",
-      "hostingNote": "Se aloja en cualquier sitio. No hay nada que romper.",
-      "ideal": "Ejemplos del mundo real que usa una web estática"
+      "title": "Para mostrar lo que ofreces",
+      "description": "Página web sencilla y rápida, hecha a medida y sin complicaciones. Carga al instante y se aloja en cualquier sitio.",
+      "ideal": "Marcas que usan este tipo de web"
     },
     "dynamic": {
-      "title": "Web dinámica",
-      "description": "Filtros, buscadores, contenido que cambia al instante, formularios inteligentes y conexiones con APIs.",
-      "ideal": "Ejemplos del mundo real que usa una web dinámica"
+      "title": "Para que tus usuarios interactúen",
+      "description": "Filtros, buscadores, contenido que cambia al instante, formularios inteligentes y conexiones con APIs externas.",
+      "ideal": "Plataformas que usan este tipo de web"
     },
     "hybrid": {
-      "title": "Web híbrida",
+      "title": "Para gestionar tu contenido",
       "description": "Parte pública para clientes y parte privada para gestionar contenido sin tocar código.",
-      "ideal": "Ejemplos del mundo real que usa una web híbrida"
+      "ideal": "Servicios que usan este tipo de web"
     },
     "pricing": {
       "title": "Sobre precios:",
@@ -51,46 +48,66 @@
   "about": {
     "title": "Quién está detrás de esto",
     "intro": "Me llamo Héctor Jarque. No vengo de agencia ni de bootcamp milagroso. Aprendí haciendo cosas, rompiéndolas y arreglándolas.",
+    "location": "Vivo en Valencia. Trabajo en remoto sin problema, y si estás cerca podemos tomar un café.",
     "learning": "Empecé sin entender nada y poco a poco me fui formando hasta poder crear las webs y proyectos que hago hoy en día.",
     "honesty": "No te voy a soltar jerga para impresionar. Si algo no se puede hacer, te lo digo.",
-    "location": "Vivo en Valencia. Trabajo en remoto sin problema, y si estás cerca podemos tomar un café.",
     "techTitle": "Tecnología que suelo utilizar"
   },
   "projects": {
-    "intro": "Para seguir aprendiendo, he ido creando diferentes páginas webs",
     "title": "Algunas cosas que he hecho",
+    "intro": "Para seguir aprendiendo, he ido creando diferentes proyectos web",
     "staticTag": "Web estática",
     "dynamicTag": "Web dinámica",
     "hybridTag": "Web híbrida",
     "portfolio": {
-      "title": "Web de portfolio personal",
-      "description": "La web que estás viendo. Dark/light mode, multilenguaje, Angular + Spring Boot."
+      "title": "Este portfolio",
+      "description": "El sitio que estás viendo. Construido con Angular, Spring Boot y MongoDB — incluye formulario de contacto funcional y soporte multiidioma.",
+      "screenshotAlt": "Captura del portfolio"
     },
-    "isaac": {
-      "title": "Rastreador de logros de Steam",
-      "description": "Conecta tu cuenta de Steam y analiza tus logros en tiempo real."
+    "uwutrack": {
+      "title": "UwU-Track",
+      "description": "Plataforma local de scrapeo y lectura de manga. Añade la URL de tu manga favorito y UwU-Track lo descarga automáticamente, manteniéndolo actualizado capítulo a capítulo."
     },
     "experience": {
       "tag": "Experiencia laboral",
       "title": "3 meses en equipo de desarrollo fintech",
       "description": "Frontend y backend, mejora de funcionalidades y trabajo en entorno tecnológico real."
-    }
+    },
+    "viewOnGithub": "Ver en GitHub"
   },
   "contact": {
     "title": "Hablamos",
     "emailPrompt": "Lo mejor es que me escribas un correo contándome qué tienes en mente.",
     "existingSite": "Si ya tienes una web, pásamela y le echo un vistazo.",
     "noWorries": "No hace falta saber de tecnología ni tenerlo todo claro. Le damos forma juntos.",
-    "github": "Más proyectos en GitHub",
-    "linkedin": "LinkedIn",
     "formTitle": "Mándame un mensaje",
     "name": "Tu nombre",
     "email": "Tu email",
     "subject": "Asunto",
     "message": "Mensaje",
     "send": "Enviar",
+    "sending": "Enviando...",
     "successMessage": "¡Mensaje enviado! Te responderé en menos de 24h.",
-    "errorMessage": "Error al enviar. Escríbeme directamente si el problema persiste.",
-    "sending": "Enviando..."
+    "errorMessage": "Error al enviar. Escríbeme directamente si el problema persiste."
+  },
+  "validation": {
+    "name": {
+      "minLength": "Mínimo 2 caracteres",
+      "pattern": "Solo letras, espacios y guiones"
+    },
+    "email": {
+      "required": "El email es obligatorio",
+      "format": "Introduce un email válido (ej: nombre@dominio.com)"
+    },
+    "subject": {
+      "minLength": "Mínimo 3 caracteres"
+    },
+    "message": {
+      "minLength": "Mínimo 10 caracteres"
+    }
+  },
+  "carousel": {
+    "prev": "Anterior",
+    "next": "Siguiente"
   }
 }

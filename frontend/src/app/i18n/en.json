@@ -1,96 +1,113 @@
 {
   "nav": {
-    "whatIDo": "What I do",
-    "aboutMe": "About me",
+    "whatIDo": "What I Do",
+    "aboutMe": "About Me",
     "projects": "Projects",
     "contact": "Contact"
   },
+  "header": {
+    "toggleTheme": "Toggle Theme",
+    "toggleMenu": "Open Menu"
+  },
   "intro": {
-    "heading": "I build fast, clear and easy-to-use websites",
-    "tagline": "No unnecessary stuff, no slow websites, no headaches.",
-    "servicesOverview": "Depending on your needs, I can do a simple site or something more interactive with forms, search features or advanced functions.",
-    "hostingNote": "I don't usually manage domains or hosting, but if you don't want any hassle I can take care of it.",
-    "noticeTitle": "This website is under development",
-    "noticeText": "I'm migrating my portfolio to Angular + Spring Boot to showcase more features."
+    "heading": "I build fast, clear, and easy-to-use websites",
+    "tagline": "No unnecessary stuff, no slow websites, and no making your life harder.",
+    "servicesOverview": "Depending on what you need, I can build anything from a simple website to a more interactive one with forms, search features, or advanced functionality.",
+    "hostingNote": "I don't normally handle domains or hosting, but if you don't want the hassle, I can take care of it and include it in the quote."
   },
   "stats": {
-    "projects": "Proyectos",
-    "types": "Types",
+    "responseTime": "Response Time",
+    "type": "Fixed",
+    "budget": "Fixed Price",
     "remote": "Remote",
-    "langs": "Languages",
-    "responseTime": "Response time",
-    "budget": "Closed budget",
-    "location": "Location",
-    "type": "Fixed"
+    "langs": "Languages"
   },
   "services": {
-    "intro": "I can make different websites, depending of what you prefer",
-    "title": "Types of websites I build",
+    "title": "Types of Websites I Build",
+    "intro": "Depending on what you need, I can create different types of websites",
     "static": {
-      "title": "Static website",
-      "description": "A simple and fast custom-made page. No difficult systems, no constant maintenance.",
-      "loadTime": "Instant loading.",
-      "hostingNote": "Host it anywhere. Nothing to break.",
-      "ideal": "Real-world examples that use static web pages"
+      "title": "To showcase what you offer",
+      "description": "A simple and fast custom-built website with no unnecessary complications. Loads instantly and can be hosted anywhere.",
+      "ideal": "Brands that use this type of website"
     },
     "dynamic": {
-      "title": "Dynamic website",
-      "description": "Filters, search, content that updates instantly, smart forms and API connections.",
-      "ideal": "Real-world examples that use dynamic web pages"
+      "title": "For user interaction",
+      "description": "Filters, search features, instantly updating content, smart forms, and integrations with external APIs.",
+      "ideal": "Platforms that use this type of website"
     },
     "hybrid": {
-      "title": "Hybrid website",
-      "description": "A public-facing part and a private one to manage content without touching code.",
-      "ideal": "Real-world examples that use hybrid web pages"
+      "title": "To manage your content",
+      "description": "A public-facing section for customers and a private area to manage content without touching code.",
+      "ideal": "Services that use this type of website"
     },
     "pricing": {
       "title": "About pricing:",
-      "description": "Every project is different, so prices are discussed without obligation."
+      "description": "Every project is different, so pricing is discussed with no obligation."
     }
   },
   "about": {
     "title": "Who's behind this",
-    "intro": "My name is Héctor Jarque. I don't come from an agency or a miracle bootcamp. I learned by doing, breaking and fixing things.",
-    "learning": "I started knowing nothing and gradually trained myself until I could build the websites and projects I create today.",
-    "honesty": "I won't throw jargon at you to impress. If something can't be done, I'll tell you.",
-    "location": "I live in Valencia, Spain. I work remotely, and if you're nearby we can grab a coffee.",
-    "techTitle": "Technology im familiar with"
+    "intro": "My name is Héctor Jarque. I didn't come from an agency or a miracle bootcamp. I learned by building things, breaking them, and fixing them.",
+    "location": "I live in Valencia. I work remotely without any problem, and if you're nearby, we can grab a coffee.",
+    "learning": "I started without understanding anything, and little by little I trained myself until I was able to create the websites and projects I build today.",
+    "honesty": "I won't throw jargon at you to impress you. If something can't be done, I'll tell you.",
+    "techTitle": "Technology I Usually Use"
   },
   "projects": {
-    "intro": "To still learning, I have created different websites",
-    "title": "Some things I've built",
-    "staticTag": "Static website",
-    "dynamicTag": "Dynamic website",
-    "hybridTag": "Hybrid website",
+    "title": "Some Things I've Built",
+    "intro": "To keep learning, I've been building different web projects",
+    "staticTag": "Static Website",
+    "dynamicTag": "Dynamic Website",
+    "hybridTag": "Hybrid Website",
     "portfolio": {
-      "title": "Personal portfolio website",
-      "description": "The website you're looking at. Dark/light mode, multi-language, Angular + Spring Boot."
+      "title": "This Portfolio",
+      "description": "The site you're looking at right now. Built with Angular, Spring Boot, and MongoDB — includes a working contact form and multilingual support.",
+      "screenshotAlt": "Portfolio Screenshot"
     },
-    "isaac": {
-      "title": "Steam Achievement Tracker",
-      "description": "Connect your Steam account and analyze your achievements in real time."
+    "uwutrack": {
+      "title": "UwU-Track",
+      "description": "A local manga scraping and reading platform. Add the URL of your favorite manga and UwU-Track automatically downloads it, keeping it updated chapter by chapter."
     },
     "experience": {
       "tag": "Work Experience",
-      "title": "3 months in a fintech development team",
-      "description": "Frontend and backend, feature improvements and work in a real tech environment."
-    }
+      "title": "3 Months in a Fintech Development Team",
+      "description": "Frontend and backend development, feature improvements, and working in a real-world technology environment."
+    },
+    "viewOnGithub": "View on GitHub"
   },
   "contact": {
-    "title": "Let's talk",
-    "emailPrompt": "The best thing is to send me an email telling me what you have in mind.",
-    "existingSite": "If you already have a website, send me the link and I'll take a look.",
-    "noWorries": "You don't need to know about tech or have everything figured out. We'll shape it together.",
-    "github": "More projects on GitHub",
-    "linkedin": "LinkedIn",
-    "formTitle": "Send me a message",
-    "name": "Your name",
-    "email": "Your email",
+    "title": "Let's Talk",
+    "emailPrompt": "The best thing you can do is send me an email explaining what you have in mind.",
+    "existingSite": "If you already have a website, send it over and I'll take a look.",
+    "noWorries": "You don't need to know anything about technology or have everything figured out. We'll shape it together.",
+    "formTitle": "Send Me a Message",
+    "name": "Your Name",
+    "email": "Your Email",
     "subject": "Subject",
     "message": "Message",
     "send": "Send",
-    "successMessage": "Message sent! I'll get back to you within 24h.",
-    "errorMessage": "Failed to send. Feel free to email me directly if this keeps happening.",
-    "sending": "Sending..."
+    "sending": "Sending...",
+    "successMessage": "Message sent! I'll reply within 24 hours.",
+    "errorMessage": "Error sending message. Contact me directly if the problem persists."
+  },
+  "validation": {
+    "name": {
+      "minLength": "Minimum 2 characters",
+      "pattern": "Letters, spaces, and hyphens only"
+    },
+    "email": {
+      "required": "Email is required",
+      "format": "Enter a valid email address (e.g. name@domain.com)"
+    },
+    "subject": {
+      "minLength": "Minimum 3 characters"
+    },
+    "message": {
+      "minLength": "Minimum 10 characters"
+    }
+  },
+  "carousel": {
+    "prev": "Previous",
+    "next": "Next"
   }
 }

@@ -5,92 +5,109 @@
     "projects": "Projekte",
     "contact": "Kontakt"
   },
+  "header": {
+    "toggleTheme": "Design wechseln",
+    "toggleMenu": "Menü öffnen"
+  },
   "intro": {
     "heading": "Ich erstelle schnelle, klare und benutzerfreundliche Websites",
-    "tagline": "Kein unnötiger Schnickschnack, keine langsamen Websites, keine Kopfschmerzen.",
-    "servicesOverview": "Je nach Ihren Anforderungen kann ich eine einfache Website erstellen oder etwas Interaktiveres mit Formularen, Suchfunktionen oder erweiterten Funktionen.",
-    "hostingNote": "Normalerweise kümmere ich mich nicht um Domains oder Hosting, aber wenn Sie sich um nichts kümmern möchten, kann ich das übernehmen.",
-    "noticeTitle": "Diese Website befindet sich in Entwicklung",
-    "noticeText": "Ich migriere mein Portfolio auf Angular + Spring Boot, um mehr Funktionen präsentieren zu können."
+    "tagline": "Keine unnötigen Dinge, keine langsamen Websites und keine Komplikationen.",
+    "servicesOverview": "Je nachdem, was du brauchst, kann ich alles von einer einfachen Website bis hin zu einer interaktiveren Lösung mit Formularen, Suchfunktionen oder erweiterten Features erstellen.",
+    "hostingNote": "Ich kümmere mich normalerweise nicht um Domains oder Hosting, aber wenn du dir den Aufwand sparen möchtest, kann ich das übernehmen und in das Angebot aufnehmen."
   },
   "stats": {
-    "projects": "Projekte",
-    "types": "Typen",
-    "remote": "Remote",
-    "langs": "Sprachen",
     "responseTime": "Antwortzeit",
+    "type": "Fest",
     "budget": "Festpreis",
-    "location": "Standort",
-    "type": "Fest"
+    "remote": "Remote",
+    "langs": "Sprachen"
   },
   "services": {
-    "intro": "Ich kann verschiedene Arten von Websites erstellen, je nachdem, was Sie bevorzugen",
     "title": "Arten von Websites, die ich erstelle",
+    "intro": "Je nachdem, was du brauchst, kann ich verschiedene Arten von Websites erstellen",
     "static": {
-      "title": "Statische Website",
-      "description": "Eine einfache und schnelle maßgeschneiderte Website. Keine komplizierten Systeme, keine ständige Wartung.",
-      "loadTime": "Sofortiges Laden.",
-      "hostingNote": "Überall hostbar. Nichts, was kaputtgehen kann.",
-      "ideal": "Praxisbeispiele für statische Webseiten"
+      "title": "Um zu zeigen, was du anbietest",
+      "description": "Einfache und schnelle Website, individuell erstellt und ohne unnötige Komplikationen. Lädt sofort und kann überall gehostet werden.",
+      "ideal": "Marken, die diese Art von Website nutzen"
     },
     "dynamic": {
-      "title": "Dynamische Website",
-      "description": "Filter, Suche, Inhalte, die sich sofort aktualisieren, intelligente Formulare und API-Anbindungen.",
-      "ideal": "Praxisbeispiele für dynamische Webseiten"
+      "title": "Damit deine Nutzer interagieren können",
+      "description": "Filter, Suchfunktionen, Inhalte, die sich sofort aktualisieren, intelligente Formulare und Verbindungen zu externen APIs.",
+      "ideal": "Plattformen, die diese Art von Website nutzen"
     },
     "hybrid": {
-      "title": "Hybride Website",
-      "description": "Ein öffentlicher Bereich und ein privater Bereich zur Verwaltung von Inhalten, ohne den Code anzufassen.",
-      "ideal": "Praxisbeispiele für hybride Webseiten"
+      "title": "Zur Verwaltung deiner Inhalte",
+      "description": "Ein öffentlicher Bereich für Kunden und ein privater Bereich zur Verwaltung von Inhalten, ohne Code anfassen zu müssen.",
+      "ideal": "Dienstleistungen, die diese Art von Website nutzen"
     },
     "pricing": {
       "title": "Zu den Preisen:",
-      "description": "Jedes Projekt ist unterschiedlich, daher werden die Preise unverbindlich besprochen."
+      "description": "Jedes Projekt ist anders, daher werden die Preise unverbindlich besprochen."
     }
   },
   "about": {
-    "title": "Wer dahinter steckt",
-    "intro": "Mein Name ist Héctor Jarque. Ich komme weder aus einer Agentur noch aus einem Wunder-Bootcamp. Ich habe gelernt, indem ich Dinge gemacht, kaputtgemacht und wieder repariert habe.",
-    "learning": "Ich habe bei null angefangen und mich Schritt für Schritt weitergebildet, bis ich die Websites und Projekte erstellen konnte, die ich heute entwickle.",
-    "honesty": "Ich werde Sie nicht mit Fachjargon beeindrucken wollen. Wenn etwas nicht machbar ist, sage ich es Ihnen.",
-    "location": "Ich lebe in Valencia, Spanien. Ich arbeite remote, und wenn Sie in der Nähe sind, können wir gerne einen Kaffee trinken gehen.",
-    "techTitle": "Technologien, mit denen ich vertraut bin"
+    "title": "Wer dahintersteckt",
+    "intro": "Mein Name ist Héctor Jarque. Ich komme weder aus einer Agentur noch aus einem Wunder-Bootcamp. Ich habe gelernt, indem ich Dinge gebaut, kaputtgemacht und wieder repariert habe.",
+    "location": "Ich lebe in Valencia. Ich arbeite problemlos remote, und wenn du in der Nähe bist, können wir einen Kaffee trinken gehen.",
+    "learning": "Ich habe angefangen, ohne irgendetwas zu verstehen, und mich nach und nach weitergebildet, bis ich die Websites und Projekte erstellen konnte, die ich heute mache.",
+    "honesty": "Ich werde dich nicht mit Fachjargon beeindrucken wollen. Wenn etwas nicht machbar ist, sage ich es dir.",
+    "techTitle": "Technologien, die ich normalerweise verwende"
   },
   "projects": {
-    "intro": "Da ich weiterhin dazulerne, habe ich verschiedene Websites erstellt",
-    "title": "Einige Dinge, die ich entwickelt habe",
+    "title": "Einige Dinge, die ich gemacht habe",
+    "intro": "Um weiterzulernen, habe ich verschiedene Webprojekte erstellt",
     "staticTag": "Statische Website",
     "dynamicTag": "Dynamische Website",
     "hybridTag": "Hybride Website",
     "portfolio": {
-      "title": "Persönliche Portfolio-Website",
-      "description": "Die Website, die Sie gerade ansehen. Dunkel-/Hellmodus, mehrsprachig, Angular + Spring Boot."
+      "title": "Dieses Portfolio",
+      "description": "Die Website, die du gerade ansiehst. Erstellt mit Angular, Spring Boot und MongoDB — inklusive funktionierendem Kontaktformular und Mehrsprachigkeitsunterstützung.",
+      "screenshotAlt": "Screenshot des Portfolios"
     },
-    "isaac": {
-      "title": "Steam-Erfolgs-Tracker",
-      "description": "Verbinden Sie Ihr Steam-Konto und analysieren Sie Ihre Erfolge in Echtzeit."
+    "uwutrack": {
+      "title": "UwU-Track",
+      "description": "Lokale Plattform zum Scrapen und Lesen von Manga. Füge die URL deines Lieblingsmangas hinzu und UwU-Track lädt ihn automatisch herunter und hält ihn Kapitel für Kapitel aktuell."
     },
     "experience": {
       "tag": "Berufserfahrung",
       "title": "3 Monate in einem Fintech-Entwicklungsteam",
-      "description": "Frontend und Backend, Funktionsverbesserungen und Arbeit in einem echten Technologieumfeld."
-    }
+      "description": "Frontend- und Backend-Entwicklung, Verbesserung von Funktionen und Arbeit in einem echten technologischen Umfeld."
+    },
+    "viewOnGithub": "Auf GitHub ansehen"
   },
   "contact": {
-    "title": "Lassen Sie uns sprechen",
-    "emailPrompt": "Am besten schicken Sie mir eine E-Mail und erzählen mir, was Sie vorhaben.",
-    "existingSite": "Falls Sie bereits eine Website haben, senden Sie mir den Link und ich schaue sie mir an.",
-    "noWorries": "Sie müssen sich weder mit Technik auskennen noch alles bereits geplant haben. Wir entwickeln es gemeinsam.",
-    "github": "Weitere Projekte auf GitHub",
-    "linkedin": "LinkedIn",
-    "formTitle": "Senden Sie mir eine Nachricht",
-    "name": "Ihr Name",
-    "email": "Ihre E-Mail-Adresse",
+    "title": "Lass uns sprechen",
+    "emailPrompt": "Am besten schreibst du mir eine E-Mail und erzählst mir, was du vorhast.",
+    "existingSite": "Wenn du bereits eine Website hast, schick sie mir und ich schaue sie mir an.",
+    "noWorries": "Du musst nichts von Technologie verstehen oder alles bereits geplant haben. Wir entwickeln die Idee gemeinsam.",
+    "formTitle": "Schick mir eine Nachricht",
+    "name": "Dein Name",
+    "email": "Deine E-Mail",
     "subject": "Betreff",
     "message": "Nachricht",
     "send": "Senden",
-    "successMessage": "Nachricht gesendet! Ich melde mich innerhalb von 24 Stunden bei Ihnen.",
-    "errorMessage": "Senden fehlgeschlagen. Schreiben Sie mir gerne direkt eine E-Mail, falls das Problem weiterhin besteht.",
-    "sending": "Wird gesendet..."
+    "sending": "Wird gesendet...",
+    "successMessage": "Nachricht gesendet! Ich antworte innerhalb von 24 Stunden.",
+    "errorMessage": "Fehler beim Senden. Schreib mir direkt, wenn das Problem weiterhin besteht."
+  },
+  "validation": {
+    "name": {
+      "minLength": "Mindestens 2 Zeichen",
+      "pattern": "Nur Buchstaben, Leerzeichen und Bindestriche"
+    },
+    "email": {
+      "required": "Die E-Mail-Adresse ist erforderlich",
+      "format": "Gib eine gültige E-Mail-Adresse ein (z. B. name@domain.com)"
+    },
+    "subject": {
+      "minLength": "Mindestens 3 Zeichen"
+    },
+    "message": {
+      "minLength": "Mindestens 10 Zeichen"
+    }
+  },
+  "carousel": {
+    "prev": "Zurück",
+    "next": "Weiter"
   }
 }
