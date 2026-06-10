@@ -1,0 +1,79 @@
+/*.site-header {*/
+/*  position: sticky;*/
+/*  top: 0;*/
+/*  z-index: 100;*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  justify-content: space-between;*/
+/*  padding: 0 1.5rem;*/
+/*  height: 56px;*/
+/*  background: var(--color-bg-surface);*/
+/*  border-bottom: 1px solid var(--color-border);*/
+/*}*/
+
+/*.brand {*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  gap: .6rem;*/
+/*  font-weight: 600;*/
+/*  text-decoration: none;*/
+/*  color: var(--color-text);*/
+/*  flex-shrink: 0;*/
+/*}*/
+
+/*.main-nav {*/
+/*  display: flex;*/
+/*  gap: 1.75rem;*/
+/*}*/
+
+/*.main-nav a {*/
+/*  color: var(--color-text-muted);*/
+/*  text-decoration: none;*/
+/*  font-size: .875rem;*/
+/*  transition: color .15s;*/
+/*}*/
+
+/*.main-nav a:hover {*/
+/*  color: var(--color-primary);*/
+/*}*/
+
+/*.header-actions {*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  gap: .25rem;*/
+/*}*/
+
+/*.header-actions button {*/
+/*  background: none;*/
+/*  border: none;*/
+/*  cursor: pointer;*/
+/*  color: var(--color-text);*/
+/*  font-size: .875rem;*/
+/*  padding: .35rem .55rem;*/
+/*  border-radius: 6px;*/
+/*}*/
+
+/*.header-actions button:hover {*/
+/*  background: var(--color-bg-hover);*/
+/*}*/
+
+/*.menu-toggle {*/
+/*  display: none;*/
+/*}*/
+
+/*.lang-option {*/
+/*  display: flex;*/
+/*  align-items: center;*/
+/*  gap: .5rem;*/
+/*}*/
+
+/*.flag {*/
+/*  width: 18px;*/
+/*  height: 18px;*/
+/*  border-radius: 50%;*/
+/*  object-fit: cover;*/
+/*}*/
+
+/*:host ::ng-deep .lang-select {*/
+/*  min-width: 170px;*/
+/*}*/
