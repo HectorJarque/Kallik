@@ -4,6 +4,7 @@ import es from '../../i18n/es.json';
 export type Lang =
   | 'es'
   | 'en'
+  | 'cat'
   | 'fr'
   | 'it'
   | 'de'
@@ -18,6 +19,7 @@ export class TranslationService {
   private loaders: Record<Lang, () => Promise<any>> = {
     es: () => import('../../i18n/es.json'),
     en: () => import('../../i18n/en.json'),
+    cat: () => import('../../i18n/cat.json'),
     fr: () => import('../../i18n/fr.json'),
     it: () => import('../../i18n/it.json'),
     de: () => import('../../i18n/de.json'),
@@ -40,6 +42,7 @@ export class TranslationService {
     const supported: Lang[] = [
       'es',
       'en',
+      'cat',
       'fr',
       'it',
       'de',
