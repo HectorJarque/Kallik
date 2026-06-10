@@ -3,92 +3,92 @@
     "whatIDo": "O que faço",
     "aboutMe": "Sobre mim",
     "projects": "Projetos",
-    "contact": "Contacto"
+    "contact": "Contato"
   },
   "header": {
     "toggleTheme": "Mudar tema",
     "toggleMenu": "Abrir menu"
   },
   "intro": {
-    "heading": "Faço websites rápidos, claros e fáceis de usar",
-    "tagline": "Sem coisas desnecessárias, sem websites lentos e sem complicar a tua vida.",
-    "servicesOverview": "Dependendo do que precisares, posso criar desde um website simples até um mais interativo com formulários, motores de pesquisa ou funcionalidades mais avançadas.",
-    "hostingNote": "Não trato normalmente de domínios nem de alojamento, mas se não quiseres complicações posso tratar disso e incluí-lo no orçamento."
+    "heading": "Crio sites personalizados, claros e fáceis de usar",
+    "tagline": "Sem coisas desnecessárias. Cada site é único, posso me inspirar no que você gosta e adaptar ao que você precisa",
+    "servicesOverview": "Crio sites adaptados a cada caso: desde páginas simples até projetos interativos com formulários, buscas, conteúdo dinâmico ou até sites só de texto. O que você precisar pode ser planejado e desenvolvido.",
+    "hostingNote": "Posso cuidar do domínio e da hospedagem se você quiser evitar a parte técnica, ou deixar tudo sob sua gestão. Também posso manter o site mensalmente ou te entregar tudo (código, domínio e hospedagem) para que seja totalmente seu, sem dependências."
   },
   "stats": {
     "responseTime": "Tempo de resposta",
     "type": "Fixo",
-    "budget": "Orçamento fechado",
+    "budget": "Orçamento fixo",
     "remote": "Remoto",
     "langs": "Idiomas"
   },
   "services": {
-    "title": "Tipos de websites que faço",
-    "intro": "Dependendo do que precisares, posso criar diferentes tipos de websites",
+    "title": "Tipos de sites que faço",
+    "intro": "Dependendo do que você precisa, posso criar diferentes tipos de sites",
     "static": {
-      "title": "Para mostrar o que ofereces",
-      "description": "Website simples e rápido, feito à medida e sem complicações. Carrega instantaneamente e pode ser alojado em qualquer lugar.",
-      "ideal": "Marcas que utilizam este tipo de website"
+      "title": "Para mostrar o que você oferece",
+      "description": "Site simples e rápido, feito sob medida e sem complicações. Carrega instantaneamente e pode ser hospedado em qualquer lugar.",
+      "ideal": "Marcas que usam este tipo de site"
     },
     "dynamic": {
-      "title": "Para que os teus utilizadores interajam",
-      "description": "Filtros, motores de pesquisa, conteúdo que muda instantaneamente, formulários inteligentes e integrações com APIs externas.",
-      "ideal": "Plataformas que utilizam este tipo de website"
+      "title": "Para permitir interação dos usuários",
+      "description": "Filtros, buscas, conteúdo em tempo real, formulários inteligentes e integrações com APIs externas.",
+      "ideal": "Plataformas que usam este tipo de site"
     },
     "hybrid": {
-      "title": "Para gerir o teu conteúdo",
-      "description": "Parte pública para clientes e parte privada para gerir conteúdo sem tocar em código.",
-      "ideal": "Serviços que utilizam este tipo de website"
+      "title": "Para gerir seu conteúdo",
+      "description": "Parte pública para clientes e área privada para gerenciar conteúdo sem mexer em código.",
+      "ideal": "Serviços que usam este tipo de site"
     },
     "pricing": {
       "title": "Sobre preços:",
-      "description": "Cada projeto é diferente, por isso os preços são discutidos sem compromisso."
+      "description": "Cada projeto é diferente. Normalmente estou abaixo do preço de mercado porque priorizo a experiência e a qualidade do trabalho em vez de orçamentos inflados. Dependendo do que você precisa, ajustamos tudo sem compromisso."
     }
   },
   "about": {
-    "title": "Quem está por trás disto",
-    "intro": "Chamo-me Héctor Jarque. Não venho de uma agência nem de um bootcamp milagroso. Aprendi a fazer coisas, a estragá-las e a corrigi-las.",
-    "location": "Vivo em Valência. Trabalho remotamente sem qualquer problema e, se estiveres por perto, podemos tomar um café.",
-    "learning": "Comecei sem perceber nada e, pouco a pouco, fui aprendendo até conseguir criar os websites e projetos que faço atualmente.",
-    "honesty": "Não vou usar jargão para te impressionar. Se algo não puder ser feito, digo-te.",
-    "techTitle": "Tecnologias que costumo utilizar"
+    "title": "Quem está por trás disso",
+    "intro": "Meu nome é Héctor Jarque. Não venho de agência nem de um caminho típico de bootcamp. Comecei do zero criando meus próprios projetos, quebrando coisas e aprendendo até realmente entender como sites funcionam.",
+    "location": "Moro em Valência. Trabalho remotamente sem problema, e se você estiver por perto podemos tomar um café.",
+    "learning": "Comecei sem saber nada e fui construindo projetos aos poucos até conseguir desenvolver sites completos e entender o que há por trás de cada parte.",
+    "honesty": "Sem enrolação. Se algo não for possível, eu te digo. Se for possível mas não for uma boa ideia, também explico o porquê.",
+    "techTitle": "Tecnologias que costumo usar"
   },
   "projects": {
-    "title": "Algumas coisas que fiz",
-    "intro": "Para continuar a aprender, fui criando diferentes projetos web",
-    "staticTag": "Website estático",
-    "dynamicTag": "Website dinâmico",
-    "hybridTag": "Website híbrido",
+    "title": "Algumas coisas que já fiz",
+    "intro": "Para continuar aprendendo, fui criando diferentes projetos web",
+    "staticTag": "Site estático",
+    "dynamicTag": "Site dinâmico",
+    "hybridTag": "Site híbrido",
     "portfolio": {
-      "title": "Este portefólio",
-      "description": "O site que estás a ver. Construído com Angular, Spring Boot e MongoDB — inclui formulário de contacto funcional e suporte multilingue.",
-      "screenshotAlt": "Captura de ecrã do portefólio"
+      "title": "Este portfólio",
+      "description": "O site que você está vendo. Construído com Angular, Kotlin, Spring Boot e MongoDB — inclui formulário de contato funcional e suporte multilíngue.",
+      "screenshotAlt": "Captura do portfólio"
     },
     "uwutrack": {
       "title": "UwU-Track",
-      "description": "Plataforma local de scraping e leitura de manga. Adiciona o URL do teu manga favorito e o UwU-Track descarrega-o automaticamente, mantendo-o atualizado capítulo após capítulo."
+      "description": "Plataforma local de scraping e leitura de mangá. Adicione a URL do seu mangá favorito e o UwU-Track baixa automaticamente, mantendo atualizado capítulo por capítulo."
     },
     "experience": {
       "tag": "Experiência profissional",
-      "title": "3 meses numa equipa de desenvolvimento fintech",
-      "description": "Frontend e backend, melhoria de funcionalidades e trabalho num ambiente tecnológico real."
+      "title": "3 meses em equipe de desenvolvimento fintech",
+      "description": "Frontend e backend, melhoria de funcionalidades e trabalho em ambiente tecnológico real."
     },
     "viewProject": "Visitar site"
   },
   "contact": {
-    "title": "Vamos falar",
-    "emailPrompt": "O melhor é enviares-me um e-mail a explicar o que tens em mente.",
-    "existingSite": "Se já tens um website, envia-mo e dou-lhe uma vista de olhos.",
-    "noWorries": "Não precisas de saber tecnologia nem de ter tudo definido. Damos-lhe forma juntos.",
-    "formTitle": "Envia-me uma mensagem",
-    "name": "O teu nome",
-    "email": "O teu e-mail",
+    "title": "Vamos conversar",
+    "emailPrompt": "O melhor é me enviar um email explicando o que você tem em mente.",
+    "existingSite": "Se você já tiver um site, me manda que eu dou uma olhada. Posso te dar um feedback rápido do que melhoraria, sem compromisso ou custo.",
+    "noWorries": "Não precisa entender de tecnologia nem ter tudo pronto. Basta saber o que você quer, e a gente constrói junto.",
+    "formTitle": "Me envie uma mensagem",
+    "name": "Seu nome",
+    "email": "Seu email",
     "subject": "Assunto",
     "message": "Mensagem",
     "send": "Enviar",
-    "sending": "A enviar...",
-    "successMessage": "Mensagem enviada! Responderei em menos de 24 horas.",
-    "errorMessage": "Erro ao enviar. Escreve-me diretamente se o problema persistir."
+    "sending": "Enviando...",
+    "successMessage": "Mensagem enviada! Respondo em até 24h.",
+    "errorMessage": "Erro ao enviar. Me escreva diretamente se o problema continuar."
   },
   "validation": {
     "name": {
@@ -96,8 +96,8 @@
       "pattern": "Apenas letras, espaços e hífens"
     },
     "email": {
-      "required": "O e-mail é obrigatório",
-      "format": "Introduz um e-mail válido (ex.: nome@dominio.com)"
+      "required": "Email é obrigatório",
+      "format": "Insira um email válido (ex: nome@dominio.com)"
     },
     "subject": {
       "minLength": "Mínimo de 3 caracteres"
@@ -108,6 +108,6 @@
   },
   "carousel": {
     "prev": "Anterior",
-    "next": "Seguinte"
+    "next": "Próximo"
   }
 }

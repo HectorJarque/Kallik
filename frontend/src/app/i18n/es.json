@@ -10,10 +10,10 @@
     "toggleMenu": "Abrir menú"
   },
   "intro": {
-    "heading": "Hago webs rápidas, claras y fáciles de usar",
-    "tagline": "Sin cosas innecesarias, sin webs lentas y sin complicarte la vida.",
-    "servicesOverview": "Dependiendo de lo que necesites, puedo hacer desde una web sencilla hasta una más interactiva con formularios, buscadores o funciones más avanzadas.",
-    "hostingNote": "No gestiono dominios ni hosting de serie, pero si no quieres líos puedo encargarme yo y sumarlo al presupuesto."
+    "heading": "Hago webs a medida, claras y fáciles de usar",
+    "tagline": "Sin cosas innecesarias. Cada web es única, puedo inspirarme en lo que te guste y adaptarla a lo que necesites",
+    "servicesOverview": "Hago webs adaptadas a cada caso: desde páginas simples hasta proyectos interactivos con formularios, buscadores, contenido dinámico o incluso webs solo de texto. Lo que necesites, se puede plantear y construir.",
+    "hostingNote": "Puedo encargarme del dominio y el hosting si quieres olvidarte de lo técnico, o dejarlo todo en tus manos. También puedo mantener la web mes a mes o entregarte todo (código, dominio y hosting) para que sea tuya sin dependencia."
   },
   "stats": {
     "responseTime": "Tiempo de respuesta",
@@ -42,15 +42,15 @@
     },
     "pricing": {
       "title": "Sobre precios:",
-      "description": "Cada proyecto es distinto, así que los precios se hablan sin compromiso."
+      "description": "Cada proyecto es distinto. Normalmente suelo estar por debajo del precio de mercado porque priorizo la experiencia y construir cosas bien hechas antes que inflar presupuestos. Según lo que necesites, ajustamos todo sin compromiso."
     }
   },
   "about": {
     "title": "Quién está detrás de esto",
-    "intro": "Me llamo Héctor Jarque. No vengo de agencia ni de bootcamp milagroso. Aprendí haciendo cosas, rompiéndolas y arreglándolas.",
+    "intro": "Me llamo Héctor Jarque. Empecé desde cero haciendo estudiando en DAW y haciendo proyectos por mi cuenta, rompiendo cosas y aprendiendo hasta entender cómo funcionan de verdad las webs.",
     "location": "Vivo en Valencia. Trabajo en remoto sin problema, y si estás cerca podemos tomar un café.",
-    "learning": "Empecé sin entender nada y poco a poco me fui formando hasta poder crear las webs y proyectos que hago hoy en día.",
-    "honesty": "No te voy a soltar jerga para impresionar. Si algo no se puede hacer, te lo digo.",
+    "learning": "Empecé sin tener ni idea y fui construyendo proyectos poco a poco hasta poder desarrollar webs completas y entender lo que hay detrás de cada parte.",
+    "honesty": "No vendo humo. Si algo no se puede hacer, te lo digo. Si se puede pero no es buena idea por cualquier motivo, también te lo explico claro.",
     "techTitle": "Tecnología que suelo utilizar"
   },
   "projects": {
@@ -61,7 +61,7 @@
     "hybridTag": "Web híbrida",
     "portfolio": {
       "title": "Este portfolio",
-      "description": "El sitio que estás viendo. Construido con Angular, Spring Boot y MongoDB — incluye formulario de contacto funcional y soporte multiidioma.",
+      "description": "El sitio que estás viendo. Construido con Angular, Kotlin, Spring Boot y MongoDB — incluye formulario de contacto funcional y soporte multiidioma.",
       "screenshotAlt": "Captura del portfolio"
     },
     "uwutrack": {
@@ -78,8 +78,8 @@
   "contact": {
     "title": "Hablamos",
     "emailPrompt": "Lo mejor es que me escribas un correo contándome qué tienes en mente.",
-    "existingSite": "Si ya tienes una web, pásamela y le echo un vistazo.",
-    "noWorries": "No hace falta saber de tecnología ni tenerlo todo claro. Le damos forma juntos.",
+    "existingSite": "Si ya tienes una web, pásamela y le echo un vistazo. Puedo darte feedback rápido con lo que mejoraría sin compromiso ni coste.",
+    "noWorries": "No hace falta saber de tecnología ni tenerlo todo claro. Con que sepas lo que quieres, lo sacamos adelante.",
     "formTitle": "Mándame un mensaje",
     "name": "Tu nombre",
     "email": "Tu email",

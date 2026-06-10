@@ -10,10 +10,10 @@
     "toggleMenu": "Obrir menú"
   },
   "intro": {
-    "heading": "Faig webs ràpides, clares i fàcils d'utilitzar",
-    "tagline": "Sense coses innecessàries, sense webs lentes i sense complicar-te la vida.",
-    "servicesOverview": "Depenent del que necessites, puc fer des d'una web senzilla fins a una de més interactiva amb formularis, cercadors o funcionalitats més avançades.",
-    "hostingNote": "No gestione dominis ni allotjament de sèrie, però si no vols embolics puc encarregar-me'n jo i afegir-ho al pressupost."
+    "heading": "Faig webs a mida, clares i fàcils d'usar",
+    "tagline": "Sense coses innecessàries. Cada web és única, puc inspirar-me en el que t'agradi i adaptar-la al que necessitis",
+    "servicesOverview": "Faig webs adaptades a cada cas: des de pàgines simples fins a projectes interactius amb formularis, cercadors, contingut dinàmic o fins i tot webs només de text. El que necessitis, es pot plantejar i construir.",
+    "hostingNote": "Puc encarregar-me del domini i el hosting si vols oblidar-te del tema tècnic, o deixar-ho tot a les teves mans. També puc mantenir la web mes a mes o entregar-te-ho tot (codi, domini i hosting) perquè sigui teva sense dependències."
   },
   "stats": {
     "responseTime": "Temps de resposta",
@@ -24,71 +24,71 @@
   },
   "services": {
     "title": "Tipus de web que faig",
-    "intro": "Depenent del que necessites, puc fer diferents tipus de web",
+    "intro": "Depenent del que necessitis, puc fer diferents tipus de web",
     "static": {
-      "title": "Per a mostrar el que ofereixes",
+      "title": "Per mostrar el que ofereixes",
       "description": "Pàgina web senzilla i ràpida, feta a mida i sense complicacions. Carrega a l'instant i es pot allotjar a qualsevol lloc.",
-      "ideal": "Marques que utilitzen aquest tipus de web"
+      "ideal": "Marques que fan servir aquest tipus de web"
     },
     "dynamic": {
-      "title": "Perquè els teus usuaris interactuen",
+      "title": "Perquè els teus usuaris interactuïn",
       "description": "Filtres, cercadors, contingut que canvia a l'instant, formularis intel·ligents i connexions amb APIs externes.",
-      "ideal": "Plataformes que utilitzen aquest tipus de web"
+      "ideal": "Plataformes que fan servir aquest tipus de web"
     },
     "hybrid": {
-      "title": "Per a gestionar el teu contingut",
-      "description": "Part pública per a clients i part privada per a gestionar contingut sense tocar codi.",
-      "ideal": "Serveis que utilitzen aquest tipus de web"
+      "title": "Per gestionar el teu contingut",
+      "description": "Part pública per als clients i part privada per gestionar contingut sense tocar codi.",
+      "ideal": "Serveis que fan servir aquest tipus de web"
     },
     "pricing": {
-      "title": "Sobre els preus:",
-      "description": "Cada projecte és diferent, així que els preus es parlen sense compromís."
+      "title": "Sobre preus:",
+      "description": "Cada projecte és diferent. Normalment estic per sota del preu de mercat perquè prioritzo l'experiència i fer coses ben fetes abans que inflar pressupostos. Segons el que necessitis, ho ajustem tot sense compromís."
     }
   },
   "about": {
     "title": "Qui hi ha darrere d'això",
-    "intro": "Em dic Héctor Jarque. No vinc d'una agència ni d'un bootcamp miraculós. Vaig aprendre fent coses, espatllant-les i arreglant-les.",
-    "location": "Visc a València. Treballe en remot sense cap problema i, si estàs a prop, podem prendre un café.",
-    "learning": "Vaig començar sense entendre res i, a poc a poc, em vaig anar formant fins a poder crear les webs i projectes que faig hui en dia.",
-    "honesty": "No et soltaré jerga per a impressionar-te. Si alguna cosa no es pot fer, t'ho diré.",
-    "techTitle": "Tecnologia que acostume a utilitzar"
+    "intro": "Em dic Héctor Jarque. Vaig començar des de zero estudiant DAW i fent projectes pel meu compte, trencant coses i aprenent fins entendre com funcionen de veritat les webs.",
+    "location": "Visc a València. Treballo en remot sense problema, i si ets a prop podem prendre un cafè.",
+    "learning": "Vaig començar sense tenir ni idea i vaig anar construint projectes a poc a poc fins poder desenvolupar webs completes i entendre què hi ha darrere de cada part.",
+    "honesty": "No venc fum. Si alguna cosa no es pot fer, t'ho dic. Si es pot però no és bona idea per qualsevol motiu, també t'ho explico clar.",
+    "techTitle": "Tecnologia que acostumo a utilitzar"
   },
   "projects": {
     "title": "Algunes coses que he fet",
-    "intro": "Per a continuar aprenent, he anat creant diferents projectes web",
+    "intro": "Per seguir aprenent, he anat creant diferents projectes web",
     "staticTag": "Web estàtica",
     "dynamicTag": "Web dinàmica",
     "hybridTag": "Web híbrida",
     "portfolio": {
-      "title": "Aquest portfoli",
-      "description": "El lloc que estàs veient. Construït amb Angular, Spring Boot i MongoDB — inclou formulari de contacte funcional i suport multilingüe.",
-      "screenshotAlt": "Captura del portfoli"
+      "title": "Aquest portfolio",
+      "description": "El lloc que estàs veient. Construït amb Angular, Kotlin, Spring Boot i MongoDB — inclou formulari de contacte funcional i suport multiidioma.",
+      "screenshotAlt": "Captura del portfolio"
     },
     "uwutrack": {
       "title": "UwU-Track",
-      "description": "Plataforma local de scraping i lectura de manga. Afig l'URL del teu manga preferit i UwU-Track el descarrega automàticament, mantenint-lo actualitzat capítol a capítol."
+      "description": "Plataforma local de scraping i lectura de manga. Afegeix la URL del teu manga favorit i UwU-Track el descarrega automàticament, mantenint-lo actualitzat capítol a capítol."
     },
     "experience": {
       "tag": "Experiència laboral",
-      "title": "3 mesos en un equip de desenvolupament fintech",
-      "description": "Frontend i backend, millora de funcionalitats i treball en un entorn tecnològic real."
+      "title": "3 mesos en equip de desenvolupament fintech",
+      "description": "Frontend i backend, millora de funcionalitats i treball en entorn tecnològic real."
     },
     "viewProject": "Visitar web"
   },
   "contact": {
     "title": "Parlem",
-    "emailPrompt": "El millor és que m'escrigues un correu explicant-me què tens en ment.",
-    "existingSite": "Si ja tens una web, passa-me-la i li faré una ullada.",
-    "noWorries": "No cal saber de tecnologia ni tindre-ho tot clar. Li donem forma junts.",
+    "emailPrompt": "El millor és que m'enviïs un correu explicant què tens al cap.",
+    "existingSite": "Si ja tens una web, passa-me-la i li faig un cop d'ull. Puc donar-te feedback ràpid amb el que milloraria sense compromís ni cost.",
+    "noWorries": "No cal saber de tecnologia ni tenir-ho tot clar. Amb que sàpigues el que vols, ho fem realitat.",
     "formTitle": "Envia'm un missatge",
     "name": "El teu nom",
-    "email": "El teu correu electrònic",
+    "email": "El teu email",
     "subject": "Assumpte",
     "message": "Missatge",
     "send": "Enviar",
     "sending": "Enviant...",
-    "successMessage": "Missatge enviat! Et respondré en menys de 24 h.",
-    "errorMessage": "Error en enviar. Escriu-me directament si el problema persisteix."
+    "successMessage": "Missatge enviat! Et respondré en menys de 24h.",
+    "errorMessage": "Error en enviar. Escriu-me directament si el problema continua."
   },
   "validation": {
     "name": {
@@ -96,8 +96,8 @@
       "pattern": "Només lletres, espais i guions"
     },
     "email": {
-      "required": "El correu electrònic és obligatori",
-      "format": "Introdueix un correu electrònic vàlid (ex.: nom@domini.com)"
+      "required": "El correu és obligatori",
+      "format": "Introdueix un correu vàlid (ex: nom@domini.com)"
     },
     "subject": {
       "minLength": "Mínim 3 caràcters"
