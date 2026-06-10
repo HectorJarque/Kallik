@@ -6,89 +6,89 @@
     "contact": "Kontakt"
   },
   "header": {
-    "toggleTheme": "Theme wechseln",
+    "toggleTheme": "Design wechseln",
     "toggleMenu": "Menü öffnen"
   },
   "intro": {
-    "heading": "Ich erstelle maßgeschneiderte Websites, klar und einfach zu bedienen",
-    "tagline": "Ohne unnötige Dinge. Jede Website ist einzigartig, ich lasse mich von dem inspirieren, was dir gefällt, und passe sie an deine Bedürfnisse an",
-    "servicesOverview": "Ich erstelle Websites für jeden Bedarf: von einfachen Seiten bis hin zu interaktiven Projekten mit Formularen, Suchfunktionen, dynamischen Inhalten oder sogar reinen Text-Websites. Alles, was du brauchst, kann geplant und umgesetzt werden.",
-    "hostingNote": "Ich kann mich um Domain und Hosting kümmern, wenn du dich nicht mit Technik beschäftigen willst, oder alles in deine Hände geben. Außerdem kann ich die Website monatlich betreuen oder dir alles übergeben (Code, Domain und Hosting), sodass sie komplett dir gehört."
+    "heading": "Ich erstelle maßgeschneiderte Websites, die klar und einfach zu bedienen sind",
+    "tagline": "Ohne unnötigen Schnickschnack. Jede Website ist einzigartig. Ich kann mich von dem inspirieren lassen, was dir gefällt, und es an deine Bedürfnisse anpassen",
+    "servicesOverview": "Ich entwickle Websites für jeden Anwendungsfall: von einfachen Seiten bis hin zu interaktiven Projekten mit Formularen, Suchfunktionen, dynamischen Inhalten oder sogar reinen Text-Websites. Was auch immer du brauchst – es lässt sich planen und umsetzen.",
+    "hostingNote": "Ich kann mich um die Domain und das Hosting kümmern, wenn du dich nicht mit der Technik beschäftigen möchtest, oder dir die volle Kontrolle überlassen. Außerdem kann ich die Website monatlich betreuen oder dir alles (Code, Domain und Hosting) übergeben, damit sie vollständig dir gehört."
   },
   "stats": {
     "responseTime": "Antwortzeit",
     "type": "Fest",
-    "budget": "Festpreis-Budget",
+    "budget": "Festpreis",
     "remote": "Remote",
     "langs": "Sprachen"
   },
   "services": {
     "title": "Arten von Websites, die ich erstelle",
-    "intro": "Je nach Bedarf kann ich verschiedene Arten von Websites erstellen",
+    "intro": "Je nachdem, was du brauchst, kann ich verschiedene Arten von Websites entwickeln",
     "static": {
-      "title": "Um dein Angebot zu präsentieren",
-      "description": "Einfache und schnelle Website, maßgeschneidert und unkompliziert. Lädt sofort und kann überall gehostet werden.",
-      "ideal": "Websites dieser Art für Marken"
+      "title": "Um zu zeigen, was du anbietest",
+      "description": "Einfache und schnelle Website, individuell erstellt und ohne Komplikationen. Lädt sofort und kann überall gehostet werden.",
+      "ideal": "Marken, die diese Art von Website nutzen"
     },
     "dynamic": {
       "title": "Damit deine Nutzer interagieren können",
-      "description": "Filter, Suchfunktionen, Inhalte in Echtzeit, intelligente Formulare und externe API-Anbindungen.",
-      "ideal": "Plattformen dieser Art"
+      "description": "Filter, Suchfunktionen, Inhalte, die sich sofort ändern, intelligente Formulare und Anbindungen an externe APIs.",
+      "ideal": "Plattformen, die diese Art von Website nutzen"
     },
     "hybrid": {
       "title": "Zur Verwaltung deiner Inhalte",
-      "description": "Öffentlicher Bereich für Kunden und privater Bereich zur Inhaltsverwaltung ohne Code.",
-      "ideal": "Services dieser Art"
+      "description": "Ein öffentlicher Bereich für Kunden und ein privater Bereich zur Verwaltung von Inhalten ohne Programmierung.",
+      "ideal": "Dienste, die diese Art von Website nutzen"
     },
     "pricing": {
-      "title": "Über Preise:",
-      "description": "Jedes Projekt ist anders. Ich liege meistens unter dem Marktpreis, weil mir Erfahrung und saubere Arbeit wichtiger sind als hohe Budgets. Je nach Bedarf passen wir alles flexibel und ohne Verpflichtung an."
+      "title": "Zu den Preisen:",
+      "description": "Jedes Projekt ist anders. Normalerweise liege ich unter dem Marktpreis, weil ich die Nutzererfahrung und qualitativ hochwertige Arbeit über aufgeblähte Budgets stelle. Je nach Bedarf passen wir alles unverbindlich an."
     }
   },
   "about": {
     "title": "Wer dahinter steckt",
-    "intro": "Ich heiße Héctor Jarque. Ich komme nicht aus einer Agentur oder einem klassischen Bootcamp. Ich habe von null angefangen, eigene Projekte gebaut, Dinge kaputt gemacht und daraus gelernt, bis ich wirklich verstanden habe, wie Websites funktionieren.",
-    "location": "Ich lebe in Valencia. Remote-Arbeit ist kein Problem, und wenn du in der Nähe bist, können wir auch einen Kaffee trinken.",
-    "learning": "Ich habe komplett ohne Vorkenntnisse angefangen und mir Schritt für Schritt alles selbst aufgebaut, bis ich komplette Webprojekte umsetzen konnte und verstehe, was hinter allem steckt.",
-    "honesty": "Kein Bullshit und kein Fachchinesisch. Wenn etwas nicht geht, sage ich es dir. Wenn es zwar geht, aber keine gute Idee ist, erkläre ich dir auch warum.",
+    "intro": "Ich heiße Héctor Jarque. Ich habe bei null angefangen, DAW studiert und eigene Projekte umgesetzt, Dinge kaputt gemacht und daraus gelernt, bis ich wirklich verstanden habe, wie Websites funktionieren.",
+    "location": "Ich lebe in Valencia. Remote-Arbeit ist für mich kein Problem, und wenn du in der Nähe bist, können wir gerne einen Kaffee trinken.",
+    "learning": "Ich habe ohne Vorkenntnisse angefangen und Schritt für Schritt Projekte aufgebaut, bis ich komplette Websites entwickeln und verstehen konnte, was hinter jedem einzelnen Teil steckt.",
+    "honesty": "Ich verspreche keine Wunder. Wenn etwas nicht machbar ist, sage ich es dir. Wenn es möglich ist, aber aus irgendeinem Grund keine gute Idee ist, erkläre ich dir das ebenfalls offen und ehrlich.",
     "techTitle": "Technologien, die ich normalerweise verwende"
   },
   "projects": {
-    "title": "Ein paar Sachen, die ich gebaut habe",
-    "intro": "Um weiter zu lernen, habe ich verschiedene Webprojekte umgesetzt",
+    "title": "Einige Dinge, die ich gemacht habe",
+    "intro": "Um weiter zu lernen, habe ich verschiedene Webprojekte entwickelt",
     "staticTag": "Statische Website",
     "dynamicTag": "Dynamische Website",
     "hybridTag": "Hybride Website",
     "portfolio": {
       "title": "Dieses Portfolio",
-      "description": "Die Seite, die du gerade siehst. Gebaut mit Angular, Kotlin, Spring Boot und MongoDB — inklusive funktionierendem Kontaktformular und Multi-Language-Support.",
+      "description": "Die Website, die du gerade siehst. Erstellt mit Angular, Kotlin, Spring Boot und MongoDB – inklusive funktionierendem Kontaktformular und Mehrsprachigkeit.",
       "screenshotAlt": "Screenshot des Portfolios"
     },
     "uwutrack": {
       "title": "UwU-Track",
-      "description": "Lokale Scraping- und Manga-Leseplattform. Füge die URL deines Lieblings-Mangas hinzu und UwU-Track lädt ihn automatisch herunter und hält ihn Kapitel für Kapitel aktuell."
+      "description": "Lokale Plattform zum Scrapen und Lesen von Manga. Füge die URL deines Lieblingsmangas hinzu und UwU-Track lädt ihn automatisch herunter und hält ihn Kapitel für Kapitel aktuell."
     },
     "experience": {
       "tag": "Berufserfahrung",
-      "title": "3 Monate im Fintech-Entwicklungsteam",
-      "description": "Frontend und Backend, Feature-Verbesserungen und Arbeit in einer echten technischen Umgebung."
+      "title": "3 Monate in einem Fintech-Entwicklungsteam",
+      "description": "Frontend- und Backend-Entwicklung, Verbesserung von Funktionen und Arbeit in einer realen technologischen Umgebung."
     },
     "viewProject": "Website besuchen"
   },
   "contact": {
     "title": "Lass uns sprechen",
     "emailPrompt": "Am besten schreibst du mir eine E-Mail und erzählst mir, was du vorhast.",
-    "existingSite": "Wenn du schon eine Website hast, schick sie mir. Ich gebe dir gern kostenlos und unverbindlich Feedback, was ich verbessern würde.",
-    "noWorries": "Du musst keine Technik kennen oder alles fertig geplant haben. Hauptsache du weißt grob, was du willst – den Rest bauen wir zusammen.",
+    "existingSite": "Wenn du bereits eine Website hast, schick sie mir. Ich schaue sie mir an und gebe dir kostenlos und unverbindlich schnelles Feedback zu möglichen Verbesserungen.",
+    "noWorries": "Du musst kein Technikexperte sein oder schon alles genau wissen. Wenn du weißt, was du möchtest, finden wir gemeinsam eine Lösung.",
     "formTitle": "Schick mir eine Nachricht",
     "name": "Dein Name",
     "email": "Deine E-Mail",
     "subject": "Betreff",
     "message": "Nachricht",
     "send": "Senden",
-    "sending": "Sende...",
-    "successMessage": "Nachricht gesendet! Ich antworte innerhalb von 24h.",
-    "errorMessage": "Fehler beim Senden. Schreib mir direkt, falls es nicht klappt."
+    "sending": "Wird gesendet...",
+    "successMessage": "Nachricht gesendet! Ich antworte innerhalb von 24 Stunden.",
+    "errorMessage": "Fehler beim Senden. Schreib mir direkt, falls das Problem weiterhin besteht."
   },
   "validation": {
     "name": {
@@ -96,8 +96,8 @@
       "pattern": "Nur Buchstaben, Leerzeichen und Bindestriche"
     },
     "email": {
-      "required": "E-Mail ist erforderlich",
-      "format": "Bitte eine gültige E-Mail eingeben (z. B. name@domain.com)"
+      "required": "Die E-Mail-Adresse ist erforderlich",
+      "format": "Gib eine gültige E-Mail-Adresse ein (z. B. name@domain.de)"
     },
     "subject": {
       "minLength": "Mindestens 3 Zeichen"

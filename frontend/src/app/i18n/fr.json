@@ -1,7 +1,7 @@
 {
   "nav": {
     "whatIDo": "Ce que je fais",
-    "aboutMe": "À propos",
+    "aboutMe": "À propos de moi",
     "projects": "Projets",
     "contact": "Contact"
   },
@@ -11,9 +11,9 @@
   },
   "intro": {
     "heading": "Je crée des sites web sur mesure, clairs et faciles à utiliser",
-    "tagline": "Pas de trucs inutiles. Chaque site est unique, je peux m’inspirer de ce que tu aimes et l’adapter à tes besoins",
-    "servicesOverview": "Je crée des sites adaptés à chaque cas : de simples pages jusqu’à des projets interactifs avec formulaires, moteurs de recherche, contenu dynamique ou même des sites uniquement textuels. Tout ce dont tu as besoin peut être conçu et développé.",
-    "hostingNote": "Je peux m’occuper du domaine et de l’hébergement si tu veux éviter la partie technique, ou te laisser tout gérer. Je peux aussi assurer la maintenance mensuelle ou te livrer tout (code, domaine et hébergement) pour que le site t’appartienne entièrement sans dépendance."
+    "tagline": "Sans éléments inutiles. Chaque site est unique. Je peux m'inspirer de ce que vous aimez et l'adapter à vos besoins",
+    "servicesOverview": "Je crée des sites adaptés à chaque situation : des pages simples aux projets interactifs avec formulaires, moteurs de recherche, contenu dynamique ou même des sites uniquement textuels. Tout ce dont vous avez besoin peut être conçu et développé.",
+    "hostingNote": "Je peux m'occuper du nom de domaine et de l'hébergement si vous souhaitez éviter les aspects techniques, ou vous laisser tout gérer vous-même. Je peux également assurer la maintenance du site chaque mois ou vous remettre l'ensemble (code, domaine et hébergement) afin qu'il vous appartienne totalement, sans dépendance."
   },
   "stats": {
     "responseTime": "Temps de réponse",
@@ -23,81 +23,81 @@
     "langs": "Langues"
   },
   "services": {
-    "title": "Types de sites que je réalise",
-    "intro": "Selon tes besoins, je peux créer différents types de sites web",
+    "title": "Types de sites web que je réalise",
+    "intro": "Selon vos besoins, je peux créer différents types de sites web",
     "static": {
-      "title": "Pour présenter ce que tu proposes",
-      "description": "Site simple et rapide, fait sur mesure et sans complications. Chargement instantané et hébergement partout possible.",
+      "title": "Pour présenter ce que vous proposez",
+      "description": "Site web simple et rapide, conçu sur mesure et sans complications. Chargement instantané et hébergement possible partout.",
       "ideal": "Marques qui utilisent ce type de site"
     },
     "dynamic": {
-      "title": "Pour permettre l’interaction des utilisateurs",
-      "description": "Filtres, recherche, contenu en temps réel, formulaires intelligents et intégrations d’API externes.",
+      "title": "Pour permettre à vos utilisateurs d'interagir",
+      "description": "Filtres, moteurs de recherche, contenu mis à jour instantanément, formulaires intelligents et connexions à des API externes.",
       "ideal": "Plateformes qui utilisent ce type de site"
     },
     "hybrid": {
-      "title": "Pour gérer ton contenu",
-      "description": "Partie publique pour les clients et espace privé pour gérer le contenu sans toucher au code.",
+      "title": "Pour gérer votre contenu",
+      "description": "Une partie publique pour les clients et une partie privée pour gérer le contenu sans toucher au code.",
       "ideal": "Services qui utilisent ce type de site"
     },
     "pricing": {
-      "title": "À propos des prix :",
-      "description": "Chaque projet est différent. Je suis généralement en dessous du marché car je privilégie l’expérience et la qualité du travail plutôt que les budgets gonflés. Selon tes besoins, on ajuste tout sans engagement."
+      "title": "À propos des tarifs :",
+      "description": "Chaque projet est différent. Je me situe généralement en dessous des prix du marché, car je privilégie l'expérience utilisateur et la qualité du travail plutôt que des budgets gonflés. Selon vos besoins, nous pouvons tout ajuster sans engagement."
     }
   },
   "about": {
-    "title": "Qui se cache derrière tout ça",
-    "intro": "Je m’appelle Héctor Jarque. Je ne viens pas d’une agence ni d’un parcours classique de bootcamp. J’ai commencé de zéro en créant mes propres projets, en cassant des choses et en apprenant jusqu’à comprendre réellement comment fonctionnent les sites web.",
-    "location": "Je vis à Valence. Je travaille en remote sans problème, et si tu es dans le coin on peut aller prendre un café.",
-    "learning": "J’ai commencé sans aucune connaissance et j’ai construit petit à petit des projets jusqu’à pouvoir développer des sites complets et comprendre ce qu’il y a derrière chaque partie.",
-    "honesty": "Pas de blabla. Si quelque chose n’est pas possible, je te le dis. Si c’est possible mais pas une bonne idée, je t’explique pourquoi.",
-    "techTitle": "Technologies que j’utilise généralement"
+    "title": "Qui se cache derrière tout cela",
+    "intro": "Je m'appelle Héctor Jarque. J'ai commencé de zéro en étudiant le développement web (DAW) et en réalisant mes propres projets, en cassant des choses et en apprenant jusqu'à comprendre réellement le fonctionnement des sites web.",
+    "location": "Je vis à Valence. Je travaille à distance sans problème, et si vous êtes dans les environs, nous pouvons prendre un café.",
+    "learning": "J'ai commencé sans aucune connaissance et j'ai construit des projets petit à petit jusqu'à pouvoir développer des sites complets et comprendre ce qui se passe derrière chaque élément.",
+    "honesty": "Je ne vends pas de rêves. Si quelque chose n'est pas réalisable, je vous le dirai. Si c'est faisable mais que ce n'est pas une bonne idée pour une raison quelconque, je vous l'expliquerai également clairement.",
+    "techTitle": "Technologies que j'utilise habituellement"
   },
   "projects": {
-    "title": "Quelques projets que j’ai réalisés",
-    "intro": "Pour continuer à apprendre, j’ai créé différents projets web",
+    "title": "Quelques projets que j'ai réalisés",
+    "intro": "Pour continuer à apprendre, j'ai créé différents projets web",
     "staticTag": "Site statique",
     "dynamicTag": "Site dynamique",
     "hybridTag": "Site hybride",
     "portfolio": {
       "title": "Ce portfolio",
-      "description": "Le site que tu es en train de voir. Construit avec Angular, Kotlin, Spring Boot et MongoDB — inclut un formulaire de contact fonctionnel et le support multilingue.",
-      "screenshotAlt": "Capture du portfolio"
+      "description": "Le site que vous consultez actuellement. Développé avec Angular, Kotlin, Spring Boot et MongoDB — il comprend un formulaire de contact fonctionnel et la prise en charge de plusieurs langues.",
+      "screenshotAlt": "Capture d'écran du portfolio"
     },
     "uwutrack": {
       "title": "UwU-Track",
-      "description": "Plateforme locale de scraping et de lecture de mangas. Ajoute l’URL de ton manga préféré et UwU-Track le télécharge automatiquement en le mettant à jour chapitre par chapitre."
+      "description": "Plateforme locale de scraping et de lecture de mangas. Ajoutez l'URL de votre manga préféré et UwU-Track le télécharge automatiquement tout en le maintenant à jour chapitre après chapitre."
     },
     "experience": {
       "tag": "Expérience professionnelle",
       "title": "3 mois dans une équipe de développement fintech",
-      "description": "Frontend et backend, amélioration de fonctionnalités et travail dans un environnement technique réel."
+      "description": "Développement frontend et backend, amélioration de fonctionnalités et travail dans un environnement technologique réel."
     },
     "viewProject": "Visiter le site"
   },
   "contact": {
-    "title": "On discute",
-    "emailPrompt": "Le mieux est de m’envoyer un email pour m’expliquer ton idée.",
-    "existingSite": "Si tu as déjà un site, envoie-le moi et je le regarde. Je peux te donner un retour rapide sur ce que j’améliorerais, sans engagement ni coût.",
-    "noWorries": "Pas besoin de comprendre la technique ni d’avoir tout défini. Tant que tu sais ce que tu veux, on peut le construire ensemble.",
-    "formTitle": "Envoie-moi un message",
-    "name": "Ton nom",
-    "email": "Ton email",
-    "subject": "Sujet",
+    "title": "Parlons-en",
+    "emailPrompt": "Le mieux est de m'envoyer un e-mail en m'expliquant ce que vous avez en tête.",
+    "existingSite": "Si vous avez déjà un site web, envoyez-le-moi et j'y jetterai un œil. Je peux vous donner rapidement un avis sur ce que j'améliorerais, sans engagement ni frais.",
+    "noWorries": "Pas besoin de connaissances techniques ni d'avoir tout parfaitement défini. Tant que vous savez ce que vous voulez, nous pouvons le concrétiser.",
+    "formTitle": "Envoyez-moi un message",
+    "name": "Votre nom",
+    "email": "Votre e-mail",
+    "subject": "Objet",
     "message": "Message",
     "send": "Envoyer",
-    "sending": "Envoi...",
-    "successMessage": "Message envoyé ! Je réponds sous 24h.",
-    "errorMessage": "Erreur lors de l’envoi. Contacte-moi directement si le problème persiste."
+    "sending": "Envoi en cours...",
+    "successMessage": "Message envoyé ! Je vous répondrai en moins de 24 heures.",
+    "errorMessage": "Erreur lors de l'envoi. Contactez-moi directement si le problème persiste."
   },
   "validation": {
     "name": {
       "minLength": "Minimum 2 caractères",
-      "pattern": "Uniquement lettres, espaces et tirets"
+      "pattern": "Lettres, espaces et tirets uniquement"
     },
     "email": {
-      "required": "L’email est obligatoire",
-      "format": "Entrez un email valide (ex : nom@domaine.com)"
+      "required": "L'adresse e-mail est obligatoire",
+      "format": "Saisissez une adresse e-mail valide (ex. : nom@domaine.com)"
     },
     "subject": {
       "minLength": "Minimum 3 caractères"

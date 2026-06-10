@@ -1,7 +1,7 @@
 {
   "nav": {
-    "whatIDo": "What I do",
-    "aboutMe": "About me",
+    "whatIDo": "What I Do",
+    "aboutMe": "About Me",
     "projects": "Projects",
     "contact": "Contact"
   },
@@ -11,9 +11,9 @@
   },
   "intro": {
     "heading": "I build custom websites that are clear and easy to use",
-    "tagline": "No unnecessary stuff. Every website is unique, I can take inspiration from what you like and adapt it to your needs",
-    "servicesOverview": "I build websites tailored to each case: from simple pages to interactive projects with forms, search features, dynamic content, or even text-only websites. Whatever you need can be planned and built.",
-    "hostingNote": "I can handle domain and hosting if you want to avoid the technical side, or leave everything in your hands. I can also maintain the website monthly or deliver everything (code, domain, and hosting) so it’s fully yours with no dependency."
+    "tagline": "No unnecessary extras. Every website is unique. I can take inspiration from what you like and adapt it to what you need",
+    "servicesOverview": "I build websites tailored to each situation: from simple pages to interactive projects with forms, search features, dynamic content, or even text-only websites. Whatever you need, it can be planned and built.",
+    "hostingNote": "I can take care of the domain and hosting if you want to avoid the technical side, or leave everything in your hands. I can also maintain the website month by month or hand over everything (code, domain, and hosting) so it's completely yours with no dependency."
   },
   "stats": {
     "responseTime": "Response time",
@@ -24,62 +24,62 @@
   },
   "services": {
     "title": "Types of websites I build",
-    "intro": "Depending on what you need, I can build different types of websites",
+    "intro": "Depending on what you need, I can create different types of websites",
     "static": {
       "title": "To showcase what you offer",
-      "description": "Simple and fast website, fully custom-made and hassle-free. Loads instantly and can be hosted anywhere.",
+      "description": "Simple and fast website, built from scratch and without unnecessary complexity. Loads instantly and can be hosted anywhere.",
       "ideal": "Brands that use this type of website"
     },
     "dynamic": {
-      "title": "To let your users interact",
-      "description": "Filters, search systems, real-time content, smart forms, and external API integrations.",
+      "title": "For your users to interact with",
+      "description": "Filters, search features, instantly updating content, smart forms, and integrations with external APIs.",
       "ideal": "Platforms that use this type of website"
     },
     "hybrid": {
       "title": "To manage your content",
-      "description": "Public-facing section for customers and a private area to manage content without touching code.",
+      "description": "A public area for customers and a private area to manage content without touching code.",
       "ideal": "Services that use this type of website"
     },
     "pricing": {
       "title": "About pricing:",
-      "description": "Every project is different. I usually stay below market price because I prioritize the experience and building things properly over inflating budgets. Depending on your needs, we adjust everything with no commitment."
+      "description": "Every project is different. I usually stay below market rates because I prioritize user experience and building things properly over inflating budgets. Depending on what you need, we can adjust everything with no commitment."
     }
   },
   "about": {
-    "title": "Who’s behind this",
-    "intro": "My name is Héctor Jarque. I didn’t come from an agency or a typical bootcamp path. I started from scratch building projects on my own, breaking things and learning until I truly understood how websites work.",
-    "location": "I live in Valencia. I work remotely without any issue, and if you’re nearby we can grab a coffee.",
-    "learning": "I started with zero knowledge and slowly built projects until I could develop full websites and understand what’s behind every part of them.",
-    "honesty": "No fluff. If something can’t be done, I’ll tell you. If it can be done but it’s not a good idea, I’ll explain why.",
-    "techTitle": "Technology I usually use"
+    "title": "Who's behind this",
+    "intro": "My name is Héctor Jarque. I started from scratch by studying DAW and building my own projects, breaking things and learning until I truly understood how websites work.",
+    "location": "I live in Valencia. I work remotely without any issues, and if you're nearby, we can grab a coffee.",
+    "learning": "I started without knowing anything and gradually built projects until I was able to develop complete websites and understand what happens behind every part of them.",
+    "honesty": "I don't sell smoke and mirrors. If something can't be done, I'll tell you. If it can be done but isn't a good idea for any reason, I'll explain that clearly too.",
+    "techTitle": "Technologies I usually use"
   },
   "projects": {
-    "title": "Some things I’ve built",
-    "intro": "To keep learning, I’ve been building different web projects",
+    "title": "Some things I've built",
+    "intro": "To keep learning, I've been creating different web projects",
     "staticTag": "Static website",
     "dynamicTag": "Dynamic website",
     "hybridTag": "Hybrid website",
     "portfolio": {
       "title": "This portfolio",
-      "description": "The site you’re looking at. Built with Angular, Kotlin, Spring Boot, and MongoDB — includes a working contact form and multi-language support.",
+      "description": "The website you're looking at right now. Built with Angular, Kotlin, Spring Boot, and MongoDB — includes a functional contact form and multilingual support.",
       "screenshotAlt": "Portfolio screenshot"
     },
     "uwutrack": {
       "title": "UwU-Track",
-      "description": "Local manga scraping and reading platform. Add your favorite manga URL and UwU-Track automatically downloads it, keeping it updated chapter by chapter."
+      "description": "Local manga scraping and reading platform. Add the URL of your favorite manga and UwU-Track automatically downloads it, keeping it updated chapter by chapter."
     },
     "experience": {
       "tag": "Work experience",
       "title": "3 months in a fintech development team",
-      "description": "Frontend and backend work, feature improvements, and experience in a real technical environment."
+      "description": "Frontend and backend development, feature improvements, and experience working in a real-world technology environment."
     },
     "viewProject": "Visit website"
   },
   "contact": {
-    "title": "Let’s talk",
-    "emailPrompt": "Best thing is to email me and tell me what you have in mind.",
-    "existingSite": "If you already have a website, send it over and I’ll take a look. I can give you quick feedback on what I’d improve, no commitment or cost.",
-    "noWorries": "You don’t need to understand tech or have everything figured out. As long as you know what you want, we can shape it together.",
+    "title": "Let's talk",
+    "emailPrompt": "The best way is to send me an email explaining what you have in mind.",
+    "existingSite": "If you already have a website, send it over and I'll take a look. I can give you quick feedback on what I'd improve, with no commitment or cost.",
+    "noWorries": "You don't need to know anything about technology or have everything figured out. As long as you know what you want, we can make it happen.",
     "formTitle": "Send me a message",
     "name": "Your name",
     "email": "Your email",
@@ -87,17 +87,17 @@
     "message": "Message",
     "send": "Send",
     "sending": "Sending...",
-    "successMessage": "Message sent! I’ll reply within 24h.",
-    "errorMessage": "Error sending message. Contact me directly if the issue persists."
+    "successMessage": "Message sent! I'll reply within 24 hours.",
+    "errorMessage": "Error sending the message. Contact me directly if the problem persists."
   },
   "validation": {
     "name": {
       "minLength": "Minimum 2 characters",
-      "pattern": "Only letters, spaces and hyphens"
+      "pattern": "Letters, spaces, and hyphens only"
     },
     "email": {
       "required": "Email is required",
-      "format": "Enter a valid email (e.g. name@domain.com)"
+      "format": "Enter a valid email address (e.g. name@domain.com)"
     },
     "subject": {
       "minLength": "Minimum 3 characters"
