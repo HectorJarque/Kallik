@@ -38,6 +38,7 @@ export class App {
   readonly languages = [
     { code: 'es', label: 'Español', flag: '/img/es.png' },
     { code: 'en', label: 'English', flag: '/img/gb.png' },
+    { code: 'cat', label: 'Catalàn', flag: '/img/cat.png' },
     { code: 'fr', label: 'Français', flag: '/img/fr.png' },
     { code: 'it', label: 'Italiano', flag: '/img/it.png' },
     { code: 'de', label: 'Deutsch', flag: '/img/de.png' },

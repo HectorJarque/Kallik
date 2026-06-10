@@ -1,0 +1,113 @@
+{
+  "nav": {
+    "whatIDo": "Què faig",
+    "aboutMe": "Sobre mi",
+    "projects": "Projectes",
+    "contact": "Contacte"
+  },
+  "header": {
+    "toggleTheme": "Canviar tema",
+    "toggleMenu": "Obrir menú"
+  },
+  "intro": {
+    "heading": "Faig webs ràpides, clares i fàcils d'utilitzar",
+    "tagline": "Sense coses innecessàries, sense webs lentes i sense complicar-te la vida.",
+    "servicesOverview": "Depenent del que necessites, puc fer des d'una web senzilla fins a una de més interactiva amb formularis, cercadors o funcionalitats més avançades.",
+    "hostingNote": "No gestione dominis ni allotjament de sèrie, però si no vols embolics puc encarregar-me'n jo i afegir-ho al pressupost."
+  },
+  "stats": {
+    "responseTime": "Temps de resposta",
+    "type": "Fix",
+    "budget": "Pressupost tancat",
+    "remote": "Remot",
+    "langs": "Idiomes"
+  },
+  "services": {
+    "title": "Tipus de web que faig",
+    "intro": "Depenent del que necessites, puc fer diferents tipus de web",
+    "static": {
+      "title": "Per a mostrar el que ofereixes",
+      "description": "Pàgina web senzilla i ràpida, feta a mida i sense complicacions. Carrega a l'instant i es pot allotjar a qualsevol lloc.",
+      "ideal": "Marques que utilitzen aquest tipus de web"
+    },
+    "dynamic": {
+      "title": "Perquè els teus usuaris interactuen",
+      "description": "Filtres, cercadors, contingut que canvia a l'instant, formularis intel·ligents i connexions amb APIs externes.",
+      "ideal": "Plataformes que utilitzen aquest tipus de web"
+    },
+    "hybrid": {
+      "title": "Per a gestionar el teu contingut",
+      "description": "Part pública per a clients i part privada per a gestionar contingut sense tocar codi.",
+      "ideal": "Serveis que utilitzen aquest tipus de web"
+    },
+    "pricing": {
+      "title": "Sobre els preus:",
+      "description": "Cada projecte és diferent, així que els preus es parlen sense compromís."
+    }
+  },
+  "about": {
+    "title": "Qui hi ha darrere d'això",
+    "intro": "Em dic Héctor Jarque. No vinc d'una agència ni d'un bootcamp miraculós. Vaig aprendre fent coses, espatllant-les i arreglant-les.",
+    "location": "Visc a València. Treballe en remot sense cap problema i, si estàs a prop, podem prendre un café.",
+    "learning": "Vaig començar sense entendre res i, a poc a poc, em vaig anar formant fins a poder crear les webs i projectes que faig hui en dia.",
+    "honesty": "No et soltaré jerga per a impressionar-te. Si alguna cosa no es pot fer, t'ho diré.",
+    "techTitle": "Tecnologia que acostume a utilitzar"
+  },
+  "projects": {
+    "title": "Algunes coses que he fet",
+    "intro": "Per a continuar aprenent, he anat creant diferents projectes web",
+    "staticTag": "Web estàtica",
+    "dynamicTag": "Web dinàmica",
+    "hybridTag": "Web híbrida",
+    "portfolio": {
+      "title": "Aquest portfoli",
+      "description": "El lloc que estàs veient. Construït amb Angular, Spring Boot i MongoDB — inclou formulari de contacte funcional i suport multilingüe.",
+      "screenshotAlt": "Captura del portfoli"
+    },
+    "uwutrack": {
+      "title": "UwU-Track",
+      "description": "Plataforma local de scraping i lectura de manga. Afig l'URL del teu manga preferit i UwU-Track el descarrega automàticament, mantenint-lo actualitzat capítol a capítol."
+    },
+    "experience": {
+      "tag": "Experiència laboral",
+      "title": "3 mesos en un equip de desenvolupament fintech",
+      "description": "Frontend i backend, millora de funcionalitats i treball en un entorn tecnològic real."
+    },
+    "viewProject": "Visitar web"
+  },
+  "contact": {
+    "title": "Parlem",
+    "emailPrompt": "El millor és que m'escrigues un correu explicant-me què tens en ment.",
+    "existingSite": "Si ja tens una web, passa-me-la i li faré una ullada.",
+    "noWorries": "No cal saber de tecnologia ni tindre-ho tot clar. Li donem forma junts.",
+    "formTitle": "Envia'm un missatge",
+    "name": "El teu nom",
+    "email": "El teu correu electrònic",
+    "subject": "Assumpte",
+    "message": "Missatge",
+    "send": "Enviar",
+    "sending": "Enviant...",
+    "successMessage": "Missatge enviat! Et respondré en menys de 24 h.",
+    "errorMessage": "Error en enviar. Escriu-me directament si el problema persisteix."
+  },
+  "validation": {
+    "name": {
+      "minLength": "Mínim 2 caràcters",
+      "pattern": "Només lletres, espais i guions"
+    },
+    "email": {
+      "required": "El correu electrònic és obligatori",
+      "format": "Introdueix un correu electrònic vàlid (ex.: nom@domini.com)"
+    },
+    "subject": {
+      "minLength": "Mínim 3 caràcters"
+    },
+    "message": {
+      "minLength": "Mínim 10 caràcters"
+    }
+  },
+  "carousel": {
+    "prev": "Anterior",
+    "next": "Següent"
+  }
+}
