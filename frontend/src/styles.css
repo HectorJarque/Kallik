@@ -1075,6 +1075,22 @@ h3 {
 }
 
 @media (max-width: 480px) {
+  .includes-header,
+  .includes-row {
+    grid-template-columns: 1fr repeat(3, 52px);
+    padding-left: .6rem;
+    padding-right: .6rem;
+  }
+
+  .includes-feature-col {
+    font-size: .72rem;
+  }
+
+  .includes-header .tag {
+    font-size: .58rem;
+    padding: 2px 5px;
+  }
+
   .container {
     padding: 0 1rem;
   }
