@@ -3,6 +3,7 @@
     "whatIDo": "What I Do",
     "aboutMe": "About Me",
     "projects": "Projects",
+    "faq": "FAQ",
     "contact": "Contact"
   },
   "header": {
@@ -10,48 +11,89 @@
     "toggleMenu": "Open menu"
   },
   "intro": {
-    "heading": "I build custom websites that are clear and easy to use",
-    "tagline": "No unnecessary extras. Every website is unique. I can take inspiration from what you like and adapt it to what you need",
-    "servicesOverview": "I build websites tailored to each situation: from simple pages to interactive projects with forms, search features, dynamic content, or even text-only websites. Whatever you need, it can be planned and built.",
-    "hostingNote": "I can take care of the domain and hosting if you want to avoid the technical side, or leave everything in your hands. I can also maintain the website month by month or hand over everything (code, domain, and hosting) so it's completely yours with no dependency."
+    "heading": "I build custom websites, clear and easy to use",
+    "tagline": "No unnecessary stuff. Every site is unique — I can take inspiration from what you like and adapt it to what you need",
+    "servicesOverview": "I build websites tailored to each case: from simple pages to interactive projects with forms, search, dynamic content or even text-only sites. Whatever you need, we can plan and build it.",
+    "hostingNote": "I can handle the domain and hosting if you want to forget about the technical side, or leave it all in your hands. I can also maintain the site month to month, or hand everything over (code, domain and hosting) so it's fully yours with no dependency."
   },
   "stats": {
     "responseTime": "Response time",
     "type": "Fixed",
-    "budget": "Fixed budget",
+    "budget": "Closed budget",
     "remote": "Remote",
     "langs": "Languages"
   },
   "services": {
     "title": "Types of websites I build",
-    "intro": "Depending on what you need, I can create different types of websites",
+    "intro": "Depending on what you need, I can build different types of websites",
     "static": {
-      "title": "To showcase what you offer",
-      "description": "Simple and fast website, built from scratch and without unnecessary complexity. Loads instantly and can be hosted anywhere.",
+      "title": "To show what you offer",
+      "description": "Simple and fast website, built to measure and without complications. Loads instantly and can be hosted anywhere.",
       "ideal": "Brands that use this type of website"
     },
     "dynamic": {
-      "title": "For your users to interact with",
-      "description": "Filters, search features, instantly updating content, smart forms, and integrations with external APIs.",
+      "title": "For your users to interact",
+      "description": "Filters, search engines, content that changes instantly, smart forms and connections to external APIs.",
       "ideal": "Platforms that use this type of website"
     },
     "hybrid": {
       "title": "To manage your content",
-      "description": "A public area for customers and a private area to manage content without touching code.",
+      "description": "Public side for clients and a private side to manage content without touching code.",
       "ideal": "Services that use this type of website"
     },
     "pricing": {
       "title": "About pricing:",
-      "description": "Every project is different. I usually stay below market rates because I prioritize user experience and building things properly over inflating budgets. Depending on what you need, we can adjust everything with no commitment."
+      "description": "Every project is different. I usually come in below market rate because I prioritise quality and doing things right over inflating budgets. Whatever you need, we adjust everything without commitment."
+    }
+  },
+  "process": {
+    "title": "How we work",
+    "intro": "A simple process with no surprises, from start to finish",
+    "step1": {
+      "title": "You tell me your idea",
+      "description": "We talk about what you need, no commitment or jargon. You can reach out with half an idea and we'll define it together."
+    },
+    "step2": {
+      "title": "I prepare a proposal",
+      "description": "I define the scope, price and estimated timeline. No fine print. If it doesn't fit, no problem."
+    },
+    "step3": {
+      "title": "I build the website",
+      "description": "I build the site with the right technologies for your project and keep you updated on progress."
+    },
+    "step4": {
+      "title": "We review together",
+      "description": "I show you the result before publishing and we adjust whatever is needed. Revisions are included."
+    },
+    "step5": {
+      "title": "Final launch",
+      "description": "The site goes live ready to go. I hand over all access and explain everything you need to know."
+    }
+  },
+  "includes": {
+    "title": "What your website includes",
+    "intro": "Everything that comes as standard depending on the type of website, with no hidden costs",
+    "note": "Domain and hosting can be managed separately or included in the budget if you prefer.",
+    "feature": {
+      "responsive": "Responsive design (mobile, tablet and desktop)",
+      "https": "HTTPS and basic security",
+      "seo": "Basic SEO (meta tags, correct structure)",
+      "speed": "Page load speed optimisation",
+      "support": "Post-delivery support (2 weeks)",
+      "contact": "Functional contact form",
+      "api": "External API integration",
+      "database": "Database",
+      "admin": "Admin panel",
+      "cms": "No-code content management"
     }
   },
   "about": {
-    "title": "Who's behind this",
-    "intro": "My name is Héctor Jarque. I started from scratch by studying DAW and building my own projects, breaking things and learning until I truly understood how websites work.",
-    "location": "I live in Valencia. I work remotely without any issues, and if you're nearby, we can grab a coffee.",
-    "learning": "I started without knowing anything and gradually built projects until I was able to develop complete websites and understand what happens behind every part of them.",
-    "honesty": "I don't sell smoke and mirrors. If something can't be done, I'll tell you. If it can be done but isn't a good idea for any reason, I'll explain that clearly too.",
-    "techTitle": "Technologies I usually use"
+    "title": "Who is behind this",
+    "intro": "My name is Héctor Jarque. I started from scratch studying web development and building projects on my own, breaking things and learning until I really understood how websites work.",
+    "location": "I live in Valencia. I work remotely without any issue, and if you're nearby we can grab a coffee.",
+    "learning": "I started knowing nothing and built projects step by step until I could develop complete websites and understand what's behind every part.",
+    "honesty": "I don't sell smoke. If something can't be done, I'll tell you. If it can but it's not a good idea for any reason, I'll explain that clearly too.",
+    "techTitle": "Technology I usually work with"
   },
   "projects": {
     "title": "Some things I've built",
@@ -61,25 +103,46 @@
     "hybridTag": "Hybrid website",
     "portfolio": {
       "title": "This portfolio",
-      "description": "The website you're looking at right now. Built with Angular, Kotlin, Spring Boot, and MongoDB — includes a functional contact form and multilingual support.",
+      "description": "The site you're looking at. Built with Angular, Kotlin, Spring Boot and MongoDB — includes a working contact form and multilingual support.",
       "screenshotAlt": "Portfolio screenshot"
     },
     "uwutrack": {
       "title": "UwU-Track",
-      "description": "Local manga scraping and reading platform. Add the URL of your favorite manga and UwU-Track automatically downloads it, keeping it updated chapter by chapter."
+      "description": "A local manga scraping and reading platform. Add your favourite manga's URL and UwU-Track downloads it automatically, keeping it updated chapter by chapter."
     },
     "experience": {
       "tag": "Work experience",
       "title": "3 months in a fintech development team",
-      "description": "Frontend and backend development, feature improvements, and experience working in a real-world technology environment."
+      "description": "Frontend and backend, feature improvements and work in a real tech environment."
     },
-    "viewProject": "Visit website"
+    "viewProject": "Visit website",
+    "viewOnGithub": "View on GitHub"
+  },
+  "faq": {
+    "title": "Frequently asked questions",
+    "intro": "What people usually ask before getting in touch",
+    "q1": "How much does a website cost?",
+    "q1Answer": "It depends on the type and what you need. There's no fixed price because every project is different. Tell me what you have in mind and I'll put together a quote with no commitment.",
+    "q2": "How long does it take to build a website?",
+    "q2Answer": "A simple static site can be ready in 1-2 weeks. A dynamic or hybrid one can take 3-6 weeks depending on complexity. I give you an estimated timeline when preparing the proposal.",
+    "q3": "Do I need to know about technology to work with you?",
+    "q3Answer": "Not at all. I adapt to any level. If you have half an idea, we'll develop it together. If you have it all figured out, even better. No need to know anything about code or servers.",
+    "q4": "What's the difference between a static and a dynamic website?",
+    "q4Answer": "A static site displays fixed information and loads very fast. A dynamic one allows things like user registrations, real-time filters or connections to other platforms. Most small businesses start with a static site and expand later.",
+    "q5": "Do you handle hosting and the domain?",
+    "q5Answer": "Not by default, but I can take care of it if you don't want the hassle. It would be added to the budget. If you already have your own hosting, I can work with that too.",
+    "q6": "Can I see how it looks before it goes live?",
+    "q6Answer": "Yes, always. Before publishing anything I show you the result in a staging environment and we make all the necessary revisions. Nothing goes live until you're happy with it.",
+    "q7": "Can I make changes after it's published?",
+    "q7Answer": "Yes. The first 2 weeks of support are included for minor tweaks. For bigger changes after that period we'd discuss it as a new project.",
+    "q8": "Do you only work with businesses or also with individuals?",
+    "q8Answer": "Both. It doesn't matter if you're self-employed, run a small business or are an individual who wants to build something. If the project makes sense, I'm interested."
   },
   "contact": {
     "title": "Let's talk",
-    "emailPrompt": "The best way is to send me an email explaining what you have in mind.",
-    "existingSite": "If you already have a website, send it over and I'll take a look. I can give you quick feedback on what I'd improve, with no commitment or cost.",
-    "noWorries": "You don't need to know anything about technology or have everything figured out. As long as you know what you want, we can make it happen.",
+    "emailPrompt": "The best thing is to send me an email telling me what you have in mind.",
+    "existingSite": "If you already have a website, send it over and I'll take a look. I can give you quick feedback on what I'd improve, no commitment or cost.",
+    "noWorries": "You don't need to know about technology or have everything figured out. As long as you know what you want, we'll make it happen.",
     "formTitle": "Send me a message",
     "name": "Your name",
     "email": "Your email",
@@ -87,17 +150,17 @@
     "message": "Message",
     "send": "Send",
     "sending": "Sending...",
-    "successMessage": "Message sent! I'll reply within 24 hours.",
-    "errorMessage": "Error sending the message. Contact me directly if the problem persists."
+    "successMessage": "Message sent! I'll get back to you within 24h.",
+    "errorMessage": "Failed to send. Email me directly if the problem persists."
   },
   "validation": {
     "name": {
       "minLength": "Minimum 2 characters",
-      "pattern": "Letters, spaces, and hyphens only"
+      "pattern": "Letters, spaces and hyphens only"
     },
     "email": {
       "required": "Email is required",
-      "format": "Enter a valid email address (e.g. name@domain.com)"
+      "format": "Enter a valid email (e.g. name@domain.com)"
     },
     "subject": {
       "minLength": "Minimum 3 characters"
@@ -109,5 +172,42 @@
   "carousel": {
     "prev": "Previous",
     "next": "Next"
+  },
+  "privacy": {
+    "title": "Privacy policy",
+    "linkLabel": "Privacy policy",
+    "close": "Close",
+    "responsible": {
+      "title": "Data controller",
+      "text": "Héctor Jarque — jarquebusiness@gmail.com. This policy applies to data collected through the contact form on this website."
+    },
+    "data": {
+      "title": "Data collected",
+      "text": "Through the contact form we collect name, email address, subject and message. No payment data, sensitive data or data from minors is collected."
+    },
+    "purpose": {
+      "title": "Purpose of processing",
+      "text": "Data is used solely to respond to the enquiry submitted and, where applicable, to manage a collaboration proposal. It is not used for advertising or any other purpose."
+    },
+    "legal": {
+      "title": "Legal basis",
+      "text": "Processing is based on the consent of the data subject, freely given by submitting the form (Art. 6.1.a GDPR)."
+    },
+    "storage": {
+      "title": "Data retention",
+      "text": "Data is retained for as long as necessary to handle the enquiry. Once resolved, it is deleted unless a contractual relationship justifies its retention."
+    },
+    "recipients": {
+      "title": "Recipients",
+      "text": "Data is not shared with third parties. Messages are received in a Gmail account (Google LLC), subject to Google's privacy terms and the applicable international data transfer agreement."
+    },
+    "rights": {
+      "title": "Your rights",
+      "text": "You can exercise your rights of access, rectification, erasure, objection, restriction and portability by writing to jarquebusiness@gmail.com. If you believe the processing is not correct, you may lodge a complaint with the Spanish Data Protection Agency (aepd.es)."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "text": "This site does not use tracking or third-party cookies. Only strictly necessary technical cookies required for the site to function are used."
+    }
   }
 }

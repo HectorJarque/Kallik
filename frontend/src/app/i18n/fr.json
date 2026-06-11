@@ -1,8 +1,9 @@
 {
   "nav": {
     "whatIDo": "Ce que je fais",
-    "aboutMe": "À propos de moi",
+    "aboutMe": "À propos",
     "projects": "Projets",
+    "faq": "FAQ",
     "contact": "Contact"
   },
   "header": {
@@ -11,84 +12,146 @@
   },
   "intro": {
     "heading": "Je crée des sites web sur mesure, clairs et faciles à utiliser",
-    "tagline": "Sans éléments inutiles. Chaque site est unique. Je peux m'inspirer de ce que vous aimez et l'adapter à vos besoins",
-    "servicesOverview": "Je crée des sites adaptés à chaque situation : des pages simples aux projets interactifs avec formulaires, moteurs de recherche, contenu dynamique ou même des sites uniquement textuels. Tout ce dont vous avez besoin peut être conçu et développé.",
-    "hostingNote": "Je peux m'occuper du nom de domaine et de l'hébergement si vous souhaitez éviter les aspects techniques, ou vous laisser tout gérer vous-même. Je peux également assurer la maintenance du site chaque mois ou vous remettre l'ensemble (code, domaine et hébergement) afin qu'il vous appartienne totalement, sans dépendance."
+    "tagline": "Sans superflus. Chaque site est unique, je peux m'inspirer de ce que vous aimez et l'adapter à vos besoins",
+    "servicesOverview": "Je fais des sites adaptés à chaque cas : des pages simples aux projets interactifs avec formulaires, moteurs de recherche, contenu dynamique ou même des sites uniquement textuels. Tout ce dont vous avez besoin peut être envisagé et construit.",
+    "hostingNote": "Je peux m'occuper du domaine et de l'hébergement si vous voulez oublier les aspects techniques, ou tout laisser entre vos mains. Je peux aussi maintenir le site mois par mois ou vous tout livrer (code, domaine et hébergement) pour qu'il soit à vous sans dépendance."
   },
   "stats": {
-    "responseTime": "Temps de réponse",
-    "type": "Fixe",
-    "budget": "Budget fixe",
-    "remote": "À distance",
+    "responseTime": "Délai de réponse",
+    "type": "Forfait",
+    "budget": "Budget fermé",
+    "remote": "Distanciel",
     "langs": "Langues"
   },
   "services": {
-    "title": "Types de sites web que je réalise",
-    "intro": "Selon vos besoins, je peux créer différents types de sites web",
+    "title": "Types de sites que je réalise",
+    "intro": "Selon vos besoins, je peux réaliser différents types de sites",
     "static": {
-      "title": "Pour présenter ce que vous proposez",
-      "description": "Site web simple et rapide, conçu sur mesure et sans complications. Chargement instantané et hébergement possible partout.",
+      "title": "Pour montrer ce que vous offrez",
+      "description": "Site web simple et rapide, fait sur mesure et sans complications. Charge instantanément et s'héberge n'importe où.",
       "ideal": "Marques qui utilisent ce type de site"
     },
     "dynamic": {
-      "title": "Pour permettre à vos utilisateurs d'interagir",
-      "description": "Filtres, moteurs de recherche, contenu mis à jour instantanément, formulaires intelligents et connexions à des API externes.",
+      "title": "Pour que vos utilisateurs interagissent",
+      "description": "Filtres, moteurs de recherche, contenu qui change instantanément, formulaires intelligents et connexions à des API externes.",
       "ideal": "Plateformes qui utilisent ce type de site"
     },
     "hybrid": {
       "title": "Pour gérer votre contenu",
-      "description": "Une partie publique pour les clients et une partie privée pour gérer le contenu sans toucher au code.",
+      "description": "Partie publique pour les clients et partie privée pour gérer le contenu sans toucher au code.",
       "ideal": "Services qui utilisent ce type de site"
     },
     "pricing": {
-      "title": "À propos des tarifs :",
-      "description": "Chaque projet est différent. Je me situe généralement en dessous des prix du marché, car je privilégie l'expérience utilisateur et la qualité du travail plutôt que des budgets gonflés. Selon vos besoins, nous pouvons tout ajuster sans engagement."
+      "title": "À propos des prix :",
+      "description": "Chaque projet est différent. Je suis généralement en dessous du prix du marché car je privilégie l'expérience et la construction de choses bien faites plutôt que de gonfler les budgets. Selon vos besoins, nous ajustons tout sans engagement."
+    }
+  },
+  "process": {
+    "title": "Comment nous travaillons",
+    "intro": "Un processus simple et sans surprises, du début à la fin",
+    "step1": {
+      "title": "Vous me racontez votre idée",
+      "description": "Nous parlons de ce dont vous avez besoin, sans engagement ni jargon technique. Vous pouvez m'écrire avec une idée à moitié formée et nous la définissons ensemble."
+    },
+    "step2": {
+      "title": "Je vous prépare une proposition",
+      "description": "Je définis le périmètre, le prix et le temps estimé. Sans petits caractères. Si cela ne vous convient pas, ce n'est pas grave."
+    },
+    "step3": {
+      "title": "Je développe le site",
+      "description": "Je construis le site avec les technologies adaptées à votre projet. Je vous tiens informé de l'avancement."
+    },
+    "step4": {
+      "title": "Nous révisons ensemble",
+      "description": "Je vous montre le résultat avant la publication et nous ajustons ce qui est nécessaire. Les révisions sont incluses."
+    },
+    "step5": {
+      "title": "Publication finale",
+      "description": "Le site est mis en production, prêt à fonctionner. Je vous donne les accès et vous explique ce que vous devez savoir."
+    }
+  },
+  "includes": {
+    "title": "Ce qu'inclut votre site",
+    "intro": "Tout ce qui est fourni par défaut selon le type de site, sans coûts cachés",
+    "note": "Le domaine et l'hébergement peuvent être gérés séparément ou inclus dans le budget si vous préférez.",
+    "feature": {
+      "responsive": "Design responsive (mobile, tablette et bureau)",
+      "https": "HTTPS et sécurité de base",
+      "seo": "Référencement de base (balises meta, structure correcte)",
+      "speed": "Optimisation de la vitesse de chargement",
+      "support": "Support après livraison (2 semaines)",
+      "contact": "Formulaire de contact fonctionnel",
+      "api": "Intégration avec des API externes",
+      "database": "Base de données",
+      "admin": "Panneau d'administration",
+      "cms": "Gestion de contenu sans code"
     }
   },
   "about": {
-    "title": "Qui se cache derrière tout cela",
-    "intro": "Je m'appelle Héctor Jarque. J'ai commencé de zéro en étudiant le développement web (DAW) et en réalisant mes propres projets, en cassant des choses et en apprenant jusqu'à comprendre réellement le fonctionnement des sites web.",
-    "location": "Je vis à Valence. Je travaille à distance sans problème, et si vous êtes dans les environs, nous pouvons prendre un café.",
-    "learning": "J'ai commencé sans aucune connaissance et j'ai construit des projets petit à petit jusqu'à pouvoir développer des sites complets et comprendre ce qui se passe derrière chaque élément.",
-    "honesty": "Je ne vends pas de rêves. Si quelque chose n'est pas réalisable, je vous le dirai. Si c'est faisable mais que ce n'est pas une bonne idée pour une raison quelconque, je vous l'expliquerai également clairement.",
+    "title": "Qui se cache derrière cela",
+    "intro": "Je m'appelle Héctor Jarque. J'ai commencé de zéro en étudiant le DAW et en réalisant des projets par moi-même, en cassant des choses et en apprenant jusqu'à comprendre comment fonctionnent vraiment les sites web.",
+    "location": "Je vis à Valence. Je travaille à distance sans problème, et si vous êtes dans les parages, nous pouvons prendre un café.",
+    "learning": "J'ai commencé sans rien y connaître et j'ai construit des projets petit à petit jusqu'à pouvoir développer des sites complets et comprendre ce qui se cache derrière chaque partie.",
+    "honesty": "Je ne vends pas de fumée. Si quelque chose ne peut pas être fait, je vous le dis. Si c'est possible mais que ce n'est pas une bonne idée pour une raison quelconque, je vous l'explique clairement.",
     "techTitle": "Technologies que j'utilise habituellement"
   },
   "projects": {
-    "title": "Quelques projets que j'ai réalisés",
+    "title": "Quelques réalisations",
     "intro": "Pour continuer à apprendre, j'ai créé différents projets web",
     "staticTag": "Site statique",
     "dynamicTag": "Site dynamique",
     "hybridTag": "Site hybride",
     "portfolio": {
       "title": "Ce portfolio",
-      "description": "Le site que vous consultez actuellement. Développé avec Angular, Kotlin, Spring Boot et MongoDB — il comprend un formulaire de contact fonctionnel et la prise en charge de plusieurs langues.",
+      "description": "Le site que vous consultez. Construit avec Angular, Kotlin, Spring Boot et MongoDB — inclut un formulaire de contact fonctionnel et le multilingue.",
       "screenshotAlt": "Capture d'écran du portfolio"
     },
     "uwutrack": {
       "title": "UwU-Track",
-      "description": "Plateforme locale de scraping et de lecture de mangas. Ajoutez l'URL de votre manga préféré et UwU-Track le télécharge automatiquement tout en le maintenant à jour chapitre après chapitre."
+      "description": "Plateforme locale de scraping et de lecture de manga. Ajoutez l'URL de votre manga préféré et UwU-Track le télécharge automatiquement, en le maintenant à jour chapitre après chapitre."
     },
     "experience": {
       "tag": "Expérience professionnelle",
-      "title": "3 mois dans une équipe de développement fintech",
-      "description": "Développement frontend et backend, amélioration de fonctionnalités et travail dans un environnement technologique réel."
+      "title": "3 mois en équipe de développement fintech",
+      "description": "Frontend et backend, amélioration de fonctionnalités et travail en environnement technologique réel."
     },
-    "viewProject": "Visiter le site"
+    "viewProject": "Visiter le site",
+    "viewOnGithub": "Voir sur GitHub"
+  },
+  "faq": {
+    "title": "Questions fréquentes",
+    "intro": "Ce que les gens demandent souvent avant de me contacter",
+    "q1": "Combien coûte la création d'un site web ?",
+    "q1Answer": "Cela dépend du type et de vos besoins. Il n'y a pas de prix fixe car chaque projet est différent. Dites-moi ce que vous avez en tête et je vous prépare un devis sans engagement.",
+    "q2": "Combien de temps faut-il pour créer un site web ?",
+    "q2Answer": "Un site statique simple peut être prêt en 1 à 2 semaines. Un site dynamique ou hybride peut prendre de 3 à 6 semaines selon la complexité. Je vous donne un temps estimé lors de l'élaboration de la proposition.",
+    "q3": "Dois-je connaître la technologie pour travailler avec vous ?",
+    "q3Answer": "Pas du tout. Je m'adapte à tous les niveaux. Si vous avez une idée à moitié formée, nous la développons ensemble. Si tout est clair pour vous, tant mieux. Pas besoin de connaître le code ou les serveurs.",
+    "q4": "Quelle est la différence entre un site statique et un site dynamique ?",
+    "q4Answer": "Un site statique affiche des informations fixes et se charge très rapidement. Un site dynamique permet des fonctionnalités comme les inscriptions d'utilisateurs, les filtres en temps réel ou la connexion à d'autres plateformes. La plupart des petites entreprises commencent par un site statique puis l'étendent.",
+    "q5": "Gérez-vous l'hébergement et le domaine ?",
+    "q5Answer": "Ce n'est pas systématique, mais je peux m'en occuper si vous ne voulez pas d'ennuis. Je l'ajouterais alors au budget. Si vous avez déjà votre propre hébergement, je peux aussi travailler avec.",
+    "q6": "Puis-je voir le résultat avant la publication ?",
+    "q6Answer": "Oui, toujours. Avant de publier quoi que ce soit, je vous montre le résultat dans un environnement de test et nous effectuons toutes les révisions nécessaires. Rien n'est publié tant que vous n'êtes pas satisfait.",
+    "q7": "Puis-je faire des modifications après la publication ?",
+    "q7Answer": "Oui. Les deux premières semaines de support sont incluses pour les ajustements mineurs. Pour des modifications plus importantes après cette période, nous en discutons comme d'un nouveau projet.",
+    "q8": "Travaillez-vous uniquement avec des entreprises ou aussi avec des particuliers ?",
+    "q8Answer": "Avec les deux. Que vous soyez travailleur indépendant, propriétaire d'une PME ou un particulier qui veut monter quelque chose. Si le projet a du sens, je suis intéressé."
   },
   "contact": {
     "title": "Parlons-en",
-    "emailPrompt": "Le mieux est de m'envoyer un e-mail en m'expliquant ce que vous avez en tête.",
-    "existingSite": "Si vous avez déjà un site web, envoyez-le-moi et j'y jetterai un œil. Je peux vous donner rapidement un avis sur ce que j'améliorerais, sans engagement ni frais.",
-    "noWorries": "Pas besoin de connaissances techniques ni d'avoir tout parfaitement défini. Tant que vous savez ce que vous voulez, nous pouvons le concrétiser.",
+    "emailPrompt": "Le mieux est de m'envoyer un e-mail pour me raconter ce que vous avez en tête.",
+    "existingSite": "Si vous avez déjà un site, envoyez-le moi et j'y jette un œil. Je peux vous donner un retour rapide sur ce que j'améliorerais, sans engagement ni frais.",
+    "noWorries": "Pas besoin de connaître la technologie ni d'avoir tout parfaitement clair. Dès lors que vous savez ce que vous voulez, nous y arrivons.",
     "formTitle": "Envoyez-moi un message",
     "name": "Votre nom",
     "email": "Votre e-mail",
-    "subject": "Objet",
+    "subject": "Sujet",
     "message": "Message",
     "send": "Envoyer",
     "sending": "Envoi en cours...",
-    "successMessage": "Message envoyé ! Je vous répondrai en moins de 24 heures.",
-    "errorMessage": "Erreur lors de l'envoi. Contactez-moi directement si le problème persiste."
+    "successMessage": "Message envoyé ! Je vous répondrai dans les 24 heures.",
+    "errorMessage": "Erreur lors de l'envoi. Écrivez-moi directement si le problème persiste."
   },
   "validation": {
     "name": {
@@ -96,8 +159,8 @@
       "pattern": "Lettres, espaces et tirets uniquement"
     },
     "email": {
-      "required": "L'adresse e-mail est obligatoire",
-      "format": "Saisissez une adresse e-mail valide (ex. : nom@domaine.com)"
+      "required": "L'e-mail est obligatoire",
+      "format": "Entrez un e-mail valide (ex: nom@domaine.com)"
     },
     "subject": {
       "minLength": "Minimum 3 caractères"
@@ -109,5 +172,42 @@
   "carousel": {
     "prev": "Précédent",
     "next": "Suivant"
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "linkLabel": "Politique de confidentialité",
+    "close": "Fermer",
+    "responsible": {
+      "title": "Responsable du traitement",
+      "text": "Héctor Jarque — jarquebusiness@gmail.com. Cette politique s'applique aux données collectées via le formulaire de contact de ce site web."
+    },
+    "data": {
+      "title": "Données collectées",
+      "text": "Via le formulaire de contact, sont collectés le nom, l'adresse e-mail, le sujet et le message. Aucune donnée de paiement, donnée sensible ou donnée de mineur n'est collectée."
+    },
+    "purpose": {
+      "title": "Finalité du traitement",
+      "text": "Les données sont utilisées exclusivement pour répondre à la demande et, le cas échéant, gérer une proposition de collaboration. Elles ne sont pas utilisées à des fins publicitaires ni pour aucune autre finalité."
+    },
+    "legal": {
+      "title": "Base juridique",
+      "text": "Le traitement repose sur le consentement de la personne concernée, donné librement lors de l'envoi du formulaire (art. 6.1.a du RGPD)."
+    },
+    "storage": {
+      "title": "Conservation des données",
+      "text": "Les données sont conservées le temps nécessaire pour traiter la demande. Une fois la demande traitée, elles sont supprimées, sauf s'il existe une relation contractuelle justifiant leur conservation."
+    },
+    "recipients": {
+      "title": "Destinataires",
+      "text": "Aucune donnée n'est cédée à des tiers. Les messages sont reçus sur un compte Gmail (Google LLC), soumis aux conditions de confidentialité de Google et à l'accord de transfert international de données en vigueur."
+    },
+    "rights": {
+      "title": "Vos droits",
+      "text": "Vous pouvez exercer vos droits d'accès, de rectification, d'effacement, d'opposition, de limitation et de portabilité en écrivant à jarquebusiness@gmail.com. Si vous estimez que le traitement n'est pas correct, vous pouvez déposer une réclamation auprès de l'Agence espagnole de protection des données (aepd.es)."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "text": "Ce site n'utilise pas de cookies de suivi ni de cookies tiers. Seuls les cookies techniques strictement nécessaires au fonctionnement du site sont utilisés."
+    }
   }
 }

@@ -188,6 +188,105 @@
   </div>
 </section>
 
+<!-- Proceso de trabajo -->
+<section id="proceso" class="section-alt">
+  <div class="container">
+    <h2>{{ 'process.title' | translate }}</h2>
+    <p class="section-intro">{{ 'process.intro' | translate }}</p>
+
+    <div class="process-steps">
+
+      <div class="process-step">
+        <div class="step-num">1</div>
+        <div class="step-content">
+          <h3>{{ 'process.step1.title' | translate }}</h3>
+          <p>{{ 'process.step1.description' | translate }}</p>
+        </div>
+      </div>
+
+      <div class="process-step">
+        <div class="step-num">2</div>
+        <div class="step-content">
+          <h3>{{ 'process.step2.title' | translate }}</h3>
+          <p>{{ 'process.step2.description' | translate }}</p>
+        </div>
+      </div>
+
+      <div class="process-step">
+        <div class="step-num">3</div>
+        <div class="step-content">
+          <h3>{{ 'process.step3.title' | translate }}</h3>
+          <p>{{ 'process.step3.description' | translate }}</p>
+        </div>
+      </div>
+
+      <div class="process-step">
+        <div class="step-num">4</div>
+        <div class="step-content">
+          <h3>{{ 'process.step4.title' | translate }}</h3>
+          <p>{{ 'process.step4.description' | translate }}</p>
+        </div>
+      </div>
+
+      <div class="process-step">
+        <div class="step-num">5</div>
+        <div class="step-content">
+          <h3>{{ 'process.step5.title' | translate }}</h3>
+          <p>{{ 'process.step5.description' | translate }}</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Que incluye la web -->
+<section id="que-incluye">
+  <div class="container">
+    <h2>{{ 'includes.title' | translate }}</h2>
+    <p class="section-intro">{{ 'includes.intro' | translate }}</p>
+
+    <div class="includes-table">
+
+      <!-- Cabecera -->
+      <div class="includes-header">
+        <div class="includes-feature-col"></div>
+        <div class="includes-type-col">
+          <span class="tag">{{ 'projects.staticTag'  | translate }}</span>
+        </div>
+        <div class="includes-type-col">
+          <span class="tag">{{ 'projects.dynamicTag' | translate }}</span>
+        </div>
+        <div class="includes-type-col">
+          <span class="tag">{{ 'projects.hybridTag'  | translate }}</span>
+        </div>
+      </div>
+
+      <!-- Filas -->
+      @for (feature of includesFeatures; track feature.key) {
+        <div class="includes-row">
+          <div class="includes-feature-col">{{ feature.key | translate }}</div>
+          <div class="includes-type-col">
+            <i [class]="feature.static  ? 'pi pi-check includes-yes' : 'pi pi-minus includes-no'"></i>
+          </div>
+          <div class="includes-type-col">
+            <i [class]="feature.dynamic ? 'pi pi-check includes-yes' : 'pi pi-minus includes-no'"></i>
+          </div>
+          <div class="includes-type-col">
+            <i [class]="feature.hybrid  ? 'pi pi-check includes-yes' : 'pi pi-minus includes-no'"></i>
+          </div>
+        </div>
+      }
+
+    </div>
+
+    <p class="includes-note">
+      <i class="pi pi-info-circle"></i>
+      {{ 'includes.note' | translate }}
+    </p>
+  </div>
+</section>
+
 
 <!-- SOBRE MÍ -->
 <section id="sobre-mi" class="section-alt">
@@ -307,6 +406,30 @@
       <span class="tag">{{ 'projects.experience.tag'         | translate }}</span>
       <h3>{{ 'projects.experience.title'       | translate }}</h3>
       <p>{{ 'projects.experience.description' | translate }}</p>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section id="faq" class="section-alt">
+  <div class="container">
+    <h2>{{ 'faq.title' | translate }}</h2>
+    <p class="section-intro">{{ 'faq.intro' | translate }}</p>
+
+    <div class="faq-list">
+
+      @for (item of faqItems; track item; let i = $index) {
+        <div class="faq-item" [class.open]="faqOpenIndex() === i">
+          <button class="faq-question" (click)="toggleFaq(i)">
+            <span>{{ item | translate }}</span>
+            <i [class]="faqOpenIndex() === i ? 'pi pi-chevron-up' : 'pi pi-chevron-down'"></i>
+          </button>
+          <div class="faq-answer">
+            <p>{{ (item + 'Answer') | translate }}</p>
+          </div>
+        </div>
+      }
+
     </div>
   </div>
 </section>
@@ -448,10 +571,11 @@
     <span class="footer-brand">Héctor Jarque — Valencia, España</span>
 
     <nav class="footer-nav">
-      <a href="#que-hago">{{ 'nav.whatIDo' | translate }}</a>
-      <a href="#sobre-mi">{{ 'nav.aboutMe' | translate }}</a>
+      <a href="#que-hago">{{ 'nav.whatIDo'  | translate }}</a>
+      <a href="#sobre-mi">{{ 'nav.aboutMe'  | translate }}</a>
       <a href="#proyectos">{{ 'nav.projects' | translate }}</a>
-      <a href="#contacto">{{ 'nav.contact' | translate }}</a>
+      <a href="#faq">{{ 'nav.faq'      | translate }}</a>
+      <a href="#contacto">{{ 'nav.contact'  | translate }}</a>
     </nav>
 
     <div class="footer-social">
@@ -467,7 +591,68 @@
       <a href="mailto:jarquebusiness@gmail.com" aria-label="Email">
         <i class="pi pi-envelope"></i>
       </a>
+      <button class="footer-privacy-btn" (click)="privacyOpen.set(true)">
+        {{ 'privacy.linkLabel' | translate }}
+      </button>
       <span class="footer-copy">© {{ year }} · A Kallik Project</span>
     </div>
   </div>
 </footer>
+
+@if (privacyOpen()) {
+  <div class="modal-backdrop" (click)="privacyOpen.set(false)">
+    <div class="modal" (click)="$event.stopPropagation()">
+
+      <div class="modal-header">
+        <h2>{{ 'privacy.title' | translate }}</h2>
+        <button class="modal-close" (click)="privacyOpen.set(false)" [attr.aria-label]="'privacy.close' | translate">
+          <i class="pi pi-times"></i>
+        </button>
+      </div>
+
+      <div class="modal-body">
+
+        <section class="privacy-section">
+          <h3>{{ 'privacy.responsible.title' | translate }}</h3>
+          <p>{{ 'privacy.responsible.text' | translate }}</p>
+        </section>
+
+        <section class="privacy-section">
+          <h3>{{ 'privacy.data.title' | translate }}</h3>
+          <p>{{ 'privacy.data.text' | translate }}</p>
+        </section>
+
+        <section class="privacy-section">
+          <h3>{{ 'privacy.purpose.title' | translate }}</h3>
+          <p>{{ 'privacy.purpose.text' | translate }}</p>
+        </section>
+
+        <section class="privacy-section">
+          <h3>{{ 'privacy.legal.title' | translate }}</h3>
+          <p>{{ 'privacy.legal.text' | translate }}</p>
+        </section>
+
+        <section class="privacy-section">
+          <h3>{{ 'privacy.storage.title' | translate }}</h3>
+          <p>{{ 'privacy.storage.text' | translate }}</p>
+        </section>
+
+        <section class="privacy-section">
+          <h3>{{ 'privacy.recipients.title' | translate }}</h3>
+          <p>{{ 'privacy.recipients.text' | translate }}</p>
+        </section>
+
+        <section class="privacy-section">
+          <h3>{{ 'privacy.rights.title' | translate }}</h3>
+          <p>{{ 'privacy.rights.text' | translate }}</p>
+        </section>
+
+        <section class="privacy-section">
+          <h3>{{ 'privacy.cookies.title' | translate }}</h3>
+          <p>{{ 'privacy.cookies.text' | translate }}</p>
+        </section>
+
+      </div>
+    </div>
+  </div>
+}

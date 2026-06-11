@@ -628,6 +628,301 @@ h3 {
   margin-left: .5rem;
 }
 
+/* ── Añadir al final de app.css ──────────────────────────────── */
+
+/* ── Proceso de trabajo ───────────────────────────────────────── */
+.process-steps {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  position: relative;
+}
+
+.process-steps::before {
+  content: '';
+  position: absolute;
+  left: 19px;
+  top: 24px;
+  bottom: 24px;
+  width: 2px;
+  background: var(--color-border);
+}
+
+.process-step {
+  display: flex;
+  gap: 1.25rem;
+  align-items: flex-start;
+  padding: .875rem 0;
+  position: relative;
+}
+
+.step-num {
+  width: 40px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  background: var(--color-primary);
+  color: #fff;
+  font-size: .875rem;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  z-index: 1;
+}
+
+.step-content h3 {
+  margin: .4rem 0 .25rem;
+  font-size: .95rem;
+}
+
+.step-content p {
+  font-size: .875rem;
+  margin: 0;
+}
+
+
+/* ── Qué incluye ──────────────────────────────────────────────── */
+.includes-table {
+  border: 1px solid var(--color-border);
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1rem;
+}
+
+.includes-header,
+.includes-row {
+  display: grid;
+  grid-template-columns: 1fr repeat(3, 100px);
+  align-items: center;
+}
+
+.includes-header {
+  background: var(--color-bg);
+  padding: .6rem 1rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.includes-row {
+  padding: .65rem 1rem;
+  font-size: .875rem;
+  border-bottom: 1px solid var(--color-border);
+  transition: background .12s;
+}
+
+.includes-row:last-child {
+  border-bottom: none;
+}
+
+.includes-row:hover {
+  background: var(--color-bg-hover);
+}
+
+.includes-feature-col {
+  color: var(--color-text);
+  font-size: .875rem;
+}
+
+.includes-type-col {
+  text-align: center;
+}
+
+.includes-yes {
+  color: #16a34a;
+  font-size: .9rem;
+}
+
+.includes-no {
+  color: var(--color-text-muted);
+  font-size: .9rem;
+}
+
+.includes-note {
+  display: flex;
+  align-items: center;
+  gap: .4rem;
+  font-size: .8rem;
+  color: var(--color-text-muted);
+  margin: 0;
+}
+
+.includes-note .pi {
+  flex-shrink: 0;
+  color: var(--color-primary);
+}
+
+
+/* ── FAQ ──────────────────────────────────────────────────────── */
+.faq-list {
+  display: flex;
+  flex-direction: column;
+  gap: .5rem;
+}
+
+.faq-item {
+  border: 1px solid var(--color-border);
+  border-radius: 8px;
+  overflow: hidden;
+  transition: border-color .15s;
+}
+
+.faq-item.open {
+  border-color: var(--color-primary);
+}
+
+.faq-question {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: .875rem 1rem;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text);
+  font-size: .9rem;
+  font-family: inherit;
+  text-align: left;
+  transition: background .12s;
+}
+
+.faq-question:hover {
+  background: var(--color-bg-hover);
+}
+
+.faq-question .pi {
+  flex-shrink: 0;
+  font-size: .8rem;
+  color: var(--color-text-muted);
+  transition: transform .2s;
+}
+
+.faq-answer {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .25s ease, padding .25s;
+}
+
+.faq-item.open .faq-answer {
+  max-height: 200px;
+  padding: 0 1rem .875rem;
+}
+
+.faq-answer p {
+  font-size: .875rem;
+  margin: 0;
+}
+
+
+/* ── Modal (política de privacidad) ───────────────────────────── */
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgb(0 0 0 / .6);
+  z-index: 200;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  backdrop-filter: blur(4px);
+}
+
+.modal {
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  border-radius: 12px;
+  width: 100%;
+  max-width: 680px;
+  max-height: 85vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid var(--color-border);
+  flex-shrink: 0;
+}
+
+.modal-header h2 {
+  margin: 0;
+  font-size: 1.1rem;
+}
+
+.modal-close {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text-muted);
+  font-size: 1rem;
+  padding: .25rem;
+  border-radius: 6px;
+  transition: color .15s, background .15s;
+}
+
+.modal-close:hover {
+  color: var(--color-text);
+  background: var(--color-bg-hover);
+}
+
+.modal-body {
+  overflow-y: auto;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.privacy-section h3 {
+  font-size: .9rem;
+  font-weight: 600;
+  margin: 0 0 .35rem;
+  color: var(--color-text);
+}
+
+.privacy-section p {
+  font-size: .85rem;
+  margin: 0;
+}
+
+
+/* ── Footer: botón privacidad ─────────────────────────────────── */
+.footer-privacy-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: var(--color-text-muted);
+  font-size: .75rem;
+  font-family: inherit;
+  padding: 0;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  transition: color .15s;
+}
+
+.footer-privacy-btn:hover {
+  color: var(--color-primary);
+}
+
+
+/* ── Mobile — nuevas secciones ────────────────────────────────── */
+@media (max-width: 768px) {
+  .includes-header,
+  .includes-row {
+    grid-template-columns: 1fr repeat(3, 72px);
+  }
+
+  .process-steps::before {
+    display: none;
+  }
+}
+
 
 /* ── Mobile ───────────────────────────────────────────────────── */
 @media (max-width: 768px) {

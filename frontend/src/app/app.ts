@@ -33,6 +33,8 @@ export class App {
   lang = this.i18n.lang;
   dark = signal(true);
   menu = signal(false);
+  privacyOpen = signal(false);
+  faqOpenIndex = signal<number | null>(null);
   year = new Date().getFullYear();
 
   readonly languages = [
@@ -44,6 +46,24 @@ export class App {
     { code: 'de', label: 'Deutsch', flag: '/img/de.png' },
     { code: 'pt', label: 'Português', flag: '/img/pt.png' },
     { code: 'zh', label: '中文', flag: '/img/cn.png' }
+  ];
+
+  readonly faqItems = [
+    'faq.q1', 'faq.q2', 'faq.q3', 'faq.q4',
+    'faq.q5', 'faq.q6', 'faq.q7', 'faq.q8'
+  ];
+
+  readonly includesFeatures = [
+    { key: 'includes.feature.responsive',  static: true,  dynamic: true,  hybrid: true  },
+    { key: 'includes.feature.https',        static: true,  dynamic: true,  hybrid: true  },
+    { key: 'includes.feature.seo',          static: true,  dynamic: true,  hybrid: true  },
+    { key: 'includes.feature.speed',        static: true,  dynamic: true,  hybrid: true  },
+    { key: 'includes.feature.support',      static: true,  dynamic: true,  hybrid: true  },
+    { key: 'includes.feature.contact',      static: false, dynamic: true,  hybrid: true  },
+    { key: 'includes.feature.api',          static: false, dynamic: true,  hybrid: true  },
+    { key: 'includes.feature.database',     static: false, dynamic: true,  hybrid: true  },
+    { key: 'includes.feature.admin',        static: false, dynamic: false, hybrid: true  },
+    { key: 'includes.feature.cms',          static: false, dynamic: false, hybrid: true  },
   ];
 
   readonly portfolioImages = ['/img/imagen1.png', '/img/imagen2.png', '/img/imagen3.png'];
@@ -72,6 +92,10 @@ export class App {
 
   toggleTheme() {
     this.dark.set(!this.dark());
+  }
+
+  toggleFaq(i: number): void {
+    this.faqOpenIndex.update(current => current === i ? null : i);
   }
 
   toggleMenu() {

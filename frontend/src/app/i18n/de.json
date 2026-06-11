@@ -3,92 +3,155 @@
     "whatIDo": "Was ich mache",
     "aboutMe": "Über mich",
     "projects": "Projekte",
+    "faq": "FAQ",
     "contact": "Kontakt"
   },
   "header": {
-    "toggleTheme": "Design wechseln",
+    "toggleTheme": "Theme wechseln",
     "toggleMenu": "Menü öffnen"
   },
   "intro": {
-    "heading": "Ich erstelle maßgeschneiderte Websites, die klar und einfach zu bedienen sind",
-    "tagline": "Ohne unnötigen Schnickschnack. Jede Website ist einzigartig. Ich kann mich von dem inspirieren lassen, was dir gefällt, und es an deine Bedürfnisse anpassen",
-    "servicesOverview": "Ich entwickle Websites für jeden Anwendungsfall: von einfachen Seiten bis hin zu interaktiven Projekten mit Formularen, Suchfunktionen, dynamischen Inhalten oder sogar reinen Text-Websites. Was auch immer du brauchst – es lässt sich planen und umsetzen.",
-    "hostingNote": "Ich kann mich um die Domain und das Hosting kümmern, wenn du dich nicht mit der Technik beschäftigen möchtest, oder dir die volle Kontrolle überlassen. Außerdem kann ich die Website monatlich betreuen oder dir alles (Code, Domain und Hosting) übergeben, damit sie vollständig dir gehört."
+    "heading": "Ich mache maßgeschneiderte, klare und benutzerfreundliche Websites",
+    "tagline": "Ohne unnötigen Schnickschnack. Jede Website ist einzigartig, ich kann mich von dem inspirieren lassen, was dir gefällt, und es an deine Bedürfnisse anpassen",
+    "servicesOverview": "Ich erstelle Websites, die auf jeden Fall zugeschnitten sind: von einfachen Seiten bis hin zu interaktiven Projekten mit Formularen, Suchfunktionen, dynamischen Inhalten oder sogar reinen Text-Websites. Was auch immer du brauchst – wir können es besprechen und umsetzen.",
+    "hostingNote": "Ich kann mich um die Domain und das Hosting kümmern, wenn du dich nicht um die Technik kümmern möchtest, oder alles in deine Hände geben. Ich kann die Website auch monatlich pflegen oder dir alles (Code, Domain und Hosting) übergeben, damit sie dir gehört und du unabhängig bist."
   },
   "stats": {
     "responseTime": "Antwortzeit",
-    "type": "Fest",
-    "budget": "Festpreis",
+    "type": "Festpreis",
+    "budget": "Festes Budget",
     "remote": "Remote",
     "langs": "Sprachen"
   },
   "services": {
     "title": "Arten von Websites, die ich erstelle",
-    "intro": "Je nachdem, was du brauchst, kann ich verschiedene Arten von Websites entwickeln",
+    "intro": "Je nachdem, was du brauchst, kann ich verschiedene Arten von Websites erstellen",
     "static": {
       "title": "Um zu zeigen, was du anbietest",
-      "description": "Einfache und schnelle Website, individuell erstellt und ohne Komplikationen. Lädt sofort und kann überall gehostet werden.",
+      "description": "Einfache, schnelle, maßgeschneiderte Website ohne Komplikationen. Lädt sofort und kann überall gehostet werden.",
       "ideal": "Marken, die diese Art von Website nutzen"
     },
     "dynamic": {
-      "title": "Damit deine Nutzer interagieren können",
-      "description": "Filter, Suchfunktionen, Inhalte, die sich sofort ändern, intelligente Formulare und Anbindungen an externe APIs.",
+      "title": "Damit deine Benutzer interagieren können",
+      "description": "Filter, Suchfunktionen, sich sofort ändernde Inhalte, intelligente Formulare und Verbindungen zu externen APIs.",
       "ideal": "Plattformen, die diese Art von Website nutzen"
     },
     "hybrid": {
-      "title": "Zur Verwaltung deiner Inhalte",
-      "description": "Ein öffentlicher Bereich für Kunden und ein privater Bereich zur Verwaltung von Inhalten ohne Programmierung.",
+      "title": "Um deine Inhalte zu verwalten",
+      "description": "Öffentlicher Teil für Kunden und privater Teil zur Verwaltung von Inhalten ohne Code.",
       "ideal": "Dienste, die diese Art von Website nutzen"
     },
     "pricing": {
-      "title": "Zu den Preisen:",
-      "description": "Jedes Projekt ist anders. Normalerweise liege ich unter dem Marktpreis, weil ich die Nutzererfahrung und qualitativ hochwertige Arbeit über aufgeblähte Budgets stelle. Je nach Bedarf passen wir alles unverbindlich an."
+      "title": "Über Preise:",
+      "description": "Jedes Projekt ist anders. Normalerweise liege ich unter dem Marktpreis, weil ich die Erfahrung priorisiere und gut gemachte Dinge baue, anstatt die Budgets aufzublähen. Je nachdem, was du brauchst, passen wir alles unverbindlich an."
+    }
+  },
+  "process": {
+    "title": "Wie wir arbeiten",
+    "intro": "Ein einfacher Prozess ohne Überraschungen, von Anfang bis Ende",
+    "step1": {
+      "title": "Du erzählst mir deine Idee",
+      "description": "Wir sprechen über das, was du brauchst, unverbindlich und ohne Fachchinesisch. Du kannst mir mit einer halben Idee schreiben und wir entwickeln sie gemeinsam weiter."
+    },
+    "step2": {
+      "title": "Ich erstelle dir einen Vorschlag",
+      "description": "Ich definiere den Umfang, den Preis und die geschätzte Zeit. Ohne Kleingedrucktes. Wenn es nicht passt, ist das in Ordnung."
+    },
+    "step3": {
+      "title": "Ich entwickle die Website",
+      "description": "Ich baue die Website mit den passenden Technologien für dein Projekt. Ich informiere dich über den Fortschritt."
+    },
+    "step4": {
+      "title": "Wir überprüfen gemeinsam",
+      "description": "Ich zeige dir das Ergebnis vor der Veröffentlichung und wir passen an, was nötig ist. Revisionen sind inklusive."
+    },
+    "step5": {
+      "title": "Endgültige Veröffentlichung",
+      "description": "Die Website geht in Produktion und ist bereit zu funktionieren. Ich gebe dir Zugänge und erkläre dir, was du wissen musst."
+    }
+  },
+  "includes": {
+    "title": "Was deine Website beinhaltet",
+    "intro": "Alles, was je nach Art der Website standardmäßig enthalten ist, ohne versteckte Kosten",
+    "note": "Domain und Hosting können separat verwaltet oder auf Wunsch in das Budget aufgenommen werden.",
+    "feature": {
+      "responsive": "Responsive Design (Mobil, Tablet und Desktop)",
+      "https": "HTTPS und grundlegende Sicherheit",
+      "seo": "Basis-SEO (Meta-Tags, korrekte Struktur)",
+      "speed": "Optimierung der Ladegeschwindigkeit",
+      "support": "Support nach der Übergabe (2 Wochen)",
+      "contact": "Funktionierendes Kontaktformular",
+      "api": "Integration mit externen APIs",
+      "database": "Datenbank",
+      "admin": "Verwaltungsbereich",
+      "cms": "Codefreie Inhaltsverwaltung"
     }
   },
   "about": {
-    "title": "Wer dahinter steckt",
-    "intro": "Ich heiße Héctor Jarque. Ich habe bei null angefangen, DAW studiert und eigene Projekte umgesetzt, Dinge kaputt gemacht und daraus gelernt, bis ich wirklich verstanden habe, wie Websites funktionieren.",
-    "location": "Ich lebe in Valencia. Remote-Arbeit ist für mich kein Problem, und wenn du in der Nähe bist, können wir gerne einen Kaffee trinken.",
-    "learning": "Ich habe ohne Vorkenntnisse angefangen und Schritt für Schritt Projekte aufgebaut, bis ich komplette Websites entwickeln und verstehen konnte, was hinter jedem einzelnen Teil steckt.",
-    "honesty": "Ich verspreche keine Wunder. Wenn etwas nicht machbar ist, sage ich es dir. Wenn es möglich ist, aber aus irgendeinem Grund keine gute Idee ist, erkläre ich dir das ebenfalls offen und ehrlich.",
-    "techTitle": "Technologien, die ich normalerweise verwende"
+    "title": "Wer dahintersteckt",
+    "intro": "Ich heiße Héctor Jarque. Ich habe von Grund auf studiert (DAW) und eigene Projekte umgesetzt, Dinge kaputt gemacht und gelernt, bis ich wirklich verstanden habe, wie Websites funktionieren.",
+    "location": "Ich lebe in Valencia. Ich arbeite problemlos remote, und wenn du in der Nähe bist, können wir einen Kaffee trinken gehen.",
+    "learning": "Ich habe ohne Ahnung angefangen und nach und nach Projekte aufgebaut, bis ich vollständige Websites entwickeln und verstehen konnte, was hinter jedem Teil steckt.",
+    "honesty": "Ich verkaufe keinen Unsinn. Wenn etwas nicht machbar ist, sage ich es dir. Wenn es machbar ist, aber aus irgendeinem Grund keine gute Idee ist, erkläre ich dir das auch klar.",
+    "techTitle": "Technologie, die ich normalerweise verwende"
   },
   "projects": {
     "title": "Einige Dinge, die ich gemacht habe",
-    "intro": "Um weiter zu lernen, habe ich verschiedene Webprojekte entwickelt",
+    "intro": "Um weiter zu lernen, habe ich verschiedene Webprojekte erstellt",
     "staticTag": "Statische Website",
     "dynamicTag": "Dynamische Website",
     "hybridTag": "Hybride Website",
     "portfolio": {
       "title": "Dieses Portfolio",
-      "description": "Die Website, die du gerade siehst. Erstellt mit Angular, Kotlin, Spring Boot und MongoDB – inklusive funktionierendem Kontaktformular und Mehrsprachigkeit.",
+      "description": "Die Seite, die du gerade siehst. Erstellt mit Angular, Kotlin, Spring Boot und MongoDB – inklusive funktionierendem Kontaktformular und Mehrsprachigkeit.",
       "screenshotAlt": "Screenshot des Portfolios"
     },
     "uwutrack": {
       "title": "UwU-Track",
-      "description": "Lokale Plattform zum Scrapen und Lesen von Manga. Füge die URL deines Lieblingsmangas hinzu und UwU-Track lädt ihn automatisch herunter und hält ihn Kapitel für Kapitel aktuell."
+      "description": "Lokale Plattform zum Scrapen und Lesen von Manga. Füge die URL deines Lieblings-Mangas hinzu und UwU-Track lädt ihn automatisch herunter und hält ihn Kapitel für Kapitel aktuell."
     },
     "experience": {
       "tag": "Berufserfahrung",
-      "title": "3 Monate in einem Fintech-Entwicklungsteam",
-      "description": "Frontend- und Backend-Entwicklung, Verbesserung von Funktionen und Arbeit in einer realen technologischen Umgebung."
+      "title": "3 Monate im Fintech-Entwicklungsteam",
+      "description": "Frontend und Backend, Verbesserung von Funktionen und Arbeit in einer echten technologischen Umgebung."
     },
-    "viewProject": "Website besuchen"
+    "viewProject": "Website besuchen",
+    "viewOnGithub": "Auf GitHub ansehen"
+  },
+  "faq": {
+    "title": "Häufig gestellte Fragen",
+    "intro": "Was die Leute normalerweise fragen, bevor sie Kontakt aufnehmen",
+    "q1": "Wie viel kostet eine Website?",
+    "q1Answer": "Das hängt von der Art und dem, was du brauchst, ab. Es gibt keinen festen Preis, da jedes Projekt anders ist. Erzähl mir, was du im Sinn hast, und ich erstelle dir ein unverbindliches Angebot.",
+    "q2": "Wie lange dauert die Erstellung einer Website?",
+    "q2Answer": "Eine einfache statische Website kann in 1-2 Wochen fertig sein. Eine dynamische oder hybride kann je nach Komplexität 3-6 Wochen dauern. Ich gebe dir eine geschätzte Zeit, wenn ich den Vorschlag erstelle.",
+    "q3": "Muss ich mich mit Technologie auskennen, um mit dir zusammenzuarbeiten?",
+    "q3Answer": "Überhaupt nicht. Ich passe mich jedem Niveau an. Wenn du eine halbe Idee hast, entwickeln wir sie gemeinsam. Wenn du alles klar hast, umso besser. Du musst nichts über Code oder Server wissen.",
+    "q4": "Was ist der Unterschied zwischen einer statischen und einer dynamischen Website?",
+    "q4Answer": "Eine statische Website zeigt feste Informationen an und lädt sehr schnell. Eine dynamische Website ermöglicht Dinge wie Benutzerregistrierungen, Echtzeitfilter oder die Verbindung mit anderen Plattformen. Die meisten kleinen Unternehmen beginnen mit einer statischen Website und erweitern später.",
+    "q5": "Kümmerst du dich um Hosting und Domain?",
+    "q5Answer": "Das mache ich nicht standardmäßig, aber ich kann mich darum kümmern, wenn du keinen Ärger haben möchtest. Ich würde es dann zum Budget hinzufügen. Wenn du bereits ein eigenes Hosting hast, kann ich auch damit arbeiten.",
+    "q6": "Kann ich sehen, wie die Website vor der Veröffentlichung aussieht?",
+    "q6Answer": "Ja, immer. Vor der Veröffentlichung zeige ich dir das Ergebnis in einer Testumgebung und wir führen alle notwendigen Überarbeitungen durch. Es wird nichts veröffentlicht, bis du zufrieden bist.",
+    "q7": "Kann ich nach der Veröffentlichung Änderungen vornehmen?",
+    "q7Answer": "Ja. Die ersten zwei Wochen Support sind für kleinere Anpassungen inklusive. Für größere Änderungen nach diesem Zeitraum sprechen wir wie bei einem neuen Projekt darüber.",
+    "q8": "Arbeitest du nur mit Unternehmen oder auch mit Privatpersonen?",
+    "q8Answer": "Mit beiden. Egal, ob du Selbstständiger, Inhaber eines kleinen Unternehmens oder eine Privatperson bist, die etwas aufbauen möchte. Wenn das Projekt sinnvoll ist, bin ich interessiert."
   },
   "contact": {
-    "title": "Lass uns sprechen",
+    "title": "Lass uns reden",
     "emailPrompt": "Am besten schreibst du mir eine E-Mail und erzählst mir, was du vorhast.",
-    "existingSite": "Wenn du bereits eine Website hast, schick sie mir. Ich schaue sie mir an und gebe dir kostenlos und unverbindlich schnelles Feedback zu möglichen Verbesserungen.",
-    "noWorries": "Du musst kein Technikexperte sein oder schon alles genau wissen. Wenn du weißt, was du möchtest, finden wir gemeinsam eine Lösung.",
-    "formTitle": "Schick mir eine Nachricht",
+    "existingSite": "Wenn du bereits eine Website hast, schicke sie mir, und ich schaue sie mir an. Ich kann dir schnell ein Feedback geben, was ich verbessern würde, unverbindlich und kostenlos.",
+    "noWorries": "Du musst dich nicht mit Technologie auskennen oder alles bis ins Detail durchdacht haben. Wenn du weißt, was du willst, schaffen wir das.",
+    "formTitle": "Schreib mir eine Nachricht",
     "name": "Dein Name",
     "email": "Deine E-Mail",
     "subject": "Betreff",
     "message": "Nachricht",
     "send": "Senden",
     "sending": "Wird gesendet...",
-    "successMessage": "Nachricht gesendet! Ich antworte innerhalb von 24 Stunden.",
-    "errorMessage": "Fehler beim Senden. Schreib mir direkt, falls das Problem weiterhin besteht."
+    "successMessage": "Nachricht gesendet! Ich antworte dir innerhalb von 24 Stunden.",
+    "errorMessage": "Fehler beim Senden. Schreib mir direkt, wenn das Problem weiterhin besteht."
   },
   "validation": {
     "name": {
@@ -96,8 +159,8 @@
       "pattern": "Nur Buchstaben, Leerzeichen und Bindestriche"
     },
     "email": {
-      "required": "Die E-Mail-Adresse ist erforderlich",
-      "format": "Gib eine gültige E-Mail-Adresse ein (z. B. name@domain.de)"
+      "required": "E-Mail ist erforderlich",
+      "format": "Gib eine gültige E-Mail-Adresse ein (z. B. name@domain.com)"
     },
     "subject": {
       "minLength": "Mindestens 3 Zeichen"
@@ -109,5 +172,42 @@
   "carousel": {
     "prev": "Zurück",
     "next": "Weiter"
+  },
+  "privacy": {
+    "title": "Datenschutzerklärung",
+    "linkLabel": "Datenschutzerklärung",
+    "close": "Schließen",
+    "responsible": {
+      "title": "Verantwortlicher für die Datenverarbeitung",
+      "text": "Héctor Jarque — jarquebusiness@gmail.com. Diese Richtlinie gilt für die Daten, die über das Kontaktformular dieser Website erhoben werden."
+    },
+    "data": {
+      "title": "Erhobene Daten",
+      "text": "Über das Kontaktformular werden Name, E-Mail-Adresse, Betreff und Nachricht erhoben. Es werden keine Zahlungsdaten, sensiblen Daten oder Daten von Minderjährigen erhoben."
+    },
+    "purpose": {
+      "title": "Zweck der Verarbeitung",
+      "text": "Die Daten werden ausschließlich zur Beantwortung der Anfrage und gegebenenfalls zur Verwaltung eines Kooperationsvorschlags verwendet. Sie werden nicht für Werbezwecke oder andere Zwecke verwendet."
+    },
+    "legal": {
+      "title": "Rechtsgrundlage",
+      "text": "Die Verarbeitung basiert auf der Einwilligung der betroffenen Person, die durch das Absenden des Formulars freiwillig erteilt wird (Art. 6 Abs. 1 lit. a DSGVO)."
+    },
+    "storage": {
+      "title": "Speicherung der Daten",
+      "text": "Die Daten werden so lange gespeichert, wie es zur Bearbeitung der Anfrage erforderlich ist. Nach der Erledigung werden sie gelöscht, es sei denn, es besteht eine vertragliche Beziehung, die ihre Aufbewahrung rechtfertigt."
+    },
+    "recipients": {
+      "title": "Empfänger",
+      "text": "Es werden keine Daten an Dritte weitergegeben. Die Nachrichten werden in einem Gmail-Konto (Google LLC) empfangen, das den Datenschutzbestimmungen von Google und der geltenden internationalen Datenübernahmevereinbarung unterliegt."
+    },
+    "rights": {
+      "title": "Deine Rechte",
+      "text": "Du kannst deine Rechte auf Auskunft, Berichtigung, Löschung, Widerspruch, Einschränkung und Datenübertragbarkeit ausüben, indem du eine E-Mail an jarquebusiness@gmail.com sendest. Wenn du der Meinung bist, dass die Verarbeitung nicht korrekt ist, kannst du dich bei der spanischen Datenschutzbehörde (aepd.es) beschweren."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "text": "Diese Website verwendet keine Tracking-Cookies oder Cookies von Drittanbietern. Es werden nur die technisch notwendigen Cookies verwendet, die für den Betrieb der Website unbedingt erforderlich sind."
+    }
   }
 }

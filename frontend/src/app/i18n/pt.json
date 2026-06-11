@@ -3,17 +3,18 @@
     "whatIDo": "O que faço",
     "aboutMe": "Sobre mim",
     "projects": "Projetos",
-    "contact": "Contacto"
+    "faq": "FAQ",
+    "contact": "Contato"
   },
   "header": {
-    "toggleTheme": "Alterar tema",
+    "toggleTheme": "Mudar tema",
     "toggleMenu": "Abrir menu"
   },
   "intro": {
-    "heading": "Crio websites personalizados, claros e fáceis de utilizar",
-    "tagline": "Sem coisas desnecessárias. Cada website é único. Posso inspirar-me no que gostas e adaptá-lo ao que precisas",
-    "servicesOverview": "Crio websites adaptados a cada caso: desde páginas simples até projetos interativos com formulários, motores de pesquisa, conteúdo dinâmico ou até websites apenas de texto. O que precisares pode ser planeado e desenvolvido.",
-    "hostingNote": "Posso tratar do domínio e do alojamento se quiseres esquecer a parte técnica, ou deixar tudo nas tuas mãos. Também posso fazer a manutenção do website mês a mês ou entregar-te tudo (código, domínio e alojamento) para que seja totalmente teu e sem dependências."
+    "heading": "Faço websites sob medida, claros e fáceis de usar",
+    "tagline": "Sem coisas desnecessárias. Cada site é único, posso inspirar-me no que gostas e adaptá-lo ao que precisas",
+    "servicesOverview": "Faço sites adaptados a cada caso: desde páginas simples até projetos interativos com formulários, motores de busca, conteúdo dinâmico ou até sites só de texto. O que precisares, podemos pensar e construir.",
+    "hostingNote": "Posso tratar do domínio e do alojamento se quiseres esquecer a parte técnica, ou deixar tudo nas tuas mãos. Também posso manter o site mês a mês ou entregar-te tudo (código, domínio e alojamento) para que seja teu sem dependência."
   },
   "stats": {
     "responseTime": "Tempo de resposta",
@@ -23,91 +24,190 @@
     "langs": "Idiomas"
   },
   "services": {
-    "title": "Tipos de websites que crio",
-    "intro": "Dependendo do que precisares, posso criar diferentes tipos de websites",
+    "title": "Tipos de site que faço",
+    "intro": "Consoante o que precisas, posso fazer diferentes tipos de site",
     "static": {
       "title": "Para mostrar o que ofereces",
-      "description": "Website simples e rápido, feito à medida e sem complicações. Carrega instantaneamente e pode ser alojado em qualquer lugar.",
-      "ideal": "Marcas que utilizam este tipo de website"
+      "description": "Site simples e rápido, feito sob medida e sem complicações. Carrega instantaneamente e aloja-se em qualquer lado.",
+      "ideal": "Marcas que usam este tipo de site"
     },
     "dynamic": {
       "title": "Para os teus utilizadores interagirem",
-      "description": "Filtros, motores de pesquisa, conteúdo que muda instantaneamente, formulários inteligentes e integrações com APIs externas.",
-      "ideal": "Plataformas que utilizam este tipo de website"
+      "description": "Filtros, motores de busca, conteúdo que muda instantaneamente, formulários inteligentes e ligações a APIs externas.",
+      "ideal": "Plataformas que usam este tipo de site"
     },
     "hybrid": {
-      "title": "Para gerir o teu conteúdo",
-      "description": "Uma área pública para clientes e uma área privada para gerir conteúdo sem mexer em código.",
-      "ideal": "Serviços que utilizam este tipo de website"
+      "title": "Para gerires o teu conteúdo",
+      "description": "Parte pública para clientes e parte privada para gerir conteúdo sem mexer em código.",
+      "ideal": "Serviços que usam este tipo de site"
     },
     "pricing": {
-      "title": "Sobre os preços:",
-      "description": "Cada projeto é diferente. Normalmente pratico valores abaixo do mercado porque priorizo a experiência do utilizador e a construção de soluções bem feitas, em vez de inflacionar orçamentos. Dependendo do que precisares, ajustamos tudo sem compromisso."
+      "title": "Sobre preços:",
+      "description": "Cada projeto é diferente. Normalmente fico abaixo do preço de mercado porque priorizo a experiência e construir coisas bem feitas em vez de inflacionar orçamentos. Consoante o que precisares, ajustamos tudo sem compromisso."
+    }
+  },
+  "process": {
+    "title": "Como trabalhamos",
+    "intro": "Um processo simples e sem surpresas, do início ao fim",
+    "step1": {
+      "title": "Contas-me a tua ideia",
+      "description": "Falamos do que precisas, sem compromisso nem termos técnicos. Podes escrever-me com uma ideia a meio e vamos defini-la juntos."
+    },
+    "step2": {
+      "title": "Preparo-te uma proposta",
+      "description": "Defino o âmbito, o preço e o tempo estimado. Sem letras pequenas. Se não encaixar, não há problema."
+    },
+    "step3": {
+      "title": "Desenvolvo o site",
+      "description": "Construo o site com as tecnologias adequadas ao teu projeto. Vou-te informando do progresso."
+    },
+    "step4": {
+      "title": "Revemos juntos",
+      "description": "Mostro-te o resultado antes de publicar e ajustamos o que for preciso. As revisões estão incluídas."
+    },
+    "step5": {
+      "title": "Publicação final",
+      "description": "O site entra em produção pronto a funcionar. Entrego-te os acessos e explico o que precisares de saber."
+    }
+  },
+  "includes": {
+    "title": "O que o teu site inclui",
+    "intro": "Tudo o que vem de série conforme o tipo de site, sem custos ocultos",
+    "note": "Domínio e alojamento podem ser geridos separadamente ou incluídos no orçamento se preferires.",
+    "feature": {
+      "responsive": "Design responsivo (telemóvel, tablet e desktop)",
+      "https": "HTTPS e segurança básica",
+      "seo": "SEO básico (meta tags, estrutura correta)",
+      "speed": "Otimização da velocidade de carregamento",
+      "support": "Suporte pós-entrega (2 semanas)",
+      "contact": "Formulário de contacto funcional",
+      "api": "Integração com APIs externas",
+      "database": "Base de dados",
+      "admin": "Painel de administração",
+      "cms": "Gestão de conteúdo sem código"
     }
   },
   "about": {
     "title": "Quem está por detrás disto",
-    "intro": "Chamo-me Héctor Jarque. Comecei do zero, estudando DAW e criando projetos por conta própria, estragando coisas e aprendendo até compreender realmente como funcionam os websites.",
-    "location": "Vivo em Valência. Trabalho remotamente sem qualquer problema e, se estiveres por perto, podemos tomar um café.",
-    "learning": "Comecei sem saber praticamente nada e fui construindo projetos pouco a pouco até conseguir desenvolver websites completos e compreender o que existe por detrás de cada parte.",
-    "honesty": "Não vendo ilusões. Se algo não puder ser feito, digo-te. Se puder ser feito mas não for uma boa ideia por qualquer motivo, também te explico isso de forma clara.",
-    "techTitle": "Tecnologias que costumo utilizar"
+    "intro": "Chamo-me Héctor Jarque. Comecei do zero a estudar (DAW) e a fazer projetos por minha conta, a partir coisas e a aprender até perceber como funcionam verdadeiramente os sites.",
+    "location": "Vivo em Valência. Trabalho remotamente sem problema e, se estiveres perto, podemos tomar um café.",
+    "learning": "Comecei sem fazer ideia e fui construindo projetos pouco a pouco até conseguir desenvolver sites completos e entender o que há por trás de cada parte.",
+    "honesty": "Não vendo banha da cobra. Se algo não pode ser feito, digo-to. Se pode ser feito mas por algum motivo não é boa ideia, também to explico claramente.",
+    "techTitle": "Tecnologia que costumo utilizar"
   },
   "projects": {
     "title": "Algumas coisas que fiz",
     "intro": "Para continuar a aprender, fui criando diferentes projetos web",
-    "staticTag": "Website estático",
-    "dynamicTag": "Website dinâmico",
-    "hybridTag": "Website híbrido",
+    "staticTag": "Site estático",
+    "dynamicTag": "Site dinâmico",
+    "hybridTag": "Site híbrido",
     "portfolio": {
-      "title": "Este portefólio",
-      "description": "O website que estás a ver neste momento. Construído com Angular, Kotlin, Spring Boot e MongoDB — inclui formulário de contacto funcional e suporte multilingue.",
-      "screenshotAlt": "Captura de ecrã do portefólio"
+      "title": "Este portfólio",
+      "description": "O site que estás a ver. Construído com Angular, Kotlin, Spring Boot e MongoDB — inclui formulário de contacto funcional e suporte multilíngue.",
+      "screenshotAlt": "Captura do portfólio"
     },
     "uwutrack": {
       "title": "UwU-Track",
-      "description": "Plataforma local para scraping e leitura de manga. Adiciona o URL do teu manga favorito e o UwU-Track descarrega-o automaticamente, mantendo-o atualizado capítulo após capítulo."
+      "description": "Plataforma local de scraping e leitura de manga. Adiciona o URL do teu manga favorito e o UwU-Track descarrega-o automaticamente, mantendo-o atualizado capítulo a capítulo."
     },
     "experience": {
       "tag": "Experiência profissional",
-      "title": "3 meses numa equipa de desenvolvimento fintech",
-      "description": "Desenvolvimento frontend e backend, melhoria de funcionalidades e trabalho num ambiente tecnológico real."
+      "title": "3 meses em equipa de desenvolvimento fintech",
+      "description": "Frontend e backend, melhoria de funcionalidades e trabalho em ambiente tecnológico real."
     },
-    "viewProject": "Visitar website"
+    "viewProject": "Visitar site",
+    "viewOnGithub": "Ver no GitHub"
+  },
+  "faq": {
+    "title": "Perguntas frequentes",
+    "intro": "O que as pessoas costumam perguntar antes de contactar",
+    "q1": "Quanto custa fazer um site?",
+    "q1Answer": "Depende do tipo e do que precisas. Não há um preço fixo porque cada projeto é diferente. Conta-me o que tens em mente e preparo-te um orçamento sem compromisso.",
+    "q2": "Quanto tempo demora a fazer um site?",
+    "q2Answer": "Um site estático simples pode ficar pronto em 1-2 semanas. Um dinâmico ou híbrido pode levar 3-6 semanas dependendo da complexidade. Dou-te um tempo estimado ao preparar a proposta.",
+    "q3": "Preciso de saber tecnologia para trabalhar contigo?",
+    "q3Answer": "De todo. Adapto-me a qualquer nível. Se tens uma ideia a meio, desenvolvemo-la juntos. Se tens tudo claro, melhor. Não é preciso saber nada de código nem de servidores.",
+    "q4": "Qual é a diferença entre um site estático e um dinâmico?",
+    "q4Answer": "Um site estático mostra informação fixa e carrega muito rapidamente. Um dinâmico permite coisas como registos de utilizadores, filtros em tempo real ou ligação a outras plataformas. A maioria dos pequenos negócios começa com um estático e expande depois.",
+    "q5": "Tratas do alojamento e do domínio?",
+    "q5Answer": "Não o faço de série, mas posso tratar se não quiseres chatices. Somá-lo-ia ao orçamento. Se já tiveres alojamento próprio, também posso trabalhar com ele.",
+    "q6": "Posso ver como fica antes de publicar?",
+    "q6Answer": "Sim, sempre. Antes de publicar qualquer coisa, mostro-te o resultado num ambiente de teste e fazemos todas as revisões necessárias. Não se publica até estares satisfeito.",
+    "q7": "Posso fazer alterações depois de publicado?",
+    "q7Answer": "Sim. As primeiras 2 semanas de suporte estão incluídas para ajustes menores. Para alterações maiores após esse período, falamos como um novo projeto.",
+    "q8": "Trabalhas só com empresas ou também com particulares?",
+    "q8Answer": "Com ambos. Dá igual se és autónomo, tens uma PME ou és um particular que quer montar algo. Se o projeto fizer sentido, interessa-me."
   },
   "contact": {
-    "title": "Vamos falar",
-    "emailPrompt": "A melhor forma é enviares-me um e-mail a explicar o que tens em mente.",
-    "existingSite": "Se já tens um website, envia-mo e dou-lhe uma vista de olhos. Posso dar-te rapidamente feedback sobre o que melhoraria, sem compromisso nem custos.",
-    "noWorries": "Não precisas de perceber de tecnologia nem de ter tudo definido. Desde que saibas o que pretendes, conseguimos avançar.",
-    "formTitle": "Envia-me uma mensagem",
+    "title": "Falamos",
+    "emailPrompt": "O melhor é escreveres-me um e-mail a contar o que tens em mente.",
+    "existingSite": "Se já tiveres um site, envia-mo e dou uma vista de olhos. Posso dar-te um feedback rápido sobre o que melhoraria, sem compromisso nem custo.",
+    "noWorries": "Não é preciso saber tecnologia nem ter tudo claro. Desde que saibas o que queres, safamo-lo.",
+    "formTitle": "Manda-me uma mensagem",
     "name": "O teu nome",
     "email": "O teu e-mail",
     "subject": "Assunto",
     "message": "Mensagem",
     "send": "Enviar",
     "sending": "A enviar...",
-    "successMessage": "Mensagem enviada! Responderei em menos de 24 horas.",
-    "errorMessage": "Erro ao enviar. Contacta-me diretamente se o problema persistir."
+    "successMessage": "Mensagem enviada! Responder-te-ei em menos de 24h.",
+    "errorMessage": "Erro ao enviar. Escreve-me diretamente se o problema persistir."
   },
   "validation": {
     "name": {
-      "minLength": "Mínimo de 2 caracteres",
+      "minLength": "Mínimo 2 caracteres",
       "pattern": "Apenas letras, espaços e hífens"
     },
     "email": {
       "required": "O e-mail é obrigatório",
-      "format": "Introduz um e-mail válido (ex.: nome@dominio.com)"
+      "format": "Introduz um e-mail válido (ex: nome@dominio.com)"
     },
     "subject": {
-      "minLength": "Mínimo de 3 caracteres"
+      "minLength": "Mínimo 3 caracteres"
     },
     "message": {
-      "minLength": "Mínimo de 10 caracteres"
+      "minLength": "Mínimo 10 caracteres"
     }
   },
   "carousel": {
     "prev": "Anterior",
     "next": "Seguinte"
+  },
+  "privacy": {
+    "title": "Política de privacidade",
+    "linkLabel": "Política de privacidade",
+    "close": "Fechar",
+    "responsible": {
+      "title": "Responsável pelo tratamento",
+      "text": "Héctor Jarque — jarquebusiness@gmail.com. Esta política aplica-se aos dados recolhidos através do formulário de contacto deste site."
+    },
+    "data": {
+      "title": "Dados recolhidos",
+      "text": "Através do formulário de contacto são recolhidos nome, endereço de e-mail, assunto e mensagem. Não são recolhidos dados de pagamento, dados sensíveis nem dados de menores."
+    },
+    "purpose": {
+      "title": "Finalidade do tratamento",
+      "text": "Os dados são usados exclusivamente para responder à consulta e, se for o caso, gerir uma proposta de colaboração. Não são usados para envio de publicidade nem para qualquer outra finalidade."
+    },
+    "legal": {
+      "title": "Base legal",
+      "text": "O tratamento baseia-se no consentimento do interessado, concedido livremente ao enviar o formulário (art. 6.1.a do RGPD)."
+    },
+    "storage": {
+      "title": "Conservação dos dados",
+      "text": "Os dados são conservados durante o tempo necessário para atender à consulta. Uma vez resolvida, são eliminados, salvo se existir uma relação contratual que justifique a sua conservação."
+    },
+    "recipients": {
+      "title": "Destinatários",
+      "text": "Os dados não são cedidos a terceiros. As mensagens são recebidas numa conta Gmail (Google LLC), sujeita às condições de privacidade da Google e ao acordo de transferência internacional de dados em vigor."
+    },
+    "rights": {
+      "title": "Os teus direitos",
+      "text": "Podes exercer os teus direitos de acesso, retificação, apagamento, oposição, limitação e portabilidade escrevendo para jarquebusiness@gmail.com. Se considerares que o tratamento não é correto, podes reclamar junto da Agência Espanhola de Proteção de Dados (aepd.es)."
+    },
+    "cookies": {
+      "title": "Cookies",
+      "text": "Este site não usa cookies de rastreio nem de terceiros. Apenas são usados os cookies técnicos estritamente necessários para o funcionamento do site."
+    }
   }
 }
