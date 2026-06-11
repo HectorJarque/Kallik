@@ -9,6 +9,7 @@
     <a href="#que-hago" (click)="closeMenu()">{{ 'nav.whatIDo'  | translate }}</a>
     <a href="#sobre-mi" (click)="closeMenu()">{{ 'nav.aboutMe'  | translate }}</a>
     <a href="#proyectos" (click)="closeMenu()">{{ 'nav.projects' | translate }}</a>
+    <a href="#faq" (click)="closeMenu()">{{ 'nav.faq'      | translate }}</a>
     <a href="#contacto" (click)="closeMenu()">{{ 'nav.contact'  | translate }}</a>
   </nav>
 
@@ -24,7 +25,7 @@
         @if (item) {
           <div class="lang-option">
             <img [src]="item.flag" [alt]="item.label" class="flag">
-            <span>{{ item.label }}</span>
+            <span class="lang-label">{{ item.label }}</span>
           </div>
         }
       </ng-template>
@@ -51,7 +52,7 @@
 <section class="section-hero section-alt">
   <div class="container">
     <div class="hero-grid">
-      <div>
+      <div class="hero-text">
         <h1>{{ 'intro.heading' | translate }}</h1>
         <p class="hero-tagline">{{ 'intro.tagline' | translate }}</p>
         <p>{{ 'intro.servicesOverview' | translate }}</p>
@@ -72,7 +73,7 @@
           <span class="stat-label">{{ 'stats.remote' | translate }}</span>
         </div>
         <div class="stat-card">
-          <span class="stat-num">ES · EN · CAT </span>
+          <span class="stat-num">ES · EN · CAT</span>
           <span class="stat-label">{{ 'stats.langs' | translate }}</span>
         </div>
       </div>
@@ -89,7 +90,6 @@
 
     <div class="services-grid">
 
-      <!-- Web estática -->
       <div class="card card--service">
         <div class="service-header">
           <i class="pi pi-desktop"></i>
@@ -117,7 +117,6 @@
         </div>
       </div>
 
-      <!-- Web dinámica -->
       <div class="card card--service">
         <div class="service-header">
           <i class="pi pi-cog"></i>
@@ -148,7 +147,6 @@
         </div>
       </div>
 
-      <!-- Web híbrida -->
       <div class="card card--service">
         <div class="service-header">
           <i class="pi pi-th-large"></i>
@@ -188,14 +186,14 @@
   </div>
 </section>
 
-<!-- Proceso de trabajo -->
+
+<!-- PROCESO -->
 <section id="proceso" class="section-alt">
   <div class="container">
     <h2>{{ 'process.title' | translate }}</h2>
     <p class="section-intro">{{ 'process.intro' | translate }}</p>
 
     <div class="process-steps">
-
       <div class="process-step">
         <div class="step-num">1</div>
         <div class="step-content">
@@ -203,7 +201,6 @@
           <p>{{ 'process.step1.description' | translate }}</p>
         </div>
       </div>
-
       <div class="process-step">
         <div class="step-num">2</div>
         <div class="step-content">
@@ -211,7 +208,6 @@
           <p>{{ 'process.step2.description' | translate }}</p>
         </div>
       </div>
-
       <div class="process-step">
         <div class="step-num">3</div>
         <div class="step-content">
@@ -219,7 +215,6 @@
           <p>{{ 'process.step3.description' | translate }}</p>
         </div>
       </div>
-
       <div class="process-step">
         <div class="step-num">4</div>
         <div class="step-content">
@@ -227,7 +222,6 @@
           <p>{{ 'process.step4.description' | translate }}</p>
         </div>
       </div>
-
       <div class="process-step">
         <div class="step-num">5</div>
         <div class="step-content">
@@ -235,20 +229,18 @@
           <p>{{ 'process.step5.description' | translate }}</p>
         </div>
       </div>
-
     </div>
   </div>
 </section>
 
-<!-- Que incluye la web -->
+
+<!-- QUÉ INCLUYE -->
 <section id="que-incluye">
   <div class="container">
     <h2>{{ 'includes.title' | translate }}</h2>
     <p class="section-intro">{{ 'includes.intro' | translate }}</p>
 
     <div class="includes-table">
-
-      <!-- Cabecera -->
       <div class="includes-header">
         <div class="includes-feature-col"></div>
         <div class="includes-type-col">
@@ -262,7 +254,6 @@
         </div>
       </div>
 
-      <!-- Filas -->
       @for (feature of includesFeatures; track feature.key) {
         <div class="includes-row">
           <div class="includes-feature-col">{{ feature.key | translate }}</div>
@@ -277,7 +268,6 @@
           </div>
         </div>
       }
-
     </div>
 
     <p class="includes-note">
@@ -294,8 +284,8 @@
     <div class="about-grid">
 
       <div>
-        <h2>{{ 'about.title' | translate }}</h2>
-        <p>{{ 'about.intro' | translate }}</p>
+        <h2>{{ 'about.title'    | translate }}</h2>
+        <p>{{ 'about.intro'    | translate }}</p>
         <p>{{ 'about.location' | translate }}</p>
         <p>{{ 'about.learning' | translate }}</p>
         <p>{{ 'about.honesty'  | translate }}</p>
@@ -358,7 +348,7 @@
     <h2>{{ 'projects.title' | translate }}</h2>
     <p class="section-intro">{{ 'projects.intro' | translate }}</p>
 
-    <div class="cards-grid">
+    <div class="projects-list">
 
       <!-- Portfolio con carrusel -->
       <div class="card">
@@ -400,15 +390,17 @@
         </span>
       </a>
 
-    </div>
+      <!-- Experiencia -->
+      <div class="card">
+        <span class="tag">{{ 'projects.experience.tag'         | translate }}</span>
+        <h3>{{ 'projects.experience.title'       | translate }}</h3>
+        <p>{{ 'projects.experience.description' | translate }}</p>
+      </div>
 
-    <div class="card card--experience">
-      <span class="tag">{{ 'projects.experience.tag'         | translate }}</span>
-      <h3>{{ 'projects.experience.title'       | translate }}</h3>
-      <p>{{ 'projects.experience.description' | translate }}</p>
     </div>
   </div>
 </section>
+
 
 <!-- FAQ -->
 <section id="faq" class="section-alt">
@@ -417,7 +409,6 @@
     <p class="section-intro">{{ 'faq.intro' | translate }}</p>
 
     <div class="faq-list">
-
       @for (item of faqItems; track item; let i = $index) {
         <div class="faq-item" [class.open]="faqOpenIndex() === i">
           <button class="faq-question" (click)="toggleFaq(i)">
@@ -429,7 +420,6 @@
           </div>
         </div>
       }
-
     </div>
   </div>
 </section>
@@ -440,12 +430,11 @@
   <div class="container">
     <div class="contact-grid">
 
-      <!-- Info -->
       <div>
-        <h2>{{ 'contact.title' | translate }}</h2>
-        <p>{{ 'contact.emailPrompt' | translate }}</p>
+        <h2>{{ 'contact.title'        | translate }}</h2>
+        <p>{{ 'contact.emailPrompt'  | translate }}</p>
         <p>{{ 'contact.existingSite' | translate }}</p>
-        <p>{{ 'contact.noWorries' | translate }}</p>
+        <p>{{ 'contact.noWorries'    | translate }}</p>
 
         <div class="contact-links">
           <a href="mailto:jarquebusiness@gmail.com">
@@ -460,22 +449,17 @@
         </div>
       </div>
 
-      <!-- Formulario -->
       <div class="contact-form-wrap">
         <h3>{{ 'contact.formTitle' | translate }}</h3>
 
         @if (contactSent) {
-
           <div class="form-feedback form-feedback--ok">
             <i class="pi pi-check-circle"></i>
             {{ 'contact.successMessage' | translate }}
           </div>
-
         } @else {
-
           <div class="contact-form">
 
-            <!-- Honeypot: invisible para humanos, los bots lo rellenan -->
             <input type="text"
                    name="website"
                    [(ngModel)]="contactForm.honeypot"
@@ -498,7 +482,6 @@
                   <span class="field-error">{{ formErrors['name'] | translate }}</span>
                 }
               </div>
-
               <div class="field-wrap">
                 <input type="email"
                        name="email"
@@ -556,7 +539,6 @@
             </button>
 
           </div>
-
         }
       </div>
 
@@ -599,6 +581,8 @@
   </div>
 </footer>
 
+
+<!-- MODAL PRIVACIDAD -->
 @if (privacyOpen()) {
   <div class="modal-backdrop" (click)="privacyOpen.set(false)">
     <div class="modal" (click)="$event.stopPropagation()">
@@ -611,48 +595,40 @@
       </div>
 
       <div class="modal-body">
-
         <section class="privacy-section">
           <h3>{{ 'privacy.responsible.title' | translate }}</h3>
           <p>{{ 'privacy.responsible.text' | translate }}</p>
         </section>
-
         <section class="privacy-section">
           <h3>{{ 'privacy.data.title' | translate }}</h3>
           <p>{{ 'privacy.data.text' | translate }}</p>
         </section>
-
         <section class="privacy-section">
           <h3>{{ 'privacy.purpose.title' | translate }}</h3>
           <p>{{ 'privacy.purpose.text' | translate }}</p>
         </section>
-
         <section class="privacy-section">
           <h3>{{ 'privacy.legal.title' | translate }}</h3>
           <p>{{ 'privacy.legal.text' | translate }}</p>
         </section>
-
         <section class="privacy-section">
           <h3>{{ 'privacy.storage.title' | translate }}</h3>
           <p>{{ 'privacy.storage.text' | translate }}</p>
         </section>
-
         <section class="privacy-section">
           <h3>{{ 'privacy.recipients.title' | translate }}</h3>
           <p>{{ 'privacy.recipients.text' | translate }}</p>
         </section>
-
         <section class="privacy-section">
           <h3>{{ 'privacy.rights.title' | translate }}</h3>
           <p>{{ 'privacy.rights.text' | translate }}</p>
         </section>
-
         <section class="privacy-section">
           <h3>{{ 'privacy.cookies.title' | translate }}</h3>
           <p>{{ 'privacy.cookies.text' | translate }}</p>
         </section>
-
       </div>
+
     </div>
   </div>
 }
