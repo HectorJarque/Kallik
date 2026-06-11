@@ -916,6 +916,16 @@ h3 {
   gap: 1.1rem;
 }
 
+.privacy-section {
+  padding-bottom: .6rem;
+  border-bottom: 1px solid var(--color-border);
+}
+
+.privacy-section:last-child {
+  padding-bottom: 0;
+  border-bottom: none;
+}
+
 .privacy-section h3 {
   font-size: .875rem;
   font-weight: 600;
@@ -1094,6 +1104,6 @@ h3 {
   }
 
   .modal-body {
-    padding: 1rem;
+    gap: .6rem;
   }
 }
