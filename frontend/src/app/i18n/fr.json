@@ -44,6 +44,11 @@
     "pricing": {
       "title": "À propos des prix :",
       "description": "Chaque projet est différent. Je suis généralement en dessous du prix du marché car je privilégie l'expérience et la construction de choses bien faites plutôt que de gonfler les budgets. Selon vos besoins, nous ajustons tout sans engagement."
+    },
+    "demos": {
+      "title": "Vous ne savez pas quel type de site web vous faut ?",
+      "description": "J'ai préparé 8 démonstrations pour que vous puissiez voir à quoi ressemblerait votre entreprise avec chaque style.",
+      "cta": "Voir les démonstrations"
     }
   },
   "process": {

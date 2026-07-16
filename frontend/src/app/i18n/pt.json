@@ -44,6 +44,11 @@
     "pricing": {
       "title": "Sobre preços:",
       "description": "Cada projeto é diferente. Normalmente fico abaixo do preço de mercado porque priorizo a experiência e construir coisas bem feitas em vez de inflacionar orçamentos. Consoante o que precisares, ajustamos tudo sem compromisso."
+    },
+    "demos": {
+      "title": "Não sabe que tipo de site você precisa?",
+      "description": "Preparei 8 demonstrações para que você possa ver como o seu negócio ficaria com cada estilo.",
+      "cta": "Ver demonstrações"
     }
   },
   "process": {

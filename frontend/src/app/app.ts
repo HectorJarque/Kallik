@@ -50,7 +50,7 @@ export class App {
 
   readonly faqItems = [
     'faq.q1', 'faq.q2', 'faq.q3', 'faq.q4',
-    'faq.q5', 'faq.q6', 'faq.q7', 'faq.q8'
+    'faq.q5', 'faq.q6', 'faq.q8'
   ];
 
   readonly includesFeatures = [
@@ -58,7 +58,6 @@ export class App {
     { key: 'includes.feature.https',        static: true,  dynamic: true,  hybrid: true  },
     { key: 'includes.feature.seo',          static: true,  dynamic: true,  hybrid: true  },
     { key: 'includes.feature.speed',        static: true,  dynamic: true,  hybrid: true  },
-    { key: 'includes.feature.support',      static: true,  dynamic: true,  hybrid: true  },
     { key: 'includes.feature.contact',      static: false, dynamic: true,  hybrid: true  },
     { key: 'includes.feature.api',          static: false, dynamic: true,  hybrid: true  },
     { key: 'includes.feature.database',     static: false, dynamic: true,  hybrid: true  },

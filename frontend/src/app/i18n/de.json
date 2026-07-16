@@ -44,6 +44,11 @@
     "pricing": {
       "title": "Über Preise:",
       "description": "Jedes Projekt ist anders. Normalerweise liege ich unter dem Marktpreis, weil ich die Erfahrung priorisiere und gut gemachte Dinge baue, anstatt die Budgets aufzublähen. Je nachdem, was du brauchst, passen wir alles unverbindlich an."
+    },
+    "demos": {
+      "title": "Du weißt nicht, welche Art von Website du brauchst?",
+      "description": "Ich habe 8 Demos vorbereitet, damit du sehen kannst, wie dein Unternehmen mit jedem Stil aussehen würde.",
+      "cta": "Demos ansehen"
     }
   },
   "process": {

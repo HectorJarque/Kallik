@@ -44,6 +44,11 @@
     "pricing": {
       "title": "Informazioni sui prezzi:",
       "description": "Ogni progetto è diverso. Di solito sono al di sotto del prezzo di mercato perché do priorità all'esperienza e alla costruzione di cose ben fatte piuttosto che gonfiare i budget. A seconda di ciò che ti serve, possiamo adattare tutto senza impegno."
+    },
+    "demos": {
+      "title": "Non sai che tipo di sito web ti serve?",
+      "description": "Ho preparato 8 demo così potrai vedere come apparirebbe la tua attività con ciascuno stile.",
+      "cta": "Guarda le demo"
     }
   },
   "process": {

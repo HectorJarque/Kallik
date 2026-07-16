@@ -85,7 +85,6 @@
 <!-- QUÉ HAGO -->
 <section id="que-hago">
   <div class="container">
-    <h2>{{ 'services.title' | translate }}</h2>
     <p class="section-intro">{{ 'services.intro' | translate }}</p>
 
     <div class="services-grid">
@@ -177,6 +176,17 @@
         </div>
       </div>
 
+    </div>
+
+    <div class="demos-banner">
+      <div class="demos-banner-text">
+        <span class="demos-banner-title">{{ 'services.demos.title' | translate }}</span>
+        <span class="demos-banner-desc">{{ 'services.demos.description' | translate }}</span>
+      </div>
+      <a href="http://localhost:4200/" target="_blank" rel="noopener" class="demos-btn">
+        {{ 'services.demos.cta' | translate }}
+        <i class="pi pi-arrow-right"></i>
+      </a>
     </div>
 
     <p class="pricing-note">
@@ -284,11 +294,11 @@
     <div class="about-grid">
 
       <div>
-        <h2>{{ 'about.title'    | translate }}</h2>
-        <p>{{ 'about.intro'    | translate }}</p>
+        <h2>{{ 'about.title' | translate }}</h2>
+        <p>{{ 'about.intro' | translate }}</p>
         <p>{{ 'about.location' | translate }}</p>
         <p>{{ 'about.learning' | translate }}</p>
-        <p>{{ 'about.honesty'  | translate }}</p>
+        <p>{{ 'about.honesty' | translate }}</p>
       </div>
 
       <div>

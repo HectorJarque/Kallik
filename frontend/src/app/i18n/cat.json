@@ -44,6 +44,11 @@
     "pricing": {
       "title": "Sobre preus:",
       "description": "Cada projecte és diferent. Normalment sol estar per sota del preu de mercat perquè prioritzo l'experiència i construir coses ben fetes abans que inflar pressupostos. Segons el que necessitis, ho ajustem tot sense compromís."
+    },
+    "demos": {
+      "title": "No saps quin tipus de web necessites?",
+      "description": "He preparat 8 demostracions perquè puguis veure com quedaria el teu negoci amb cada estil.",
+      "cta": "Veure demostracions"
     }
   },
   "process": {

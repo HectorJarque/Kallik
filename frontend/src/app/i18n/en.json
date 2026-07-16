@@ -44,6 +44,11 @@
     "pricing": {
       "title": "About pricing:",
       "description": "Every project is different. I usually come in below market rate because I prioritise quality and doing things right over inflating budgets. Whatever you need, we adjust everything without commitment."
+    },
+    "demos": {
+      "title": "Not sure what type of website you need?",
+      "description": "I've prepared 8 demos so you can see what your business would look like with each style.",
+      "cta": "View demos"
     }
   },
   "process": {
