@@ -120,6 +120,10 @@
       "title": "3 meses en equipo de desarrollo fintech",
       "description": "Frontend y backend, mejora de funcionalidades y trabajo en entorno tecnológico real."
     },
+    "demos": {
+      "title": "Varias webs de ejemplo",
+      "description": "Distintos estilos y sectores, para tener referencias reales de lo que se puede construir."
+    },
     "viewProject": "Visitar web",
     "viewOnGithub": "Ver en GitHub"
   },

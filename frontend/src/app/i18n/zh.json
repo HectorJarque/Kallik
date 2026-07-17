@@ -120,6 +120,10 @@
       "title": "在金融科技开发团队工作3个月",
       "description": "前端和后端，功能改进，在真实的技术环境中工作。"
     },
+    "demos": {
+      "title": "示例网站",
+      "description": "涵盖不同风格和行业，为您提供可实际构建网站的真实参考。"
+    },
     "viewProject": "访问网站",
     "viewOnGithub": "在 GitHub 上查看"
   },

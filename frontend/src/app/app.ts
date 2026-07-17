@@ -1,4 +1,11 @@
-import { Component, DestroyRef, effect, inject, signal } from '@angular/core';
+import {
+  Component,
+  computed,
+  DestroyRef,
+  effect,
+  inject,
+  signal
+} from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { BadgeModule } from 'primeng/badge';
 import { TagModule } from 'primeng/tag';
@@ -8,7 +15,7 @@ import { NgOptimizedImage } from '@angular/common';
 import { TranslatePipe } from './shared/pipes/translate.pipe';
 import { environment } from '../environments/environment';
 import { TranslationService, Lang } from './core/services/translation.service';
-import { SelectModule } from 'primeng/select';
+import { Select } from 'primeng/select';
 
 @Component({
   selector: 'app-root',
@@ -22,7 +29,7 @@ import { SelectModule } from 'primeng/select';
     TranslatePipe,
     NgOptimizedImage,
     FormsModule,
-    SelectModule
+    Select
   ]
 })
 export class App {
@@ -105,8 +112,12 @@ export class App {
     this.menu.set(false);
   }
 
-  changeLang(lang: string) {
-    this.i18n.setLang(lang as Lang);
+  selectedLanguage = computed(() =>
+    this.languages.find(l => l.code === this.lang()) ?? this.languages[0]
+  );
+
+  changeLang(selected: { code: string }) {
+    this.i18n.setLang(selected.code as Lang);
   }
 
   prevCarousel() {

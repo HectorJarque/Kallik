@@ -17,9 +17,8 @@
     <p-select
       [options]="languages"
       optionLabel="label"
-      optionValue="code"
-      [ngModel]="lang()"
-      (ngModelChange)="changeLang($event)"
+      [ngModel]="selectedLanguage()"
+      (ngModelChange)="changeLang($any($event))"
       styleClass="lang-select">
       <ng-template pTemplate="selectedItem" let-item>
         @if (item) {
@@ -358,40 +357,29 @@
     <h2>{{ 'projects.title' | translate }}</h2>
     <p class="section-intro">{{ 'projects.intro' | translate }}</p>
 
-    <div class="projects-list">
+    <div class="projects-grid">
 
-      <!-- Portfolio con carrusel -->
-      <div class="card">
-        <div class="carousel">
-          @for (img of portfolioImages; track img; let i = $index) {
-            <img [src]="img"
-                 [alt]="('projects.portfolio.screenshotAlt' | translate) + ' ' + (i + 1)"
-                 [class.carousel-active]="carouselIndex() === i"
-            />
-          }
-          <div class="carousel-nav">
-            <button class="carousel-btn" (click)="prevCarousel()">
-              <i class="pi pi-chevron-left"></i>
-            </button>
-            <div class="carousel-dots">
-              @for (img of portfolioImages; track img; let i = $index) {
-                <button class="dot" [class.active]="carouselIndex() === i" (click)="setCarousel(i)"></button>
-              }
-            </div>
-            <button class="carousel-btn" (click)="nextCarousel()">
-              <i class="pi pi-chevron-right"></i>
-            </button>
-          </div>
-        </div>
+      <!-- Portfolio -->
+      <div class="card card--project">
+        <div class="project-icon"><i class="pi pi-globe"></i></div>
         <span class="tag">{{ 'projects.hybridTag' | translate }}</span>
         <h3>{{ 'projects.portfolio.title' | translate }}</h3>
         <p>{{ 'projects.portfolio.description' | translate }}</p>
       </div>
 
+      <!-- Experiencia -->
+      <div class="card card--project">
+        <div class="project-icon"><i class="pi pi-briefcase"></i></div>
+        <span class="tag">{{ 'projects.experience.tag' | translate }}</span>
+        <h3>{{ 'projects.experience.title' | translate }}</h3>
+        <p>{{ 'projects.experience.description' | translate }}</p>
+      </div>
+
       <!-- UwU-Track -->
-      <a class="card card--link"
+      <a class="card card--project card--link"
          href="https://test.uwutrack.com/login"
          target="_blank" rel="noopener">
+        <div class="project-icon"><i class="pi pi-book"></i></div>
         <span class="tag">{{ 'projects.dynamicTag' | translate }}</span>
         <h3>{{ 'projects.uwutrack.title' | translate }}</h3>
         <p>{{ 'projects.uwutrack.description' | translate }}</p>
@@ -400,11 +388,12 @@
         </span>
       </a>
 
-      <!-- Experiencia -->
-      <div class="card">
-        <span class="tag">{{ 'projects.experience.tag'         | translate }}</span>
-        <h3>{{ 'projects.experience.title'       | translate }}</h3>
-        <p>{{ 'projects.experience.description' | translate }}</p>
+      <!-- Demos -->
+      <div class="card card--project">
+        <div class="project-icon"><i class="pi pi-th-large"></i></div>
+        <span class="tag">{{ 'projects.staticTag' | translate }}</span>
+        <h3>{{ 'projects.demos.title' | translate }}</h3>
+        <p>{{ 'projects.demos.description' | translate }}</p>
       </div>
 
     </div>

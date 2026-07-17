@@ -559,88 +559,31 @@ h3 {
 
 
 /* ── Proyectos ────────────────────────────────────────────────── */
-.projects-list {
-  display: flex;
-  flex-direction: column;
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
   gap: 1rem;
 }
 
+.card--project {
+  min-height: 200px;
+}
 
-/* ── Carrusel ─────────────────────────────────────────────────── */
-.carousel {
-  position: relative;
-  width: 100%;
-  aspect-ratio: 16 / 9;
-  border-radius: 8px;
-  overflow: hidden;
-  margin-bottom: 1rem;
+.project-icon {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
   background: var(--color-bg);
   border: 1px solid var(--color-border);
-}
-
-.carousel img {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0;
-  transition: opacity .6s ease;
-}
-
-.carousel img.carousel-active {
-  opacity: 1;
-}
-
-.carousel-nav {
-  position: absolute;
-  bottom: .5rem;
-  left: 0;
-  right: 0;
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: .5rem;
+  margin-bottom: .75rem;
 }
 
-.carousel-btn {
-  background: rgb(0 0 0 / .45);
-  border: none;
-  color: #fff;
-  width: 26px;
-  height: 26px;
-  border-radius: 50%;
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: .65rem;
-  transition: background .15s;
-  padding: 0;
-}
-
-.carousel-btn:hover {
-  background: rgb(0 0 0 / .7);
-}
-
-.carousel-dots {
-  display: flex;
-  gap: .35rem;
-}
-
-.dot {
-  width: 7px;
-  height: 7px;
-  border-radius: 50%;
-  border: none;
-  background: rgb(255 255 255 / .45);
-  cursor: pointer;
-  padding: 0;
-  transition: background .15s;
-}
-
-.dot.active {
-  background: #fff;
+.project-icon .pi {
+  font-size: 1.1rem;
+  color: var(--color-primary);
 }
 
 
@@ -1070,6 +1013,11 @@ h3 {
 
   .stat-num {
     font-size: 1.1rem;
+  }
+
+  /* Project */
+  .projects-grid {
+    grid-template-columns: 1fr;
   }
 
   /* Services */
