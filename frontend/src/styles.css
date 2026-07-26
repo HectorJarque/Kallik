@@ -880,16 +880,22 @@ h3 {
 
 .modal-header {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   justify-content: space-between;
-  padding: 1.1rem 1.5rem;
+  padding: 1.4rem 1.5rem 1.1rem;
   border-bottom: 1px solid var(--color-border);
   flex-shrink: 0;
 }
 
 .modal-header h2 {
+  margin: 0 0 .25rem;
+  font-size: 1.1rem;
+}
+
+.modal-subtitle {
+  font-size: .8rem;
+  color: var(--color-text-muted);
   margin: 0;
-  font-size: 1.05rem;
 }
 
 .modal-close {
@@ -901,6 +907,7 @@ h3 {
   padding: .3rem;
   border-radius: 6px;
   transition: color .15s, background .15s;
+  flex-shrink: 0;
 }
 
 .modal-close:hover {
@@ -910,31 +917,55 @@ h3 {
 
 .modal-body {
   overflow-y: auto;
-  padding: 1.25rem 1.5rem;
+  padding: 1.25rem 1.5rem 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 1.1rem;
+  gap: 0;
 }
 
 .privacy-section {
-  padding-bottom: .6rem;
+  display: flex;
+  gap: .9rem;
+  padding: .85rem 0;
   border-bottom: 1px solid var(--color-border);
 }
 
 .privacy-section:last-child {
-  padding-bottom: 0;
   border-bottom: none;
+  padding-bottom: 0;
 }
 
-.privacy-section h3 {
-  font-size: .875rem;
+.privacy-section:first-child {
+  padding-top: 0;
+}
+
+.privacy-icon {
+  width: 34px;
+  height: 34px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: var(--color-bg);
+  border: 1px solid var(--color-border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.privacy-icon .pi {
+  font-size: .9rem;
+  color: var(--color-primary);
+}
+
+.privacy-content h3 {
+  font-size: .84rem;
   font-weight: 600;
   margin: 0 0 .3rem;
 }
 
-.privacy-section p {
-  font-size: .83rem;
+.privacy-content p {
+  font-size: .8rem;
   margin: 0;
+  line-height: 1.55;
 }
 
 
