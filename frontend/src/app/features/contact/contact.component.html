@@ -1,0 +1,119 @@
+<section id="contacto" class="section-alt">
+  <div class="container">
+    <div class="contact-grid">
+
+      <div>
+        <h2>{{ 'contact.title'        | translate }}</h2>
+        <p>{{ 'contact.emailPrompt'  | translate }}</p>
+        <p>{{ 'contact.existingSite' | translate }}</p>
+        <p>{{ 'contact.noWorries'    | translate }}</p>
+
+        <div class="contact-links">
+          <a href="mailto:jarquebusiness@gmail.com">
+            <i class="pi pi-envelope"></i> jarquebusiness&#64;gmail.com
+          </a>
+          <a href="https://github.com/HectorJarque" target="_blank" rel="noopener">
+            <i class="pi pi-github"></i> GitHub
+          </a>
+          <a href="https://www.linkedin.com/in/hector-jarque-developer/" target="_blank" rel="noopener">
+            <i class="pi pi-linkedin"></i> LinkedIn
+          </a>
+        </div>
+      </div>
+
+      <div class="contact-form-wrap">
+        <h3>{{ 'contact.formTitle' | translate }}</h3>
+
+        @if (contactSent) {
+          <div class="form-feedback form-feedback--ok">
+            <i class="pi pi-check-circle"></i>
+            {{ 'contact.successMessage' | translate }}
+          </div>
+        } @else {
+          <div class="contact-form">
+
+            <input type="text"
+                   name="website"
+                   [(ngModel)]="contactForm.honeypot"
+                   autocomplete="off"
+                   tabindex="-1"
+                   aria-hidden="true"
+                   style="position:absolute; left:-9999px; opacity:0; height:0; width:0;"
+            />
+
+            <div class="form-row">
+              <div class="field-wrap">
+                <input type="text"
+                       name="name"
+                       [(ngModel)]="contactForm.name"
+                       [placeholder]="'contact.name' | translate"
+                       [class.input-error]="formErrors['name']"
+                       maxlength="100"
+                />
+                @if (formErrors['name']) {
+                  <span class="field-error">{{ formErrors['name'] | translate }}</span>
+                }
+              </div>
+              <div class="field-wrap">
+                <input type="email"
+                       name="email"
+                       [(ngModel)]="contactForm.email"
+                       [placeholder]="'contact.email' | translate"
+                       [class.input-error]="formErrors['email']"
+                       maxlength="254"
+                />
+                @if (formErrors['email']) {
+                  <span class="field-error">{{ formErrors['email'] | translate }}</span>
+                }
+              </div>
+            </div>
+
+            <div class="field-wrap">
+              <input type="text"
+                     name="subject"
+                     [(ngModel)]="contactForm.subject"
+                     [placeholder]="'contact.subject' | translate"
+                     [class.input-error]="formErrors['subject']"
+                     maxlength="150"
+              />
+              @if (formErrors['subject']) {
+                <span class="field-error">{{ formErrors['subject'] | translate }}</span>
+              }
+            </div>
+
+            <div class="field-wrap">
+              <textarea name="message"
+                        rows="4"
+                        [(ngModel)]="contactForm.message"
+                        [placeholder]="'contact.message' | translate"
+                        [class.input-error]="formErrors['message']"
+                        maxlength="2000"
+              ></textarea>
+              @if (formErrors['message']) {
+                <span class="field-error">{{ formErrors['message'] | translate }}</span>
+              }
+            </div>
+
+            @if (contactError) {
+              <div class="form-feedback form-feedback--error">
+                <i class="pi pi-times-circle"></i>
+                {{ 'contact.errorMessage' | translate }}
+              </div>
+            }
+
+            <button class="btn-send"
+                    type="button"
+                    (click)="sendContactMessage()"
+                    [disabled]="contactSending"
+            >
+              <i [class]="contactSending ? 'pi pi-spin pi-spinner' : 'pi pi-send'"></i>
+              {{ (contactSending ? 'contact.sending' : 'contact.send') | translate }}
+            </button>
+
+          </div>
+        }
+      </div>
+
+    </div>
+  </div>
+</section>

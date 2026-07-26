@@ -1,0 +1,49 @@
+<header class="site-header">
+  <a href="/" class="brand">
+    <img ngSrc="img/JarqueBusiness.png" alt="Héctor Jarque" width="36" height="30" priority/>
+    <span>Héctor Jarque</span>
+  </a>
+
+  <nav class="main-nav" [class.open]="ui.menu()">
+    <a href="#que-hago" (click)="ui.closeMenu()">{{ 'nav.whatIDo'  | translate }}</a>
+    <a href="#sobre-mi" (click)="ui.closeMenu()">{{ 'nav.aboutMe'  | translate }}</a>
+    <a href="#proyectos" (click)="ui.closeMenu()">{{ 'nav.projects' | translate }}</a>
+    <a href="#faq" (click)="ui.closeMenu()">{{ 'nav.faq'      | translate }}</a>
+    <a href="#contacto" (click)="ui.closeMenu()">{{ 'nav.contact'  | translate }}</a>
+  </nav>
+
+  <div class="header-actions">
+    <p-select
+      [options]="languages"
+      optionLabel="label"
+      [ngModel]="selectedLanguage()"
+      (ngModelChange)="changeLang($any($event))"
+      styleClass="lang-select">
+
+      <ng-template #selectedItem let-item>
+        @if (item) {
+          <div class="lang-option">
+            <img [src]="item.flag" [alt]="item.label" class="flag">
+            <span class="lang-label">{{ item.label }}</span>
+          </div>
+        }
+      </ng-template>
+
+      <ng-template #item let-item>
+        <div class="lang-option">
+          <img [src]="item.flag" [alt]="item.label" class="flag">
+          <span>{{ item.label }}</span>
+        </div>
+      </ng-template>
+
+    </p-select>
+
+    <button (click)="ui.toggleTheme()" [attr.aria-label]="'header.toggleTheme' | translate">
+      <i [class]="ui.dark() ? 'pi pi-moon' : 'pi pi-sun'"></i>
+    </button>
+
+    <button class="menu-toggle" (click)="ui.toggleMenu()" [attr.aria-label]="'header.toggleMenu' | translate">
+      <i [class]="ui.menu() ? 'pi pi-times' : 'pi pi-bars'"></i>
+    </button>
+  </div>
+</header>

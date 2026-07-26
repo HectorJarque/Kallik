@@ -56,6 +56,10 @@ p:last-child {
 }
 
 
+html {
+  scroll-padding-top: 56px;
+}
+
 /* ── Header ───────────────────────────────────────────────────── */
 .site-header {
   position: sticky;

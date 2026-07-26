@@ -1,0 +1,20 @@
+<section id="faq" class="section-alt">
+  <div class="container">
+    <h2>{{ 'faq.title' | translate }}</h2>
+    <p class="section-intro">{{ 'faq.intro' | translate }}</p>
+
+    <div class="faq-list">
+      @for (item of faqItems; track item; let i = $index) {
+        <div class="faq-item" [class.open]="ui.faqOpenIndex() === i">
+          <button class="faq-question" (click)="ui.toggleFaq(i)">
+            <span>{{ item | translate }}</span>
+            <i [class]="ui.faqOpenIndex() === i ? 'pi pi-chevron-up' : 'pi pi-chevron-down'"></i>
+          </button>
+          <div class="faq-answer">
+            <p>{{ (item + 'Answer') | translate }}</p>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>

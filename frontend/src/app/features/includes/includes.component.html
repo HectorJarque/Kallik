@@ -1,0 +1,41 @@
+<section id="que-incluye">
+  <div class="container">
+    <h2>{{ 'includes.title' | translate }}</h2>
+    <p class="section-intro">{{ 'includes.intro' | translate }}</p>
+
+    <div class="includes-table">
+      <div class="includes-header">
+        <div class="includes-feature-col"></div>
+        <div class="includes-type-col">
+          <span class="tag">{{ 'projects.staticTag'  | translate }}</span>
+        </div>
+        <div class="includes-type-col">
+          <span class="tag">{{ 'projects.dynamicTag' | translate }}</span>
+        </div>
+        <div class="includes-type-col">
+          <span class="tag">{{ 'projects.hybridTag'  | translate }}</span>
+        </div>
+      </div>
+
+      @for (feature of includesFeatures; track feature.key) {
+        <div class="includes-row">
+          <div class="includes-feature-col">{{ feature.key | translate }}</div>
+          <div class="includes-type-col">
+            <i [class]="feature.static  ? 'pi pi-check includes-yes' : 'pi pi-minus includes-no'"></i>
+          </div>
+          <div class="includes-type-col">
+            <i [class]="feature.dynamic ? 'pi pi-check includes-yes' : 'pi pi-minus includes-no'"></i>
+          </div>
+          <div class="includes-type-col">
+            <i [class]="feature.hybrid  ? 'pi pi-check includes-yes' : 'pi pi-minus includes-no'"></i>
+          </div>
+        </div>
+      }
+    </div>
+
+    <p class="includes-note">
+      <i class="pi pi-info-circle"></i>
+      {{ 'includes.note' | translate }}
+    </p>
+  </div>
+</section>

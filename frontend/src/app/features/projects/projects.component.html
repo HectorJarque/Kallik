@@ -1,0 +1,47 @@
+<section id="proyectos">
+  <div class="container">
+    <h2>{{ 'projects.title' | translate }}</h2>
+    <p class="section-intro">{{ 'projects.intro' | translate }}</p>
+
+    <div class="projects-grid">
+
+      <!-- Portfolio -->
+      <div class="card card--project">
+        <div class="project-icon"><i class="pi pi-globe"></i></div>
+        <span class="tag">{{ 'projects.hybridTag' | translate }}</span>
+        <h3>{{ 'projects.portfolio.title' | translate }}</h3>
+        <p>{{ 'projects.portfolio.description' | translate }}</p>
+      </div>
+
+      <!-- Experiencia -->
+      <div class="card card--project">
+        <div class="project-icon"><i class="pi pi-briefcase"></i></div>
+        <span class="tag">{{ 'projects.experience.tag' | translate }}</span>
+        <h3>{{ 'projects.experience.title' | translate }}</h3>
+        <p>{{ 'projects.experience.description' | translate }}</p>
+      </div>
+
+      <!-- UwU-Track -->
+      <a class="card card--project card--link"
+         href="https://test.uwutrack.com/login"
+         target="_blank" rel="noopener">
+        <div class="project-icon"><i class="pi pi-book"></i></div>
+        <span class="tag">{{ 'projects.dynamicTag' | translate }}</span>
+        <h3>{{ 'projects.uwutrack.title' | translate }}</h3>
+        <p>{{ 'projects.uwutrack.description' | translate }}</p>
+        <span class="card-link-hint">
+          <i class="pi pi-external-link"></i> {{ 'projects.viewProject' | translate }}
+        </span>
+      </a>
+
+      <!-- Demos -->
+      <div class="card card--project">
+        <div class="project-icon"><i class="pi pi-th-large"></i></div>
+        <span class="tag">{{ 'projects.staticTag' | translate }}</span>
+        <h3>{{ 'projects.demos.title' | translate }}</h3>
+        <p>{{ 'projects.demos.description' | translate }}</p>
+      </div>
+
+    </div>
+  </div>
+</section>

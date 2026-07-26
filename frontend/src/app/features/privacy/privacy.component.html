@@ -1,0 +1,83 @@
+@if (ui.privacyOpen()) {
+  <div class="modal-backdrop" (click)="ui.privacyOpen.set(false)">
+    <div class="modal" (click)="$event.stopPropagation()">
+
+      <div class="modal-header">
+        <div>
+          <h2>{{ 'privacy.title' | translate }}</h2>
+        </div>
+        <button class="modal-close" (click)="ui.privacyOpen.set(false)" [attr.aria-label]="'privacy.close' | translate">
+          <i class="pi pi-times"></i>
+        </button>
+      </div>
+
+      <div class="modal-body">
+
+        <section class="privacy-section">
+          <div class="privacy-icon"><i class="pi pi-user"></i></div>
+          <div class="privacy-content">
+            <h3>{{ 'privacy.responsible.title' | translate }}</h3>
+            <p>{{ 'privacy.responsible.text' | translate }}</p>
+          </div>
+        </section>
+
+        <section class="privacy-section">
+          <div class="privacy-icon"><i class="pi pi-file-edit"></i></div>
+          <div class="privacy-content">
+            <h3>{{ 'privacy.data.title' | translate }}</h3>
+            <p>{{ 'privacy.data.text' | translate }}</p>
+          </div>
+        </section>
+
+        <section class="privacy-section">
+          <div class="privacy-icon"><i class="pi pi-bullseye"></i></div>
+          <div class="privacy-content">
+            <h3>{{ 'privacy.purpose.title' | translate }}</h3>
+            <p>{{ 'privacy.purpose.text' | translate }}</p>
+          </div>
+        </section>
+
+        <section class="privacy-section">
+          <div class="privacy-icon"><i class="pi pi-verified"></i></div>
+          <div class="privacy-content">
+            <h3>{{ 'privacy.legal.title' | translate }}</h3>
+            <p>{{ 'privacy.legal.text' | translate }}</p>
+          </div>
+        </section>
+
+        <section class="privacy-section">
+          <div class="privacy-icon"><i class="pi pi-clock"></i></div>
+          <div class="privacy-content">
+            <h3>{{ 'privacy.storage.title' | translate }}</h3>
+            <p>{{ 'privacy.storage.text' | translate }}</p>
+          </div>
+        </section>
+
+        <section class="privacy-section">
+          <div class="privacy-icon"><i class="pi pi-send"></i></div>
+          <div class="privacy-content">
+            <h3>{{ 'privacy.recipients.title' | translate }}</h3>
+            <p>{{ 'privacy.recipients.text' | translate }}</p>
+          </div>
+        </section>
+
+        <section class="privacy-section">
+          <div class="privacy-icon"><i class="pi pi-shield"></i></div>
+          <div class="privacy-content">
+            <h3>{{ 'privacy.rights.title' | translate }}</h3>
+            <p>{{ 'privacy.rights.text' | translate }}</p>
+          </div>
+        </section>
+
+        <section class="privacy-section">
+          <div class="privacy-icon"><i class="pi pi-info-circle"></i></div>
+          <div class="privacy-content">
+            <h3>{{ 'privacy.cookies.title' | translate }}</h3>
+            <p>{{ 'privacy.cookies.text' | translate }}</p>
+          </div>
+        </section>
+
+      </div>
+    </div>
+  </div>
+}

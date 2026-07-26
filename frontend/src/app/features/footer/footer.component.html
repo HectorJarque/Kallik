@@ -1,0 +1,32 @@
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <span class="footer-brand">Héctor Jarque — Valencia, España</span>
+
+    <nav class="footer-nav">
+      <a href="#que-hago">{{ 'nav.whatIDo'  | translate }}</a>
+      <a href="#sobre-mi">{{ 'nav.aboutMe'  | translate }}</a>
+      <a href="#proyectos">{{ 'nav.projects' | translate }}</a>
+      <a href="#faq">{{ 'nav.faq'      | translate }}</a>
+      <a href="#contacto">{{ 'nav.contact'  | translate }}</a>
+    </nav>
+
+    <div class="footer-social">
+      <a href="https://github.com/HectorJarque" target="_blank" rel="noopener" aria-label="GitHub">
+        <i class="pi pi-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/hector-jarque-developer/"
+         target="_blank"
+         rel="noopener"
+         aria-label="LinkedIn">
+        <i class="pi pi-linkedin"></i>
+      </a>
+      <a href="mailto:jarquebusiness@gmail.com" aria-label="Email">
+        <i class="pi pi-envelope"></i>
+      </a>
+      <button class="footer-privacy-btn" (click)="ui.openPrivacy()">
+        {{ 'privacy.linkLabel' | translate }}
+      </button>
+      <span class="footer-copy">© {{ year }} · A Kallik Project</span>
+    </div>
+  </div>
+</footer>
