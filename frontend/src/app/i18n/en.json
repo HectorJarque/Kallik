@@ -17,9 +17,10 @@
     "hostingNote": "I can handle the domain and hosting if you want to forget about the technical side, or leave it all in your hands. I can also maintain the site month to month, or hand everything over (code, domain and hosting) so it's fully yours with no dependency."
   },
   "stats": {
+    "time": "Fast",
     "responseTime": "Response time",
     "type": "Fixed",
-    "budget": "Closed budget",
+    "budget": "Fixed budget",
     "remote": "Remote",
     "langs": "Languages"
   },

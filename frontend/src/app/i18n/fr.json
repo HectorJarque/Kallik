@@ -17,10 +17,11 @@
     "hostingNote": "Je peux m'occuper du domaine et de l'hébergement si vous voulez oublier les aspects techniques, ou tout laisser entre vos mains. Je peux aussi maintenir le site mois par mois ou vous tout livrer (code, domaine et hébergement) pour qu'il soit à vous sans dépendance."
   },
   "stats": {
-    "responseTime": "Délai de réponse",
+    "time": "Rapide",
+    "responseTime": "Temps de réponse",
     "type": "Forfait",
-    "budget": "Budget fermé",
-    "remote": "Distanciel",
+    "budget": "Budget fixe",
+    "remote": "À distance",
     "langs": "Langues"
   },
   "services": {

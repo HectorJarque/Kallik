@@ -17,9 +17,10 @@
     "hostingNote": "Posso tratar do domínio e do alojamento se quiseres esquecer a parte técnica, ou deixar tudo nas tuas mãos. Também posso manter o site mês a mês ou entregar-te tudo (código, domínio e alojamento) para que seja teu sem dependência."
   },
   "stats": {
+    "time": "Rápido",
     "responseTime": "Tempo de resposta",
     "type": "Fixo",
-    "budget": "Orçamento fechado",
+    "budget": "Orçamento fixo",
     "remote": "Remoto",
     "langs": "Idiomas"
   },

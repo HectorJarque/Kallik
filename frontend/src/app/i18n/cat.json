@@ -17,6 +17,7 @@
     "hostingNote": "Puc encarregar-me del domini i l'allotjament si vols oblidar-te del tècnic, o deixar-ho tot a les teves mans. També puc mantenir la web mes a mes o entregar-te-ho tot (codi, domini i allotjament) perquè sigui teva sense dependència."
   },
   "stats": {
+    "time": "Ràpid",
     "responseTime": "Temps de resposta",
     "type": "Fix",
     "budget": "Pressupost tancat",

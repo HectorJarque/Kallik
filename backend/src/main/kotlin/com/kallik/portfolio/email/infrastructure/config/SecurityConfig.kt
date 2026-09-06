@@ -11,7 +11,6 @@ import org.springframework.web.cors.CorsConfiguration
 import org.springframework.web.cors.CorsConfigurationSource
 import org.springframework.web.cors.UrlBasedCorsConfigurationSource
 
-//TODO: Ver que hace esto realmente y que hace el RateLimiterService
 @Configuration
 @EnableWebSecurity
 class SecurityConfig(

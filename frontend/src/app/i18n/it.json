@@ -17,10 +17,11 @@
     "hostingNote": "Posso occuparmi del dominio e dell'hosting se vuoi dimenticarti degli aspetti tecnici, o lasciare tutto nelle tue mani. Posso anche mantenere il sito mese per mese o consegnarti tutto (codice, dominio e hosting) in modo che sia tuo senza dipendenze."
   },
   "stats": {
+    "time": "Veloce",
     "responseTime": "Tempo di risposta",
-    "type": "Prezzo fisso",
-    "budget": "Budget chiuso",
-    "remote": "Remoto",
+    "type": "Fisso",
+    "budget": "Budget fisso",
+    "remote": "Da remoto",
     "langs": "Lingue"
   },
   "services": {
